@@ -1,0 +1,131 @@
+.ws-header {
+  background-color: $base-color;
+  overflow: hidden;
+  padding-bottom: $ws-spacing-large * 3;
+  position: relative;
+  
+  &.ws-gradient {
+    background: linear-gradient(to right, $color-stop1, $color-stop2);
+  }
+
+  &::after {
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 200px 100vw 0 0;
+    bottom: 0;//-20px;
+    content: " ";
+    display:block;
+    left:0;
+    position:absolute;
+    width:100%;
+  }
+
+  .ws-hamburger {
+    padding: $ws-spacing-large;
+
+    &.hidden {
+      .btn {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      display: none;
+    }
+
+    .btn {
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+
+    }
+  }
+
+  .ws-navigation {
+
+    &.hidden {
+      @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+        transform: translateX(-405px);
+      }
+    }
+
+    @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+      position: fixed;
+      top: 0;
+      height: 100%;
+      width: 80%;
+      background-color: #fff;
+      z-index: 99999;
+      padding-bottom: $ws-spacing-large * 8;
+
+      transform: translateX(0);
+
+      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
+
+      -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+      transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+    }
+
+    @media only screen and (min-width: 576px) {
+      padding-bottom: $ws-spacing-large * 4;
+      position: relative;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .nav {
+      @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+        display: block;
+      }
+
+      @media only screen and (min-width: $ws-breakpoint-sm) {
+        position: relative;
+        padding: $ws-spacing-large 0;
+      }
+
+      a {
+        color: $base-color;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+          color: #fff;
+        }
+      }
+
+      .ws-logo {
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: $ws-spacing-large * 4;
+          width: 200px;
+        }
+
+        img {
+          @media only screen and (min-width: $ws-breakpoint-sm - 1) {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+
+  .ws-slider-cont {
+    padding-top: 56.25%;
+    position: relative;
+
+    img {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
