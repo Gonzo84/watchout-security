@@ -1,0 +1,121 @@
+@import 'variables';
+
+@import 'placeholders';
+
+@import 'header';
+@import 'body';
+@import 'footer';
+
+html {
+  font-size:  62.5%;
+  //@media only screen and (min-width: 576px) {}
+  /// https://stackoverflow.com/questions/28988445/css-62-5-why-do-developers-use-it
+}
+
+body {
+  //font-size: 1.6em;
+  font-size: 1.4em;
+  color: $ws-color;
+}
+
+h1 {
+  font-size: 9.6rem;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+}
+
+h4 {
+  font-size: 3.4rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+.ws-title {
+  font-size: 1.6rem;
+}
+
+.ws-stronger-color {
+  color: $ws-color-stonger;
+}
+
+.ws-btn {
+  color: #fff;
+  background-color: $ws-assertive-color;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  padding-left: 1em;
+  padding-right: 1em;
+  min-width: 75px;
+
+  @extend %box-shadow;
+
+  &:hover {
+    @extend %box-shadow-hover;
+  }
+}
+
+.ws-btn-dark {
+  background-color: $ws-link-color;
+}
+
+
+.ws-btn-confirm {
+  background-color: $ws-confirm-color;
+}
+//
+// z-index fixes
+.container,
+.ws-slider-cont,
+.ws-centered-info-block {
+  z-index: 1;
+}
+
+$ws-slider-button-size: 12px;
+.ws-btn-slider,
+.ws-btn-option {
+  border: 1px solid $ws-color;
+  border-radius: 50%;
+  height: $ws-slider-button-size;
+  width: $ws-slider-button-size;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+
+  &.ws-active {
+    &::before {
+      display: block;
+      content: '';
+      background-color: $ws-color;
+      height: 70%;
+      width: 70%;
+      border-radius: 50%;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    }
+  }
+}
+
+.ws-btn-option {
+  &.ws-active {
+    &::before {
+      background-color: $ws-confirm-color;
+    }
+  }
+}
+
+.trg {
+  color: red;//
+}

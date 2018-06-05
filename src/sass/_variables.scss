@@ -1,0 +1,32 @@
+$imgUrl: './assets/images/';
+
+$base-color: #200D21 !default;
+$secondary-color: #F4F2F5 !default;
+
+$ws-assertive-color: #f6782e !default;
+
+$ws-color-white-light: rgba(#fff, .8);
+$ws-color-white-lighter: rgba(#fff, .6);
+
+$ws-color: #818284 !default;
+$ws-color-stonger: #58585a !default;
+$ws-color-dark: #200d21 !default;
+
+$ws-link-color: #3f4382 !default;
+$ws-img-color: #11a99d !default;
+
+$ws-confirm-color: #8cc63e !default;
+
+$color-stop1: #6c0e0f !default;
+$color-stop2: #200d21 !default;
+
+$ws-spacing: .8rem !default;
+$ws-spacing-small: .4rem !default;
+$ws-spacing-large: 1.6rem !default;
+
+// break points
+//$ws-breakpoint-xs: 0 !default;
+$ws-breakpoint-sm: 576px !default;
+$ws-breakpoint-md: 768px !default;
+$ws-breakpoint-lg: 992px !default;
+$ws-breakpoint-xl: 1200px !default;
