@@ -1,0 +1,79 @@
+@import "../../sass/variables";
+.footer {
+  background-color: $base-color;
+  color: $ws-color-white-lighter;
+  font-size: 1.4rem;
+  padding:  ($ws-spacing-large * 4) 0 ($ws-spacing-large * 2);
+
+  a {
+    color: $ws-color-white-lighter;
+  }
+
+  h6 {
+    color: $ws-color-white-light;
+    padding-bottom: $ws-spacing;
+  }
+
+  ul {
+    display: block !important;
+  }
+
+
+  .logo {
+    height: auto;
+    width: 100%;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .wsInfoBlock {
+    padding-bottom:  $ws-spacing-large;
+  }
+
+  .navLink {
+    padding: 0;
+  }
+
+  .wsTitle{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .wsSoc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $ws-spacing-large;
+    text-align: center;
+
+    a {
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      height: $ws-spacing-large * 2;
+      justify-content: center;
+      width: $ws-spacing-large * 2;
+
+      &:nth-child(2) {
+        margin: 0 $ws-spacing-large;
+      }
+
+      i {
+        color: $base-color;
+      }
+    }
+  }
+
+  .wsCopyrights {
+    text-align: center;
+
+    a {
+      color: $ws-assertive-color;
+    }
+  }
+}

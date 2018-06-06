@@ -1,4 +1,134 @@
-.Home {
-  height: auto;
+
+
+/* line 1, ../sass/_header.scss */
+.wsHeader {
+  background-color: #200D21;
+  overflow: hidden;
+  padding-bottom: 4.8rem;
+  position: relative;
+}
+/* line 7, ../sass/_header.scss */
+.wsHeader.wsGradient {
+  background: linear-gradient(to right, #6c0e0f, #200d21);
+}
+/* line 11, ../sass/_header.scss */
+.wsHeader::after {
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 200px 100vw 0 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+/* line 23, ../sass/_header.scss */
+.wsHeader .ws-hamburger {
+  padding: 1.6rem;
+}
+/* line 27, ../sass/_header.scss */
+.wsHeader .ws-hamburger.hidden .btn {
+  display: none;
+}
+@media only screen and (min-width: 576px) {
+  /* line 23, ../sass/_header.scss */
+  .wsHeader .ws-hamburger {
+    display: none;
+  }
+}
+/* line 36, ../sass/_header.scss */
+.wsHeader .ws-hamburger .btn {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+@media only screen and (max-width: 575px) {
+  /* line 46, ../sass/_header.scss */
+  .wsHeader .ws-navigation.hidden {
+    transform: translateX(-405px);
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* line 44, ../sass/_header.scss */
+  .wsHeader .ws-navigation {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+    z-index: 99999;
+    padding-bottom: 12.8rem;
+    transform: translateX(0);
+    -webkit-box-shadow: 0 14px 28px black, 0 10px 10px black;
+    box-shadow: 0 14px 28px black, 0 10px 10px black;
+    -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+    transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+  }
+}
+@media only screen and (min-width: 576px) {
+  /* line 44, ../sass/_header.scss */
+  .wsHeader .ws-navigation {
+    padding-bottom: 6.4rem;
+    position: relative;
+  }
+}
+/* line 75, ../sass/_header.scss */
+.wsHeader .ws-navigation .container {
+  position: relative;
+}
+@media only screen and (max-width: 575px) {
+  /* line 79, ../sass/_header.scss */
+  .wsHeader .ws-navigation .nav {
+    display: block;
+  }
+}
+@media only screen and (min-width: 576px) {
+  /* line 79, ../sass/_header.scss */
+  .wsHeader .ws-navigation .nav {
+    position: relative;
+    padding: 1.6rem 0;
+  }
+}
+/* line 89, ../sass/_header.scss */
+.wsHeader .ws-navigation .nav a {
+  color: #200D21;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 576px) {
+  /* line 89, ../sass/_header.scss */
+  .wsHeader .ws-navigation .nav a {
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 576px) {
+  /* line 99, ../sass/_header.scss */
+  .wsHeader .ws-navigation .nav .ws-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6.4rem;
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 575px) {
+  /* line 108, ../sass/_header.scss */
+  .wsHeader .ws-navigation .nav .ws-logo img {
+    height: 100%;
+    width: 100%;
+  }
+}
+/* line 119, ../sass/_header.scss */
+.wsHeader .wsSliderCont {
+  padding-top: 56.25%;
+  position: relative;
+}
+/* line 123, ../sass/_header.scss */
+.wsHeader .wsSliderCont img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
 }

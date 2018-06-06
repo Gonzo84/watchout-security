@@ -9,8 +9,12 @@ class Home extends Component {
 
     render() {
         return (
-            <div className={classes.Home}>
-                <SimpleSlider/>
+            <div className= {[classes.wsHeader, classes.wsGradient].join(' ')}>
+                <div className="container">
+                    <div className={classes.wsSliderCont}>
+                        <SimpleSlider/>
+                    </div>
+                </div>
             </div>
         );
     }
