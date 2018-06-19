@@ -1,0 +1,41 @@
+
+
+/* line 1, ../sass/_header.scss */
+.wsHeader {
+  background-color: #200D21;
+  overflow: hidden;
+  padding-bottom: 4.8rem;
+  position: relative;
+}
+/* line 7, ../sass/_header.scss */
+.wsHeader.wsGradient {
+  background: linear-gradient(to right, #6c0e0f, #200d21);
+}
+/* line 11, ../sass/_header.scss */
+.wsHeader::after {
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 200px 100vw 0 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.wsHeader .wsSliderCont img{
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 575px){
+  /* line 119, ../sass/_header.scss */
+  .wsHeader .wsSliderCont {
+    padding-top: 20%;
+  }
+}
+/* line 119, ../sass/_header.scss */
+.wsHeader .wsSliderCont {
+  padding-top: 10%;
+}

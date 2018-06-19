@@ -7,6 +7,7 @@ import Home from "./containers/home/Home";
 import BezbednosnaResenja from "./containers/bezbednosnaResenja/BezbednosnaResenja";
 import ONama from "./containers/oNama/ONama";
 import Usluge from "./containers/usluge/Usluge";
+import CustomPaketi from './containers/customPaketi/CustomPaketi'
 
 class App extends Component {
     render() {
@@ -17,6 +18,7 @@ class App extends Component {
                     <Route path="/bezbednosna-resenja" component={BezbednosnaResenja}/>
                     <Route path="/usluge" component={Usluge}/>
                     <Route path="/o-nama" component={ONama}/>
+                    <Route path="/custom-paketi" component={CustomPaketi}/>
                 </Layout>
             </div>
         );

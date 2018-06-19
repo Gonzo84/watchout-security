@@ -1,30 +1,32 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 
+import classes from './Carousel.scss'
+import HeaderItem from '../../containers/home/headerItem/HeaderItem';
+
 class Carousel extends Component {
     render() {
         const settings = {
             dots: true,
+            arrows: false,
             infinite: true,
             speed: 500,
-            slidesToShow: 1,
+            slidesToShow: parseInt(this.props.slidesToShow),
             slidesToScroll: 1,
             autoplay: true
         };
+        const slideItems = this.props.config.map(function (item, index) {
+            let slideItem = <img key={index} src={item.backgroundImg} alt=""/>;
+            if (item.type === 'header') {
+                slideItem = <HeaderItem key={index} backgroundImg={item.backgroundImg}>{item.bodyContent}</HeaderItem>
+            }
+            return (
+                slideItem
+            )
+        });
         return (
-            <Slider {...settings}>
-                <div>
-                    <img src="https://picsum.photos/500/500" alt=""/>
-                    <h3>1</h3>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/500/500" alt=""/>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/500/500" alt=""/>
-                    <h3>3</h3>
-                </div>
+            <Slider {...settings} className={classes.CarouselBody}>
+                {slideItems}
             </Slider>
         );
     }

@@ -9,6 +9,7 @@ const navigationItems = () => (
         <NavigationItem link="/bezbednosna-resenja">BEZBEDNOSNA RESENJA</NavigationItem>
         <NavigationItem link="/usluge">USLUGE</NavigationItem>
         <NavigationItem link="/o-nama">O NAMA</NavigationItem>
+        <NavigationItem link="/custom-paketi">CUSTOM PAKETI</NavigationItem>
     </ul>
 );
 

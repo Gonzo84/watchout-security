@@ -37,14 +37,49 @@ import sl3Img from '../../assets/images/sl3.png';
 import sl4Img from '../../assets/images/sl4.png';
 import sl5Img from '../../assets/images/sl5.png';
 
+import headerCarousel1 from '../../assets/images/daljinski-nadzor.jpg';
+
 class Home extends Component {
     render() {
+        const headerCarouselConfig = [{
+            backgroundImg: headerCarousel1,
+            bodyContent: 'test1',
+            type: 'header'
+        }, {
+            backgroundImg: headerCarousel1,
+            bodyContent: 'test2',
+            type: 'header'
+        }, {
+            backgroundImg: headerCarousel1,
+            bodyContent: 'test3',
+            type: 'header'
+        }];
+
+        const clientsCarouselConfig = [{
+            backgroundImg: sl1Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl2Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl3Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl4Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl5Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl3Img,
+            bodyContent: null
+        }];
         return (
             <Aux>
                 <div className={[classes.wsHeader, classes.wsGradient].join(' ')}>
                     <div className="container">
                         <div className={classes.wsSliderCont}>
-                            <SimpleSlider/>
+                            <SimpleSlider config={headerCarouselConfig} slidesToShow='1' type='header'/>
                         </div>
                     </div>
                 </div>
@@ -538,21 +573,8 @@ class Home extends Component {
                             <div className="ws-slider-title">
                                 <h5>Zadovoljni korisnici</h5>
                             </div>
-                            <div className="ws-slider-navigation">
-                                <div className="ws-buttons">
-                                    <button type="button" className="btn ws-btn-slider"></button>
-                                    <button type="button" className="btn ws-btn-slider ws-active"></button>
-                                    <button type="button" className="btn ws-btn-slider"></button>
-                                </div>
-                            </div>
                             <div className="ws-clients">
-                                <div className="ws-cont">
-                                    <img src={sl1Img} alt="client"/>
-                                    <img src={sl2Img} alt="client"/>
-                                    <img src={sl3Img} alt="client"/>
-                                    <img src={sl4Img} alt="client"/>
-                                    <img src={sl5Img} alt="client"/>
-                                </div>
+                                    <SimpleSlider config={clientsCarouselConfig} slidesToShow='5'/>
                             </div>
                         </div>
                     </div>
