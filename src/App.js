@@ -8,6 +8,8 @@ import BezbednosnaResenja from "./containers/bezbednosnaResenja/BezbednosnaResen
 import ONama from "./containers/oNama/ONama";
 import Usluge from "./containers/usluge/Usluge";
 import CustomPaketi from './containers/customPaketi/CustomPaketi'
+import FizickaLica from "./containers/fizickaLica/FizickaLica";
+import PravnaLica from "./containers/pravnaLica/PravnaLica";
 
 class App extends Component {
     render() {
@@ -19,6 +21,8 @@ class App extends Component {
                     <Route path="/usluge" component={Usluge}/>
                     <Route path="/o-nama" component={ONama}/>
                     <Route path="/custom-paketi" component={CustomPaketi}/>
+                    <Route path="/fizicka-lica" component={FizickaLica}/>
+                    <Route path="/pravna-lica" component={PravnaLica}/>
                 </Layout>
             </div>
         );

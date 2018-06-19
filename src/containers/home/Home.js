@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 
 import classes from './Home.scss';
@@ -8,8 +9,9 @@ import Aux from '../../hoc/Auxiliary/Auxiliary';
 import icon1Img from '../../assets/images/icon1.jpg';
 import icon2Img from '../../assets/images/icon2.jpg';
 
-import pravnaLicaImg from '../../assets/images/pravna-lica-info.jpg';
-import fizickaLicaImg from '../../assets/images/fizicka-lica-info.jpg';
+import pravnaLicaImg from '../../assets/images/pravna-lica.jpg';
+import fizickaLicaImg from '../../assets/images/fizicka-lica.jpg';
+
 
 import starGoldImg from '../../assets/images/star-gold.png';
 import starSilverImg from '../../assets/images/star-silver.png';
@@ -164,7 +166,9 @@ class Home extends Component {
                                                 the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div className="ws-footer">
-                                            <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                            <Link to="/fizicka-lica">
+                                                <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +181,9 @@ class Home extends Component {
                                                 the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div className="ws-footer">
-                                            <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                            <Link to="/pravna-lica">
+                                                <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -574,7 +580,7 @@ class Home extends Component {
                                 <h5>Zadovoljni korisnici</h5>
                             </div>
                             <div className="ws-clients">
-                                    <SimpleSlider config={clientsCarouselConfig} slidesToShow='5'/>
+                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='5'/>
                             </div>
                         </div>
                     </div>

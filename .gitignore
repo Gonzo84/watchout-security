@@ -25,3 +25,6 @@ yarn-error.log*
 .idea/workspace.xml
 package-lock.json
 .package-lock.json
+
+.firebase.json
+.firebaserc
