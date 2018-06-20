@@ -739,13 +739,45 @@
 
 /// bezbednosna resenja
 .ws-overflow-img-container {
+  p {
+    font-size: 1.2rem;
+  }
+
   .ws-box {
     background-color: #fff;
-    padding: ($ws-spacing-large * 6) ($ws-spacing-large * 4);
+    //padding: ($ws-spacing-large * 6) ($ws-spacing-large * 4);
     @extend %box-shadow-card;
 
     &.ws-alt {
       background-color: $secondary-color;
+    }
+
+    &:not(.ws-left-img) {
+      padding: $ws-spacing-large;
+
+      @media only screen and (min-width: $ws-breakpoint-lg) {
+        padding: ($ws-spacing-large * 6) 0 ($ws-spacing-large * 6) ($ws-spacing-large * 4);
+      }
+
+      .ws-txt {
+        @media only screen and (min-width: $ws-breakpoint-lg) {
+          padding-right: $ws-spacing-large * 3;
+        }
+      }
+    }
+
+    &.ws-left-img {
+      padding: $ws-spacing-large;
+
+      @media only screen and (min-width: $ws-breakpoint-lg) {
+        padding: ($ws-spacing-large * 6) ($ws-spacing-large * 4) ($ws-spacing-large * 6) 0;
+      }
+
+      .ws-txt {
+        @media only screen and (min-width: $ws-breakpoint-lg) {
+          padding-left: $ws-spacing-large * 3;
+        }
+      }
     }
   }
 
@@ -754,16 +786,33 @@
   }
 
   .ws-img-cont {
+    height: 100%;
+    width: 100%;
+
     img {
-      height: 450px;
-      width: auto;
+      height: auto;
+      width: 100%;
+
+      @media only screen and (min-width: 1350px) {
+        height: 400px;
+        width: auto;
+      }
     }
   }
 
   .ws-left-img {
     .ws-img-cont {
       img {
-        transform: translate(-250px, 0);
+        @media only screen and (min-width: 1350px) {
+          transform: translate(-100px, 0);
+        }
+      }
+    }
+
+    h3,
+    p {
+      @media only screen and (min-width: $ws-breakpoint-lg) {
+        text-align: right;
       }
     }
   }
