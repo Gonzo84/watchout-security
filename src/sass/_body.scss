@@ -736,3 +736,35 @@
     }
   }
 }
+
+/// bezbednosna resenja
+.ws-overflow-img-container {
+  .ws-box {
+    background-color: #fff;
+    padding: ($ws-spacing-large * 6) ($ws-spacing-large * 4);
+    @extend %box-shadow-card;
+
+    &.ws-alt {
+      background-color: $secondary-color;
+    }
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  .ws-img-cont {
+    img {
+      height: 450px;
+      width: auto;
+    }
+  }
+
+  .ws-left-img {
+    .ws-img-cont {
+      img {
+        transform: translate(-250px, 0);
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@
 }
 
 /* line 13, ../sass/_placeholders.scss */
-.ws-attached, .ws-complex-cards .ws-card, .ws-card-gradient .ws-card, .ws-building-plan .ws-plan, .ws-qa-form .ws-card {
+.ws-attached, .ws-complex-cards .ws-card, .ws-card-gradient .ws-card, .ws-building-plan .ws-plan, .ws-qa-form .ws-card, .ws-overflow-img-container .ws-box {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
@@ -759,16 +759,6 @@
   justify-content: space-between;
   width: 80px;
 }
-/* line 630, ../sass/_body.scss */
-.ws-slider-clients .ws-clients .ws-cont {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-/* line 635, ../sass/_body.scss */
-.ws-slider-clients .ws-clients .ws-cont img {
-  height: 120px;
-}
 
 /* line 645, ../sass/_body.scss */
 .ws-building-plan .ws-plan {
@@ -852,6 +842,29 @@
 /* line 734, ../sass/_body.scss */
 .ws-qa-form .ws-footer .ws-btn {
   min-width: 100px;
+}
+
+/* line 742, ../sass/_body.scss */
+.ws-overflow-img-container .ws-box {
+  background-color: #fff;
+  padding: 9.6rem 6.4rem;
+}
+/* line 747, ../sass/_body.scss */
+.ws-overflow-img-container .ws-box.ws-alt {
+  background-color: #F4F2F5;
+}
+/* line 752, ../sass/_body.scss */
+.ws-overflow-img-container h3 {
+  font-weight: bold;
+}
+/* line 757, ../sass/_body.scss */
+.ws-overflow-img-container .ws-img-cont img {
+  height: 450px;
+  width: auto;
+}
+/* line 765, ../sass/_body.scss */
+.ws-overflow-img-container .ws-left-img .ws-img-cont img {
+  transform: translate(-250px, 0);
 }
 
 /* line 2, ../sass/_footer.scss */
