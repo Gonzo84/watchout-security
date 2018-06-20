@@ -11,7 +11,7 @@
 }
 
 /* line 13, ../sass/_placeholders.scss */
-.ws-attached, .ws-complex-cards .ws-card, .ws-card-gradient .ws-card, .ws-building-plan .ws-plan, .ws-qa-form .ws-card, .ws-overflow-img-container .ws-box {
+.ws-attached, .ws-complex-cards .ws-card, .ws-card-gradient .ws-card, .ws-building-plan .ws-plan, .ws-qa-form .ws-card, .ws-overflow-img-container .ws-box, .ws-box {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
@@ -154,6 +154,38 @@
   position: absolute;
   top: 0;
   width: 100%;
+}
+/* line 132, ../sass/_header.scss */
+.ws-header .ws-header-title {
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  padding: 3.2rem 0 6.4rem;
+}
+/* line 139, ../sass/_header.scss */
+.ws-header .ws-box {
+  padding: 6.4rem;
+  position: relative;
+  z-index: 1;
+}
+/* line 145, ../sass/_header.scss */
+.ws-header .ws-box .ws-txt h5 {
+  color: #1f0e22;
+  font-weight: bolder;
+  padding-bottom: 0.8rem;
+}
+/* line 151, ../sass/_header.scss */
+.ws-header .ws-box .ws-txt div {
+  padding-top: 1.6rem;
+}
+/* line 154, ../sass/_header.scss */
+.ws-header .ws-box .ws-txt div p {
+  margin-bottom: 0;
+}
+/* line 161, ../sass/_header.scss */
+.ws-header .ws-box .ws-stamp img {
+  width: 180px;
+  height: auto;
 }
 
 /* line 1, ../sass/_body.scss */
@@ -923,6 +955,60 @@
   }
 }
 
+/* line 824, ../sass/_body.scss */
+.ws-politika-sistema .ws-subtitle-assertive {
+  color: #f3782e;
+  padding-left: 1.6rem;
+  font-weight: bold;
+}
+/* line 830, ../sass/_body.scss */
+.ws-politika-sistema .ws-politika-list {
+  padding-left: 1.6rem;
+}
+
+/* line 839, ../sass/_body.scss */
+.ws-shema .ws-shema-cont img {
+  height: auto;
+  width: 100%;
+}
+
+/* line 848, ../sass/_body.scss */
+.ws-licence .ws-licence-list {
+  padding-left: 1.6rem;
+  font-weight: 500;
+}
+/* line 852, ../sass/_body.scss */
+.ws-licence .ws-licence-list li {
+  margin-bottom: 0.4rem;
+}
+/* line 858, ../sass/_body.scss */
+.ws-licence p span {
+  font-weight: 500;
+}
+
+/* line 867, ../sass/_body.scss */
+.ws-clients .ws-img-cont img {
+  height: auto;
+}
+@media only screen and (min-width: 576px) {
+  /* line 867, ../sass/_body.scss */
+  .ws-clients .ws-img-cont img {
+    width: 32%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 867, ../sass/_body.scss */
+  .ws-clients .ws-img-cont img {
+    width: 24%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* line 867, ../sass/_body.scss */
+  .ws-clients .ws-img-cont img {
+    width: 19%;
+  }
+}
+
 /* line 2, ../sass/_footer.scss */
 .footer {
   background-color: #200D21;
@@ -1065,14 +1151,34 @@ h6 {
   background-color: #8cc63e;
 }
 
-/* line 80, ../sass/_style.scss */
+/* line 79, ../sass/_style.scss */
+.ws-txt-italic {
+  font-style: italic;
+}
+
+/* line 83, ../sass/_style.scss */
+.ws-uppercase {
+  text-transform: uppercase;
+}
+
+/* line 87, ../sass/_style.scss */
+.ws-color-dark {
+  color: #1f0e22;
+}
+
+/* line 91, ../sass/_style.scss */
+.ws-txt-bold {
+  font-weight: bold;
+}
+
+/* line 97, ../sass/_style.scss */
 .container,
 .ws-slider-cont,
 .ws-centered-info-block {
   z-index: 1;
 }
 
-/* line 87, ../sass/_style.scss */
+/* line 104, ../sass/_style.scss */
 .ws-btn-slider,
 .ws-btn-option {
   border: 1px solid #6d6e70;
@@ -1083,7 +1189,7 @@ h6 {
   position: relative;
   padding: 0;
 }
-/* line 98, ../sass/_style.scss */
+/* line 115, ../sass/_style.scss */
 .ws-btn-slider.ws-active::before,
 .ws-btn-option.ws-active::before {
   display: block;
@@ -1097,12 +1203,24 @@ h6 {
   left: 15%;
 }
 
-/* line 114, ../sass/_style.scss */
+/* line 131, ../sass/_style.scss */
 .ws-btn-option.ws-active::before {
   background-color: #8cc63e;
 }
 
-/* line 120, ../sass/_style.scss */
-.trg {
-  color: red;
+/* line 137, ../sass/_style.scss */
+.ws-box {
+  background-color: #fff;
+  padding: 6.4rem;
+}
+/* line 142, ../sass/_style.scss */
+.ws-box.ws-alt {
+  background-color: #f1eff1;
+}
+/* line 146, ../sass/_style.scss */
+.ws-box h4,
+.ws-box h5 {
+  color: #1f0e22;
+  font-weight: bolder;
+  padding-bottom: 1.6rem;
 }

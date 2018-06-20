@@ -817,3 +817,67 @@
     }
   }
 }
+
+/// About us
+.ws-politika-sistema {
+
+  .ws-subtitle-assertive {
+    color: $ws-assertive-color;
+    padding-left: $ws-spacing-large;
+    font-weight: bold;
+  }
+
+  .ws-politika-list {
+    padding-left: $ws-spacing-large;
+  }
+}
+
+
+/// organizacion sema
+.ws-shema {
+  .ws-shema-cont {
+    img {
+      height: auto;
+      width: 100%;;
+    }
+  }
+}
+
+/// Licence i sertifikati
+.ws-licence {
+  .ws-licence-list {
+    padding-left: $ws-spacing-large;
+    font-weight: 500;
+
+    li {
+      margin-bottom: $ws-spacing / 2;
+    }
+  }
+
+  p {
+    span {
+      font-weight: 500;
+    }
+  }
+}
+
+/// Lista klijenata slike
+.ws-clients {
+  .ws-img-cont {
+    img {
+      height: auto;
+
+      @media only screen and (min-width: $ws-breakpoint-sm) {
+        width: 32%;
+      }
+
+      @media only screen and (min-width: $ws-breakpoint-md) {
+        width: 24%;
+      }
+
+      @media only screen and (min-width: $ws-breakpoint-lg) {
+        width: 19%;
+      }
+    }
+  }
+}

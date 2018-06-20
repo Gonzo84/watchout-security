@@ -128,4 +128,40 @@
       width: 100%;
     }
   }
+
+  .ws-header-title {
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    padding: 3.2rem 0 6.4rem;
+  }
+
+  .ws-box {
+    padding: 6.4rem;// 3.2rem 6.4rem 6.4rem;
+    position: relative;
+    z-index: 1;
+
+    .ws-txt {
+      h5 {
+        color: $ws-color-dark;
+        font-weight: bolder;
+        padding-bottom: $ws-spacing;
+      }
+
+      div {
+        padding-top: $ws-spacing-large;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .ws-stamp {
+      img {
+        width: 180px;
+        height: auto;
+      }
+    }
+  }
 }

@@ -75,6 +75,23 @@ h6 {
 .ws-btn-confirm {
   background-color: $ws-confirm-color;
 }
+
+.ws-txt-italic {
+  font-style: italic;
+}
+
+.ws-uppercase {
+  text-transform: uppercase;
+}
+
+.ws-color-dark {
+  color: $ws-color-dark;
+}
+
+.ws-txt-bold {
+  font-weight: bold;
+}
+
 //
 // z-index fixes
 .container,
@@ -117,6 +134,19 @@ $ws-slider-button-size: 12px;
   }
 }
 
-.trg {
-  color: red;//
+.ws-box {
+  background-color: #fff;
+  padding: 6.4rem;// 3.2rem 6.4rem 6.4rem;
+  @extend %box-shadow-card;
+
+  &.ws-alt {
+    background-color: $secondary-color;
+  }
+
+  h4,
+  h5 {
+    color: $ws-color-dark;
+    font-weight: bolder;
+    padding-bottom: $ws-spacing-large;
+  }
 }
