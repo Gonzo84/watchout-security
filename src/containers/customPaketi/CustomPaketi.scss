@@ -1,0 +1,48 @@
+.Tooltip {
+  transition: 0.3s;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.Form {
+  textarea, input {
+    outline: none !important;
+    -webkit-appearance: none !important;
+  }
+  input[type='radio']:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    top: -3px;
+    left: -2px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    -webkit-appearance: none;
+  }
+
+  input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    top: -3px;
+    left: -2px;
+    position: relative;
+    background-color: #8cc63e;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid white;
+    box-shadow: 0 0 1px #505250;
+    -webkit-appearance: none;
+  }
+}

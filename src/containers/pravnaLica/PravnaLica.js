@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 
-import pravnaLicaHeaderImg from '../../assets/images/pravna-lica.jpg'
+import pravnaLicaHeaderImg from '../../assets/images/pravnaLica/pravna_lica.jpg'
 
 
 class PravnaLica extends Component {

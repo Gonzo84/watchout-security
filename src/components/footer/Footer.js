@@ -1,27 +1,71 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import classes from './Footer.scss';
-import Logo from '../logo/Logo'
+import Logo from '../logo/Logo';
+
+import companyLogo from '../../assets/images/logo/ws-logo-white.png';
 
 
 const footer = (props) => {
-    const uslugeNavigationArray = ['Alarm monitoring', 'Video nadzor', 'GPS Satelitsko pracenje vozila', 'Mobilne patrole', 'Instalacija alarmnih sistema', 'Kontrola pristupa i radnog vremena'];
+    const uslugeNavigationArray = [{
+        title: 'Alarm monitoring',
+        nav: '/alarm-monitoring'
+    }, {
+        title: 'Video nadzor',
+        nav: '/video-nadzor'
+    }, {
+        title: 'GPS Satelitsko pracenje vozila',
+        nav: '/pracenje-vozila'
+    }, {
+        title: 'Mobilne patrole',
+        nav: '/mobilne-patrole'
+    }, {
+        title: 'Instalacija alarmnih sistema',
+        nav: '/instalacija-alarmnih-sistema'
+    }, {
+        title: 'Kontrola pristupa i radnog vremena',
+        nav: '/kontrola-pristupa'
+    }];
 
     const uslugeNavigation = uslugeNavigationArray.map(navItem => {
         return (
-            <li className={classes.navLink} key={navItem}>
-                <a className={classes.navLink + ' active'} href="#">{navItem}</a>
-            </li>
+            <Link to={navItem.nav} key={navItem.title}>
+                <li className={classes.navLink}>
+                    <p className={classes.navLink + ' active'}>{navItem.title}</p>
+                </li>
+            </Link>
         )
     });
 
-    const resenjaNavigationArray = ['Pravna lica', 'Fizicka lica', 'Small Business', 'Medium Business', 'Large Business', 'Custom paketi'];
+    const resenjaNavigationArray = [
+        {
+            title: 'Pravna lica',
+            nav: '/pravna-lica'
+        }, {
+            title: 'Fizicka lica',
+            nav: '/fizicka-lica'
+        }, {
+            title: 'Small Business',
+            nav: '/pravna-lica#small'
+        }, {
+            title: 'Medium Business',
+            nav: '/pravna-lica#medium'
+        }, {
+            title: 'Large Business',
+            nav: '/pravna-lica#large'
+        }, {
+            title: 'Custom paketi',
+            nav: '/custom-paketi'
+        }];
 
     const resenjaNavigation = resenjaNavigationArray.map(navItem => {
         return (
-            <li className={classes.navLink} key={navItem}>
-                <a className={classes.navLink + ' active'} href="#">{navItem}</a>
-            </li>
+            <Link to={navItem.nav} key={navItem.title}>
+                <li className={classes.navLink}>
+                    <p className={classes.navLink + ' active'}>{navItem.title}</p>
+                </li>
+            </Link>
         )
     });
 
@@ -31,7 +75,7 @@ const footer = (props) => {
                 <div className="row">
                     <div className="col-md-12 col-lg-3">
                         <span className={classes.logo}>
-                            <Logo/>
+                            <Logo companyLogo={companyLogo}/>
                         </span>
                     </div>
                     <div className="col-md-12 col-lg-9">

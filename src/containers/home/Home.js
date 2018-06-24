@@ -1,60 +1,197 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-
-import classes from './Home.scss';
 import SimpleSlider from "../../components/carousel/Carousel";
 import Aux from '../../hoc/Auxiliary/Auxiliary';
+import sl1Img from '../../assets/images/reference/alfa.png';
+import sl2Img from '../../assets/images/reference/amss.png';
+import sl3Img from '../../assets/images/reference/asseco.png';
+import sl4Img from '../../assets/images/reference/baki.png';
+import sl5Img from '../../assets/images/reference/becchis_siride.png';
+import sl6Img from '../../assets/images/reference/bm_ritam.png';
+import sl7Img from '../../assets/images/reference/car.png';
+import sl8Img from '../../assets/images/reference/cilis.png';
+import sl9Img from '../../assets/images/reference/coffe_dream.png';
+import sl10Img from '../../assets/images/reference/diopia.png';
+import sl11Img from '../../assets/images/reference/emisia.png';
+import sl12Img from '../../assets/images/reference/energetika.png';
+import sl13Img from '../../assets/images/reference/eparhija.png';
+import sl14Img from '../../assets/images/reference/eps.png';
+import sl15Img from '../../assets/images/reference/euro_heat.png';
 
-import icon1Img from '../../assets/images/icon1.jpg';
-import icon2Img from '../../assets/images/icon2.jpg';
 
-import pravnaLicaImg from '../../assets/images/pravna-lica.jpg';
-import fizickaLicaImg from '../../assets/images/fizicka-lica.jpg';
+import sl16Img from '../../assets/images/reference/ewe.png';
+import sl17Img from '../../assets/images/reference/fca.png';
+import sl18Img from '../../assets/images/reference/gomma_line.png';
+import sl19Img from '../../assets/images/reference/inter_komerc_raca.png';
+import sl20Img from '../../assets/images/reference/jevtic.png';
 
 
-import starGoldImg from '../../assets/images/star-gold.png';
-import starSilverImg from '../../assets/images/star-silver.png';
-import starCoperImg from '../../assets/images/star-copper.png';
+import sl21Img from '../../assets/images/reference/johnson_controls.png';
+import sl22Img from '../../assets/images/reference/knjaz_milos.png';
+import sl23Img from '../../assets/images/reference/krka.png';
+import sl24Img from '../../assets/images/reference/kronospan.png';
+import sl25Img from '../../assets/images/reference/max_bet.png';
 
-import card1Img from '../../assets/images/card1.jpg';
-import card2Img from '../../assets/images/card2.jpg';
-import card3Img from '../../assets/images/card3.jpg';
-import card4Img from '../../assets/images/card4.jpg';
-import card5Img from '../../assets/images/card5.jpg';
-import card6Img from '../../assets/images/card6.jpg';
 
-import badgeSsmImg from '../../assets/images/badge-ssm.png';
-import badgeCreImg from '../../assets/images/badge-cre.png';
-import badgeCsmImg from '../../assets/images/badge-csm.png';
-import badgeQsqImg from '../../assets/images/badge-qsg.png';
-import badgeCspImg from '../../assets/images/badge-csp.png';
-import badgeCsp2Img from '../../assets/images/badge-csp2.png';
-import badgeCmsImg from '../../assets/images/badge-cms.png';
+import sl26Img from '../../assets/images/reference/mercata.png';
+import sl27Img from '../../assets/images/reference/messer.png';
+import sl28Img from '../../assets/images/reference/milanovic_inzenjering.png';
+import sl29Img from '../../assets/images/reference/obi.png';
+import sl30Img from '../../assets/images/reference/panasonic.png';
 
-import attachIconImg from '../../assets/images/attachicon.jpg';
-import sl1Img from '../../assets/images/sl1.png';
-import sl2Img from '../../assets/images/sl2.png';
-import sl3Img from '../../assets/images/sl3.png';
-import sl4Img from '../../assets/images/sl4.png';
-import sl5Img from '../../assets/images/sl5.png';
 
-import headerCarousel1 from '../../assets/images/daljinski-nadzor.jpg';
+import sl31Img from '../../assets/images/reference/policija.png';
+import sl32Img from '../../assets/images/reference/sunce.png';
+import sl33Img from '../../assets/images/reference/tera.png';
+import sl34Img from '../../assets/images/reference/todorovic.png';
+import sl35Img from '../../assets/images/reference/triglav.png';
+
+
+import sl36Img from '../../assets/images/reference/un_women.png';
+import sl37Img from '../../assets/images/reference/unior.png';
+import sl38Img from '../../assets/images/reference/vulovic_transport.png';
+import sl39Img from '../../assets/images/reference/watchout.png';
+import sl40Img from '../../assets/images/reference/zastava_arms.png';
+
+import headerCarousel1 from '../../assets/images/home/header_1.jpg';
+import headerCarousel2 from '../../assets/images/home/header_2.jpg';
+import headerCarousel3 from '../../assets/images/home/header_3.jpg';
+
+
+import fizickaZastita from '../../assets/images/home/home-fizicka-zastita-ikonica.png';
+import tehnickaZastita from '../../assets/images/home/home-tehnicka-zastita-ikonica.png';
+
+
+import akcija1 from '../../assets/images/home/WS-Paket-4.jpg';
+import akcija2 from '../../assets/images/home/WS-Paket-8.jpg';
+import akcija3 from '../../assets/images/home/WS-Paket-16.jpg';
+
+
+import pravnaLicaImg from '../../assets/images/pravnaLica/pravna_lica.jpg';
+import fizickaLicaImg from '../../assets/images/fizickaLica/fizicka_lica.jpg';
+
+
+import starGoldImg from '../../assets/images/home/star-gold.png';
+import starSilverImg from '../../assets/images/home/star-silver.png';
+import starCoperImg from '../../assets/images/home/star-copper.png';
+
+import badgeSsmImg from '../../assets/images/home/sertifikat-1-ISO-9001.png';
+import badgeCreImg from '../../assets/images/home/sertifikat-2-20181.png';
+import badgeCsmImg from '../../assets/images/home/sertifikat-3-20182.png';
+import badgeQsqImg from '../../assets/images/home/sertifikat-4-quality-service.png';
+import badgeCspImg from '../../assets/images/home/sertifikat-5-20183.png';
+import badgeCsp2Img from '../../assets/images/home/sertifikat-6-20433.png';
+import badgeCmsImg from '../../assets/images/home/sertifikat-7-IQNet.png';
+
+import attachIconImg from '../../assets/images/home/home-document-ikonica.png';
+
 
 class Home extends Component {
     render() {
         const headerCarouselConfig = [{
             backgroundImg: headerCarousel1,
-            bodyContent: 'test1',
+            bodyContent: {
+                title: '24/7 u sluzbi vase bezbednosti',
+                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
+                widgets: [{
+                    number: '4,3min',
+                    label: 'vreme reagovanja inteventne patrole'
+                }, {
+                    number: '3458',
+                    label: 'instaliranih sistema tehnicke zastite'
+                }, {
+                    number: '8765',
+                    label: 'instaliranih kamera'
+                }]
+            },
             type: 'header'
         }, {
-            backgroundImg: headerCarousel1,
-            bodyContent: 'test2',
+            backgroundImg: headerCarousel2,
+            bodyContent: {
+                title: '24/7 u sluzbi vase bezbednosti',
+                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
+                widgets: [{
+                    number: '4,3min',
+                    label: 'vreme reagovanja inteventne patrole'
+                }, {
+                    number: '3458',
+                    label: 'instaliranih sistema tehnicke zastite'
+                }, {
+                    number: '8765',
+                    label: 'instaliranih kamera'
+                }]
+            },
             type: 'header'
         }, {
-            backgroundImg: headerCarousel1,
-            bodyContent: 'test3',
+            backgroundImg: headerCarousel3,
+            bodyContent: {
+                title: '24/7 u sluzbi vase bezbednosti',
+                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
+                widgets: [{
+                    number: '4,3min',
+                    label: 'vreme reagovanja inteventne patrole'
+                }, {
+                    number: '3458',
+                    label: 'instaliranih sistema tehnicke zastite'
+                }, {
+                    number: '8765',
+                    label: 'instaliranih kamera'
+                }]
+            },
             type: 'header'
+        }];
+
+        const resenjaCarouselConfig = [{
+            title: 'Resenja za fizicka lica',
+            widgets: [{
+                iconUrl: fizickaZastita,
+                label: 'Stanovi',
+                nav: {
+                    pathname: '/fizicka-lica',
+                    hash: '#stanovi'
+                }
+            }, {
+                iconUrl: fizickaZastita,
+                label: 'Kuce i vikendice',
+                nav: {
+                    pathname: '/fizicka-lica',
+                    hash: '#kuce'
+                }
+            }, {
+                iconUrl: fizickaZastita,
+                label: 'Stambene zgrade',
+                nav: {
+                    pathname: '/fizicka-lica',
+                    hash: '#zgrade'
+                }
+            }],
+            type: 'resenja'
+        }, {
+            title: 'Resenja za pravna lica',
+            widgets: [{
+                iconUrl: tehnickaZastita,
+                label: 'Small Business',
+                nav: {
+                    pathname: '/pravna-lica',
+                    hash: '#small'
+                }
+            }, {
+                iconUrl: tehnickaZastita,
+                label: 'Medium Business',
+                nav: {
+                    pathname: '/pravna-lica',
+                    hash: '#medium'
+                }
+            }, {
+                iconUrl: tehnickaZastita,
+                label: 'Large Business',
+                nav: {
+                    pathname: '/pravna-lica',
+                    hash: '#large'
+                }
+            }],
+            type: 'resenja'
         }];
 
         const clientsCarouselConfig = [{
@@ -73,14 +210,225 @@ class Home extends Component {
             backgroundImg: sl5Img,
             bodyContent: null
         }, {
-            backgroundImg: sl3Img,
+            backgroundImg: sl6Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl7Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl8Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl9Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl10Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl11Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl12Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl13Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl14Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl15Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl16Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl17Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl18Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl19Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl20Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl21Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl22Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl23Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl24Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl25Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl26Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl27Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl28Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl29Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl30Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl31Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl32Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl33Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl34Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl35Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl36Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl37Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl38Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl39Img,
+            bodyContent: null
+        }, {
+            backgroundImg: sl40Img,
             bodyContent: null
         }];
+
+        const najnovijeAkcijeConfig = [{
+            backgroundImg: akcija1,
+            title: 'Alarm monitoring Akcija',
+            star: 'Gold',
+            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
+            duration: {
+                from: '01.09.2017',
+                to: '31.12.2017'
+            }
+        }, {
+            backgroundImg: akcija2,
+            title: 'Instalacija alarmnih sistema',
+            star: 'Gold',
+            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
+            duration: {
+                from: '01.09.2017',
+                to: '31.12.2017'
+            }
+        }, {
+            backgroundImg: akcija3,
+            title: 'Instalacija sistema video nadzora',
+            star: 'Bronze',
+            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
+            duration: {
+                from: '01.09.2017',
+                to: '31.12.2017'
+            }
+        }];
+
+        const najnovijeVestiConfig = [{
+            title: 'GPS Satelitsko pracenje vozila',
+            description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
+            nav: {
+                pathname: '/gps-pracenje',
+                hash: ''
+            }
+        }, {
+            title: 'Alko test',
+            description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
+            nav: {
+                pathname: '/alko-test',
+                hash: ''
+            }
+        }, {
+            title: 'Kontrola sluzbenika obezbedjenja',
+            description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
+            nav: {
+                pathname: '/kontrola-sluzbenika',
+                hash: ''
+            }
+        }, {
+            title: 'Usluge fizicke zastite',
+            description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
+            nav: {
+                pathname: '/fizicka-zastita',
+                hash: ''
+            }
+        }];
+
+        const najnovijeVesti = najnovijeVestiConfig.map(function (item, index) {
+            return (
+                <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont" key={index}>
+                    <div className="ws-attached">
+                        <div className="ws-icon-cont">
+                            <img src={attachIconImg} alt="icon"/>
+                        </div>
+                        <div className="ws-body">
+                            <h6>{item.title}</h6>
+                            <p>{item.description}</p>
+                        </div>
+                        <div className="ws-footer">
+                            <Link to={item.nav}>Saznaj vise - </Link>
+                        </div>
+                    </div>
+                </div>
+            )
+        });
+        const najnovijeAkcije = najnovijeAkcijeConfig.map(function (item, index) {
+            let star = null;
+            switch (item.star) {
+                case 'Gold':
+                    star = <div className="ws-star" style={{backgroundImage: 'url(' + starGoldImg + ')'}}></div>
+                    break;
+                case 'Silver':
+                    star = <div className="ws-star" style={{backgroundImage: 'url(' + starSilverImg + ')'}}></div>
+                    break;
+                default:
+                    star = <div className="ws-star" style={{backgroundImage: 'url(' + starCoperImg + ')'}}></div>
+            }
+            return (
+                <div className="col-12 col-md-4" key={index}>
+                    <div className="ws-card">
+                        <div className="ws-card-header"
+                             style={{backgroundImage: 'url(' + item.backgroundImg + ')'}}>
+                            {star}
+                        </div>
+                        <div className="ws-body">
+                            <h6>{item.title}</h6>
+                            <p>{item.description}</p>
+                            <div className="ws-footer">
+                                {item.duration.from} - <span>{item.duration.to}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )
+        });
         return (
             <Aux>
-                <div className={[classes.wsHeader, classes.wsGradient].join(' ')}>
+
+                <div className="ws-header ws-gradient">
                     <div className="container">
-                        <div className={classes.wsSliderCont}>
+                        <div className="ws-slider-cont">
                             <SimpleSlider config={headerCarouselConfig} slidesToShow='1' type='header'/>
                         </div>
                     </div>
@@ -107,10 +455,10 @@ class Home extends Component {
                                 <div className="ws-centered-infoicon-block col-md-6">
                                     <div className="ws-cont">
                                         <div className="ws-icon-holder">
-                                            <img src={icon2Img} alt="icon"/>
+                                            <img src={fizickaZastita} alt="icon"/>
                                         </div>
                                         <div className="ws-body">
-                                            <h5>Tehnicka zastita</h5>
+                                            <h5>Fizicka zastita</h5>
                                             <p className="ws-stronger-color">Lorem Ipsum is simply dummy text of the
                                                 printing.</p>
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -131,7 +479,7 @@ class Home extends Component {
                                 <div className="ws-centered-infoicon-block col-md-6">
                                     <div className="ws-cont">
                                         <div className="ws-icon-holder">
-                                            <img src={icon1Img} alt="icon"/>
+                                            <img src={tehnickaZastita} alt="icon"/>
                                         </div>
                                         <div className="ws-body">
                                             <h5>Tehnicka zastita</h5>
@@ -195,31 +543,7 @@ class Home extends Component {
                         <div className="ws-triangle-reverse-holder ws-triangle-light"></div>
                         <div className="container">
 
-                            <div className="ws-title">
-                                <h5 className="ws-stronger-color">Resenja za Fizicka Lica</h5>
-                            </div>
-                            <div className="ws-body">
-                                <div className="row">
-                                    <div className="col-12 col-sm-4">
-                                        <div className="ws-icon-holder">
-                                            <img src={icon1Img} alt="icon"/>
-                                        </div>
-                                        <p>Small Business</p>
-                                    </div>
-                                    <div className="col-12 col-sm-4">
-                                        <div className="ws-icon-holder">
-                                            <img src={icon1Img} alt="icon"/>
-                                        </div>
-                                        <p>Medium Business</p>
-                                    </div>
-                                    <div className="col-12 col-sm-4">
-                                        <div className="ws-icon-holder">
-                                            <img src={icon1Img} alt="icon"/>
-                                        </div>
-                                        <p>Large Business</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <SimpleSlider config={resenjaCarouselConfig} slidesToShow='1'/>
                         </div>
 
                     </div>
@@ -238,116 +562,7 @@ class Home extends Component {
                             </div>
 
                             <div className="row">
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card1Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starGoldImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Alarm monitoring Akcija</h6>
-                                            <p>U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za
-                                                zastitu sa
-                                                izuzetnim...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card2Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starGoldImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija alarmnih sistema</h6>
-                                            <p>U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za
-                                                zastitu sa
-                                                izuzetnim...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card3Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starGoldImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija sistema video nadzora</h6>
-                                            <p>U celokupnoj zastiti stambenih a narocito poslovnih prostora, sistem
-                                                video nadzora
-                                                ima vaznu funkciju stetnih...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card4Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starSilverImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Kontrola pristupa i radnog vremena</h6>
-                                            <p>Sistem za video nadzor vozila je prilagodjen za komercijalnu
-                                                upotrebu, ali i za
-                                                potrebe privatnih lica...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card5Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starSilverImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Video nadzor vozila sa monitoringom</h6>
-                                            <p>Sistem za video nadzor vozila je prilagodjen za komercijalnu
-                                                upotrebu, ali i za
-                                                potrebe privatnih lica...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <div className="ws-card">
-                                        <div className="ws-card-header"
-                                             style={{backgroundImage: 'url(' + card6Img + ')'}}>
-                                            <div className="ws-star"
-                                                 style={{backgroundImage: 'url(' + starCoperImg + ')'}}></div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Procena bezbednosti objekata</h6>
-                                            <p>Sistem za video nadzor vozila je prilagodjen za komercijalnu
-                                                upotrebu, ali i za
-                                                potrebe privatnih lica...</p>
-                                            <div className="ws-footer">
-                                                0.1.09.2017 - <span>01.12.2017</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                {najnovijeAkcije}
                             </div>
 
                         </div>
@@ -383,91 +598,7 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ws-triangle-holder">
                         <div className="container">
                             <div className="row">
-
-                                <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont">
-                                    <div className="ws-attached">
-                                        <div className="ws-icon-cont">
-                                            <img src={attachIconImg} alt="icon"/>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija alarmnih sistema</h6>
-                                            <p>Poboljšanje kvaliteta življenja je polazna ideja integracije i
-                                                automatizacije
-                                                svih kućnih sistema kojima se želi jednostavno upravljati, a
-                                                da pri tome tehnološka rešenja budu nevidljiva i uklopljena u
-                                                svakodnevni život.</p>
-                                            <p>Ugradnja sistema tehničke zaštite u domu da bi se ostvario osećaj
-                                                lične bezbednosti i
-                                                bezbednosti porodice često je prvo o čemu razmišljamo.</p>
-                                        </div>
-                                        <div className="ws-footer">
-                                            <a href="#">Saznaj vise - </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont">
-                                    <div className="ws-attached">
-                                        <div className="ws-icon-cont">
-                                            <img src={attachIconImg} alt="icon"/>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija alarmnih sistema</h6>
-                                            <p>Poboljšanje kvaliteta življenja je polazna ideja integracije i
-                                                automatizacije
-                                                svih kućnih sistema kojima se želi jednostavno upravljati, a
-                                                da pri tome tehnološka rešenja budu nevidljiva i uklopljena u
-                                                svakodnevni život.</p>
-                                            <p>Ugradnja sistema tehničke zaštite u domu da bi se ostvario osećaj
-                                                lične bezbednosti i
-                                                bezbednosti porodice često je prvo o čemu razmišljamo.</p>
-                                        </div>
-                                        <div className="ws-footer">
-                                            <a href="#">Saznaj vise - </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont">
-                                    <div className="ws-attached">
-                                        <div className="ws-icon-cont">
-                                            <img src={attachIconImg} alt="icon"/>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija alarmnih sistema</h6>
-                                            <p>Poboljšanje kvaliteta življenja je polazna ideja integracije i
-                                                automatizacije
-                                                svih kućnih sistema kojima se želi jednostavno upravljati, a
-                                                da pri tome tehnološka rešenja budu nevidljiva i uklopljena u
-                                                svakodnevni život.</p>
-                                            <p>Ugradnja sistema tehničke zaštite u domu da bi se ostvario osećaj
-                                                lične bezbednosti i
-                                                bezbednosti porodice često je prvo o čemu razmišljamo.</p>
-                                        </div>
-                                        <div className="ws-footer">
-                                            <a href="#">Saznaj vise - </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont">
-                                    <div className="ws-attached">
-                                        <div className="ws-icon-cont">
-                                            <img src={attachIconImg} alt="icon"/>
-                                        </div>
-                                        <div className="ws-body">
-                                            <h6>Instalacija alarmnih sistema</h6>
-                                            <p>Poboljšanje kvaliteta življenja je polazna ideja integracije i
-                                                automatizacije
-                                                svih kućnih sistema kojima se želi jednostavno upravljati, a
-                                                da pri tome tehnološka rešenja budu nevidljiva i uklopljena u
-                                                svakodnevni život.</p>
-                                            <p>Ugradnja sistema tehničke zaštite u domu da bi se ostvario osećaj
-                                                lične bezbednosti i
-                                                bezbednosti porodice često je prvo o čemu razmišljamo.</p>
-                                        </div>
-                                        <div className="ws-footer">
-                                            <a href="#">Saznaj vise - </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                {najnovijeVesti}
                             </div>
                         </div>
                     </div>
@@ -494,7 +625,7 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="#">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -517,7 +648,7 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="#">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -543,7 +674,7 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="#">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -566,7 +697,7 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="#">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -580,7 +711,7 @@ class Home extends Component {
                                 <h5>Zadovoljni korisnici</h5>
                             </div>
                             <div className="ws-clients">
-                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='5'/>
+                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='5' dots='false'/>
                             </div>
                         </div>
                     </div>

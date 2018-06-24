@@ -3,11 +3,12 @@ import Slider from 'react-slick';
 
 import classes from './Carousel.scss'
 import HeaderItem from '../../containers/home/headerItem/HeaderItem';
+import ResenjaItem from '../../containers/home/resenjaItem/ResenjaItem';
 
 class Carousel extends Component {
     render() {
         const settings = {
-            dots: true,
+            dots: this.props.dots || true,
             arrows: false,
             infinite: true,
             speed: 500,
@@ -18,7 +19,9 @@ class Carousel extends Component {
         const slideItems = this.props.config.map(function (item, index) {
             let slideItem = <img key={index} src={item.backgroundImg} alt=""/>;
             if (item.type === 'header') {
-                slideItem = <HeaderItem key={index} backgroundImg={item.backgroundImg}>{item.bodyContent}</HeaderItem>
+                slideItem = <HeaderItem key={index} backgroundImg={item.backgroundImg} bodyContent={item.bodyContent}/>
+            } else if (item.type === 'resenja') {
+                slideItem = <ResenjaItem key={index} {...item}/>
             }
             return (
                 slideItem
