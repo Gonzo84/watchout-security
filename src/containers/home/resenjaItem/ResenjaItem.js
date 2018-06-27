@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
@@ -9,7 +9,7 @@ const ResenjaItem = (props) => {
             <div className="ws-icon-holder">
                 <img src={item.iconUrl} alt="icon"/>
             </div>
-            <Link to={item.nav} style={{textDecoration: 'none', color: '#58585a'}}>
+            <Link smooth to={item.nav} style={{textDecoration: 'none', color: '#58585a'}}>
                 <p>{item.label}</p>
             </Link>
         </div>;

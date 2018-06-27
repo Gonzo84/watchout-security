@@ -53,6 +53,7 @@ class CustomPaketi extends Component {
     };
 
     render() {
+        window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: paketiPoMeriImg,
             title: 'PAKETI PO VASOJ MERI',
@@ -75,68 +76,6 @@ class CustomPaketi extends Component {
             }
         };
         let tooltipContent = null;
-        let grupaPitanja = null;
-        if (this.state.formValid) {
-            grupaPitanja =
-                <div className="row">
-                    <div className="col-12 col-sm-6 ws-info">
-                        <h6>Grupa Pitanja 2</h6>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a
-                            type specimen book. </p>
-                    </div>
-
-                    <div className="col-12 col-sm-6 ws-questions">
-                        <div>
-                                <span>
-                                    <i className="fas fa-question-circle"></i>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </span>
-                            <form>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                            </form>
-                        </div>
-                        <div>
-                               <span>
-                                    <i className="fas fa-question-circle"></i>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                                </span>
-                            <form>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                                <div>
-                                    <input type="radio" name="fruit" value="apple"
-                                           className="btn ws-btn-option"/>
-                                    <label>Lorem Ipsum is simply</label>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-        }
 
         const prvaGrupa = {
             question: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
@@ -202,6 +141,64 @@ class CustomPaketi extends Component {
                 onChangeHandler: () => this.checkFormValidity(this.formEl1)
             }]
         };
+
+        const cevrtaGrupa = {
+            question: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+            config: [{
+                groupName: 'fouth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }, {
+                groupName: 'fouth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }, {
+                groupName: 'fouth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }]
+        };
+
+        const petaGrupa = {
+            question: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+            config: [{
+                groupName: 'fifth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }, {
+                groupName: 'fifth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }, {
+                groupName: 'fifth',
+                value: 'trt',
+                label: 'Lorem Ipsum is simply',
+                onChangeHandler: () => this.checkFormValidity(this.formEl1)
+            }]
+        };
+        let grupaPitanja = null;
+        if (this.state.formValid) {
+            grupaPitanja =
+                <div className="row">
+                    <div className="col-12 col-sm-6 ws-info">
+                        <h6>Grupa Pitanja 2</h6>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s,
+                            when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. </p>
+                    </div>
+
+                    <div className="col-12 col-sm-6 ws-questions">
+                        <FormGroup {...cevrtaGrupa} />
+                        <FormGroup {...petaGrupa} />
+                    </div>
+                </div>
+        }
         return (
             <Aux>
                 <ReactTooltip class='bluprintTooltip' getContent={() => {

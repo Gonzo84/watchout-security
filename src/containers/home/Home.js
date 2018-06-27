@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import SimpleSlider from "../../components/carousel/Carousel";
 import Aux from '../../hoc/Auxiliary/Auxiliary';
@@ -89,6 +89,7 @@ import attachIconImg from '../../assets/images/home/home-document-ikonica.png';
 
 class Home extends Component {
     render() {
+        window.scrollTo(0, 0);
         const headerCarouselConfig = [{
             backgroundImg: headerCarousel1,
             bodyContent: {
@@ -149,21 +150,21 @@ class Home extends Component {
                 label: 'Stanovi',
                 nav: {
                     pathname: '/fizicka-lica',
-                    hash: '#stanovi'
+                    hash: 'stanovi'
                 }
             }, {
                 iconUrl: fizickaZastita,
                 label: 'Kuce i vikendice',
                 nav: {
                     pathname: '/fizicka-lica',
-                    hash: '#kuce'
+                    hash: 'kuce'
                 }
             }, {
                 iconUrl: fizickaZastita,
                 label: 'Stambene zgrade',
                 nav: {
                     pathname: '/fizicka-lica',
-                    hash: '#zgrade'
+                    hash: 'zgrade'
                 }
             }],
             type: 'resenja'

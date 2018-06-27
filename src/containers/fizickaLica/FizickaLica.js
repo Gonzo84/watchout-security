@@ -2,162 +2,125 @@ import React, {Component} from 'react';
 
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
+import Header from '../../components/header/Header';
+import LicaItem from '../../components/licaItem/LicaItem';
 
-import fizickaLicaHeaderImg from '../../assets/images/fizickaLica/fizicka_lica.jpg'
+
+import fizickaLicaHeaderImg from '../../assets/images/fizickaLica/fizicka_lica.jpg';
+import stanoviImg from '../../assets/images/fizickaLica/stanovi.jpg';
+import kuceIVikendiceImg from '../../assets/images/fizickaLica/kuce_i_vikendice.jpg';
+import zgradeImg from '../../assets/images/fizickaLica/stambene_zgrade.jpg';
 
 
 class FizickaLica extends Component {
-
     render() {
+        window.scrollTo(0, 0);
+        const headerConfig = {
+            backgroundImg: fizickaLicaHeaderImg,
+            title: 'FIZICKA LICA',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+        };
+
+        const contentConfig = [{
+            left: true,
+            imageUrl: stanoviImg,
+            title: 'Stanovi',
+            id: 'stanovi',
+            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
+            content: ` when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.`
+        }, {
+            left: false,
+            imageUrl: kuceIVikendiceImg,
+            title: 'Kuce i vikendice',
+            id: 'kuce',
+            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
+            content: ` when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.`
+        }, {
+            left: true,
+            imageUrl: zgradeImg,
+            title: 'Stambene zgrade',
+            id: 'zgrade',
+            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
+            content: ` when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                            </p>
+                                            <p>
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type specimen book.
+                                                It has survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.`
+        }];
         return (
             <Aux>
-                <div className="ws-header ws-gradient">
-                    <div className="container">
-                        <div className="ws-slider-cont">
-                            <img src={fizickaLicaHeaderImg} alt="alt"/>
-                        </div>
-                    </div>
-                </div>
+
+                <Header {...headerConfig}/>
 
                 <div className="ws-body">
                     <div className="ws-border-holder"></div>
                     <div className="ws-simple-style-cont ws-overflow-img-container ws-triangle-holder">
                         <div className="container">
-                            <div className="ws-box ws-alt">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="ws-txt">
-                                            <h3>Stanovi</h3>
-                                            <p className="ws-stronger-color">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the
-                                                1500s,
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div className="ws-img-cont">
-                                            <img src="images/fizicka-lica-stanovi.jpg" alt="alt"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <LicaItem {...contentConfig[0]}/>
                         </div>
                     </div>
                     <div className="ws-simple-style-cont ws-alt ws-overflow-img-container">
                         <div className="container">
-                            <div className="ws-box ws-alt ws-left-img">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="ws-img-cont">
-                                            <img src="images/fizicka-lica-stanovi.jpg" alt="alt"/>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div className="ws-txt">
-                                            <h3>Kuce i vikendice</h3>
-                                            <p className="ws-stronger-color">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the
-                                                1500s,
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <LicaItem {...contentConfig[1]}/>
                         </div>
                     </div>
                     <div
                         className="ws-simple-style-cont  ws-overflow-img-container ws-triangle-holder ws-triangle-light">
                         <div className="container">
-                            <div className="ws-box ws-alt">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="ws-txt">
-                                            <h3>Stamene zgrade</h3>
-                                            <p className="ws-stronger-color">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum has been the industry's standard dummy text ever since the
-                                                1500s,
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div className="ws-img-cont">
-                                            <img src="images/fizicka-lica-stanovi.jpg" alt="alt"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <LicaItem {...contentConfig[2]}/>
                         </div>
                     </div>
 

@@ -7,14 +7,14 @@ import DrawerToggle from '../sideDrawer/drawerToggle/DrawerToggle';
 
 import companyLogo from '../../../assets/images/logo/ws-logo-white.png';
 
-const toolbar = ( props ) => (
+const toolbar = (props) => (
     <header className={classes.Toolbar}>
-        <DrawerToggle clicked={props.drawerToggleClicked} />
+        <DrawerToggle clicked={props.drawerToggleClicked}/>
         <div className={classes.Logo}>
             <Logo companyLogo={companyLogo}/>
         </div>
         <nav className={classes.DesktopOnly}>
-            <NavigationItems />
+            <NavigationItems/>
         </nav>
     </header>
 );

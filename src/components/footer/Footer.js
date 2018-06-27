@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import classes from './Footer.scss';
 import Logo from '../logo/Logo';
@@ -9,28 +9,34 @@ import companyLogo from '../../assets/images/logo/ws-logo-white.png';
 
 const footer = (props) => {
     const uslugeNavigationArray = [{
-        title: 'Alarm monitoring',
-        nav: '/alarm-monitoring'
+        title: 'Procena rizika',
+        nav: '/procena-rizika'
     }, {
-        title: 'Video nadzor',
-        nav: '/video-nadzor'
+        title: 'Alko testiranje',
+        nav: '/alko-testiranje'
     }, {
-        title: 'GPS Satelitsko pracenje vozila',
-        nav: '/pracenje-vozila'
+        title: 'Bezbednosno izvestavanje',
+        nav: '/bezbednosno-izvestavanje'
     }, {
-        title: 'Mobilne patrole',
-        nav: '/mobilne-patrole'
+        title: 'Daljinski nadzor',
+        nav: '/daljinski-nadzor'
     }, {
-        title: 'Instalacija alarmnih sistema',
-        nav: '/instalacija-alarmnih-sistema'
+        title: 'Fizicka zastita',
+        nav: '/fizicka-zastita'
     }, {
-        title: 'Kontrola pristupa i radnog vremena',
-        nav: '/kontrola-pristupa'
+        title: 'Montaza',
+        nav: '/montaza'
+    }, {
+        title: 'Odrzavanje',
+        nav: '/odrzavanje'
+    }, {
+        title: 'Planiranje i projektovanje',
+        nav: '/planiranje-projektovanje'
     }];
 
     const uslugeNavigation = uslugeNavigationArray.map(navItem => {
         return (
-            <Link to={navItem.nav} key={navItem.title}>
+            <Link smooth to={navItem.nav} key={navItem.title}>
                 <li className={classes.navLink}>
                     <p className={classes.navLink + ' active'}>{navItem.title}</p>
                 </li>
@@ -47,13 +53,22 @@ const footer = (props) => {
             nav: '/fizicka-lica'
         }, {
             title: 'Small Business',
-            nav: '/pravna-lica#small'
+            nav: {
+                pathname: '/pravna-lica',
+                hash: 'small'
+            }
         }, {
             title: 'Medium Business',
-            nav: '/pravna-lica#medium'
+            nav: {
+                pathname: '/pravna-lica',
+                hash: 'medium'
+            }
         }, {
             title: 'Large Business',
-            nav: '/pravna-lica#large'
+            nav: {
+                pathname: '/pravna-lica',
+                hash: 'large'
+            }
         }, {
             title: 'Custom paketi',
             nav: '/custom-paketi'
@@ -61,7 +76,7 @@ const footer = (props) => {
 
     const resenjaNavigation = resenjaNavigationArray.map(navItem => {
         return (
-            <Link to={navItem.nav} key={navItem.title}>
+            <Link smooth to={navItem.nav} key={navItem.title}>
                 <li className={classes.navLink}>
                     <p className={classes.navLink + ' active'}>{navItem.title}</p>
                 </li>

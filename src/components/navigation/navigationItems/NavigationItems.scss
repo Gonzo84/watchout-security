@@ -1,4 +1,7 @@
+@import "../../../sass/variables";
+
 .NavigationItems {
+  font-size: 0.9em;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6,10 +9,68 @@
   flex-flow: column;
   align-items: center;
   height: 100%;
+  white-space: nowrap;
 }
 
 @media (min-width: 500px) {
   .NavigationItems {
     flex-flow: row;
+  }
+}
+
+//test
+.dropdown {
+  margin: 10px 0;
+  color: #8F5C2C;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  &:hover, &:active, &.active {
+    color: #40A4C8;
+  }
+}
+
+.dropdownContent {
+  display: none;
+  font-size: 0.8em;
+  background-color: transparent;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 8px;
+  a {
+    padding: 8px 4px;
+  }
+}
+
+.dropdown:hover .dropdownContent {
+  margin: 0;
+  display: block;
+}
+
+@media (min-width: 500px) {
+  .dropdown {
+    color: $ws-color-white-lighter;
+    height: 100%;
+    padding: 16px 10px;
+    &:hover, &:active, &.active {
+      color: $ws-color-white-light;
+    }
+  }
+
+  .dropdownContent {
+    font-size: 0.8em;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
+    a {
+      padding: 8px 4px 8px 0;
+    }
   }
 }
