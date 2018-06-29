@@ -5,7 +5,10 @@
 
   .ws-border-holder {
     border-bottom: 1px solid darken($secondary-color, 5%);
-    min-height: $ws-spacing * 9;
+
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      min-height: $ws-spacing * 9;
+    }
   }
 
   ///
@@ -645,10 +648,18 @@
 .ws-building-plan {
   .ws-plan {
     background-color: $secondary-color;
-    padding: $ws-spacing-large * 2;
+    padding: $ws-spacing-large;
     @extend %box-shadow-card;
 
-    @media only screen and (min-width: $ws-breakpoint-sm) {
+    > div {
+      width: 100% !important;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-lg) {
+      padding: $ws-spacing-large * 2;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-xl) {
       padding: $ws-spacing-large * 4;
     }
 

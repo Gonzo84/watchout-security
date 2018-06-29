@@ -1,8 +1,12 @@
 .ws-header {
   background-color: $base-color;
   overflow: hidden;
-  padding-bottom: $ws-spacing-large * 3;
+  //padding-bottom: $ws-spacing-large * 3;
   position: relative;
+
+  @media only screen and (min-width: $ws-breakpoint-sm) {
+    padding-bottom: $ws-spacing-large * 3;
+  }
   
   &.ws-gradient {
     background: linear-gradient(to right, $color-stop1, $color-stop2);
@@ -117,8 +121,29 @@
 
 
   .ws-slider-cont {
-    padding-top: 15%;// 56.25%;
+    padding-top: 20%;// 56.25%;
     position: relative;
+    overflow: hidden;
+
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      padding-top: 15%;
+    }
+
+    > div {
+      //min-height: 300px;
+
+      @media only screen and (min-width: $ws-breakpoint-md) {
+
+      }
+
+      @media only screen and (min-width: $ws-breakpoint-lg) {
+        min-height: 390px;
+      }
+
+      @media only screen and (min-width: $ws-breakpoint-xl) {
+        min-height: 625px;
+      }
+    }
 
     img {
       height: 100%;
@@ -169,9 +194,13 @@
 .ws-slider-info {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   color: #fff;
-  
+  padding: 0 6rem 4.8rem;
+
+  @media only screen and (min-width: $ws-breakpoint-xl) {
+    justify-content: flex-end;
+  }
   
   @media only screen and (min-width: $ws-breakpoint-xl) {
     padding: 0 8.2rem 5rem 6rem;
@@ -180,9 +209,17 @@
   h1 {
     font-weight: bolder;
     font-size: 2.4rem;
-  
+
+    @media only screen and (min-width: $ws-breakpoint-md) {
+      font-size: 4.8rem;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-lg) {
+      font-size: 6rem;
+    }
+
     @media only screen and (min-width: $ws-breakpoint-xl) {
-      font-size: 9.6rem;
+      font-size: 8rem;
       line-height: 0.9em;
     }
    
@@ -199,22 +236,38 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
-  padding: 2.4rem 8rem 2.4rem 2.4rem;
-  
+  position: relative;
+
   @media only screen and (min-width: $ws-breakpoint-md) {
+    //justify-content: space-between;
     flex-direction: column;
+    padding: 0.4rem 8rem 0.4rem 2.4rem;
+  }
+
+  @media only screen and (min-width: $ws-breakpoint-lg) {
+    padding: 2.4rem 8rem 2.4rem 2.4rem;
   }
   
   .ws-slider-counter {
     border: 2px solid #fff;
     border-radius: 50%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
     align-self: flex-end;
+    display: none;
+
+    @media only screen and (min-width: $ws-breakpoint-md) {
+      height: 120px;
+      width: 120px;
+      display: flex;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-lg) {
+      height: 140px;
+      width: 140px;
+    }
   
     @media only screen and (min-width: $ws-breakpoint-xl) {
       height: 160px;
@@ -232,6 +285,10 @@
     &:nth-child(2) {
       border-color: $ws-slider-conuter-color2;
       margin: 2rem 0;
+
+      @media only screen and (min-width: $ws-breakpoint-md) {
+        margin: 1rem 0;
+      }
   
       p {
         color: $ws-slider-conuter-color2;
@@ -252,30 +309,48 @@
       font-size: 3.4rem;
       text-align: center;
       padding-top: 2.4rem;
+
+      @media only screen and (min-width: $ws-breakpoint-md) {
+        font-size: 2.4rem;
+      }
     }
     
     p {
       font-size: 1.2rem;
       text-align: center;
       font-weight: lighter;
+
+      @media only screen and (min-width: $ws-breakpoint-md) {
+        font-size: 1rem;
+      }
     }
   }
 }
 
 .slick-slider {
   position: relative;
+
+  > div > div {
+    @media only screen and (min-width: $ws-breakpoint-xl) {
+      min-height: 625px;
+    }
+  }
 }
 
 .slick-dots {
   position: absolute;
-  bottom: 5rem;
+  bottom: 2rem;
   left: 0;
   display: flex !important;
   flex-direction: row;
   justify-content: flex-start;
-  padding: 0 6rem;
-  
-  
+  padding: 0 3.8rem;
+
+  @media only screen and (min-width: $ws-breakpoint-xl) {
+    padding: 0 3.8rem;
+    bottom: 9rem;
+  }
+
   li {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -313,14 +388,19 @@
   div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
+    padding-top: 1.6rem;
+
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      justify-content: center;
+      min-height: 390px;
+    }
   }
   
   h4 {
     font-weight: bolder;
-    font-size: 2.4rem;
-  
+    font-size: 1.6rem;
+
     @media only screen and (min-width: $ws-breakpoint-sm) {
       font-size: 4.8rem;
     }
@@ -331,10 +411,15 @@
   }
   
   p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding: 1.6rem 5%;
     
     @media only screen and (min-width: $ws-breakpoint-sm) {
+      font-size: 1.6rem;
+      padding: 1.6rem 10%;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-md) {
       padding: 1.6rem 25%;
     }
   }
