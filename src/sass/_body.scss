@@ -366,6 +366,12 @@
     }
 
     .ws-cont {
+      // dodato
+      //background-image: url("./assets/images/fizicka-lica-info.jpg");
+      //background-image: url("./assets/images/fizicka-lica/fizicka-lica-info.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
       height: 100%;
       padding-top: 50%;
       position: relative;
@@ -536,6 +542,11 @@
         position: relative;
 
         .ws-notch {
+          //dodato
+          //background-image: url("./assets/images/card-header-part.png");
+          background-repeat: no-repeat;
+          position: absolute;
+          
           top: -1px;
           left: -5px;
           width: 10px;
