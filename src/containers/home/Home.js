@@ -54,7 +54,7 @@ import sl38Img from '../../assets/images/reference/vulovic_transport.png';
 import sl39Img from '../../assets/images/reference/watchout.png';
 import sl40Img from '../../assets/images/reference/zastava_arms.png';
 
-import headerCarousel1 from '../../assets/images/home/header_1.jpg';
+import headerCarousel1 from '../../assets/images/home/header_1_light.jpg';
 import headerCarousel2 from '../../assets/images/home/header_2.jpg';
 import headerCarousel3 from '../../assets/images/home/header_3.jpg';
 
