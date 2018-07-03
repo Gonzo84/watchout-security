@@ -250,6 +250,10 @@
   background-color: #fff;
   padding: $ws-spacing $ws-spacing-large;
   @extend %box-shadow-card;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @media only screen and (max-width: $ws-breakpoint-sm - 1) {
     max-width: 350px;

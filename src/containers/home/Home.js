@@ -380,10 +380,10 @@ class Home extends Component {
             return (
                 <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont" key={index}>
                     <div className="ws-attached">
-                        <div className="ws-icon-cont">
-                            <img src={attachIconImg} alt="icon"/>
-                        </div>
                         <div className="ws-body">
+                            <div className="ws-icon-cont">
+                                <img src={attachIconImg} alt="icon"/>
+                            </div>
                             <h6>{item.title}</h6>
                             <p>{item.description}</p>
                         </div>
