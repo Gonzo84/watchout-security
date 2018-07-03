@@ -327,15 +327,19 @@
   }
 }
 
-.slick-slider {
-  position: relative;
-
-  > div > div {
-    @media only screen and (min-width: $ws-breakpoint-xl) {
-      min-height: 625px;
+.ws-header {
+  .slick-slider {
+    position: relative;
+    
+    > div > div {
+      @media only screen and (min-width: $ws-breakpoint-xl) {
+        min-height: 625px;
+      }
     }
   }
 }
+
+
 
 .slick-dots {
   position: absolute;

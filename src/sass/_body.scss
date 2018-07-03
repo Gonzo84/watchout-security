@@ -266,6 +266,8 @@
 
   .ws-body {
     padding-bottom: $ws-spacing;
+    min-height: 205px;
+    
     h6 {
       color: $ws-color-stonger;
       padding-bottom: $ws-spacing;
