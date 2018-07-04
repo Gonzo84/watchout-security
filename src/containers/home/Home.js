@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import {HashLink as Link} from 'react-router-hash-link';
 
 import SimpleSlider from "../../components/carousel/Carousel";
 import Aux from '../../hoc/Auxiliary/Auxiliary';
@@ -470,9 +470,11 @@ class Home extends Component {
                                                 industry.</p>
                                         </div>
                                         <div className="ws-footer">
-                                            <button type="button" className="btn ws-btn ws-btn-dark">Pogledaj pakete
-                                                i cene
-                                            </button>
+                                            <Link to="/fizicka-zastita">
+                                                <button type="button" className="btn ws-btn ws-btn-dark">Pogledaj pakete
+                                                    i cene
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -494,9 +496,11 @@ class Home extends Component {
                                                 industry.</p>
                                         </div>
                                         <div className="ws-footer">
-                                            <button type="button" className="btn ws-btn ws-btn-dark">Pogledaj pakete
-                                                i cene
-                                            </button>
+                                            <Link to="/daljinski-nadzor">
+                                                <button type="button" className="btn ws-btn ws-btn-dark">Pogledaj pakete
+                                                    i cene
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -626,7 +630,8 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                   target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -649,7 +654,8 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                   target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -675,7 +681,8 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                   target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -698,7 +705,8 @@ class Home extends Component {
                                                 nevidljiva
                                                 i uklopljena u svakodnevni zivot.</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf" target="_blank">Saznaj vise -</a>
+                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                   target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
                                     </div>
