@@ -1,5 +1,13 @@
 .Header {
-  height: 70vh;
+  height: 35vh;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+@media (min-width: 500px) {
+  .Header {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
