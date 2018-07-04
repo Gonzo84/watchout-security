@@ -148,9 +148,9 @@ const footer = (props) => {
                     </div>
                 </div>
                 <div className={'row ' + classes.wsSoc}>
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-youtube"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg"  target="_blank"><i className="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/watchoutsecurity/"  target="_blank"><i className="fab fa-instagram"></i></a>
                 </div>
                 <div className={'container ' + classes.wsCopyrights}>
                     2017 (c) Watchout Security <a href="#">Privacy Policy</a>
