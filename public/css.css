@@ -37,7 +37,7 @@
 }
 /* line 11, ../src/sass/_header.scss */
 .ws-header.ws-gradient {
-  background: linear-gradient(to right, #d71920, #1f0e22);
+  background: linear-gradient(to right, #6D0E0F , #200e22);
 }
 /* line 15, ../src/sass/_header.scss */
 .ws-header::after {
