@@ -143,6 +143,10 @@
       @media only screen and (min-width: $ws-breakpoint-xl) {
         min-height: 625px;
       }
+  
+      @media only screen and (min-width: $ws-breakpoint-xxl) {
+        min-height: $ws-slide-largest-height;
+      }
     }
 
     img {
@@ -328,12 +332,24 @@
 }
 
 .ws-header {
+  .container {
+    @media only screen and (min-width: $ws-breakpoint-xxl) {
+      max-width: $ws-breakpoint-xxl;
+    }
+  }
+  
+  
+  
   .slick-slider {
     position: relative;
     
     > div > div {
       @media only screen and (min-width: $ws-breakpoint-xl) {
         min-height: 625px;
+      }
+    
+      @media only screen and (min-width: $ws-breakpoint-xxl) {
+            min-height: $ws-slide-largest-height;
       }
     }
   }
