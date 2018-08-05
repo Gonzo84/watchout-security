@@ -1,7 +1,7 @@
 .Toolbar {
   height: 56px;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-color: transparent;
@@ -11,6 +11,8 @@
   padding: 0 20px;
   box-sizing: border-box;
   z-index: 90;
+  margin-right: auto;
+  margin-left: auto;
 
   nav {
     height: 100%;
@@ -19,11 +21,35 @@
 }
 
 .Logo {
-  height: 80%;
+  height: 60%;
 }
 
 @media (max-width: 499px) {
   .DesktopOnly {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Toolbar {
+    width: 1440px;
+  }
+}
+
+@media only screen and (min-width: 1200px )and (max-width: 1439px) {
+  .Toolbar {
+    width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 992px )and (max-width: 1199px) {
+  .Toolbar {
+    width: 960px;
+  }
+}
+
+@media only screen and (min-width: 768px )and (max-width: 991px) {
+  .Toolbar {
+    width: 720px;
   }
 }
