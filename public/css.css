@@ -1083,7 +1083,14 @@
 /* line 605, ../src/sass/_body.scss */
 .ws-slider-clients {
   padding: 3.2rem 0;
+
 }
+
+/* line 605, ../src/sass/_body.scss */
+.ws-slider-clients .ws-clients img{
+  padding: 10px 50px;
+}
+
 /* line 608, ../src/sass/_body.scss */
 .ws-slider-clients .ws-slider-title {
   text-align: center;
