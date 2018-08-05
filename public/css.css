@@ -1318,6 +1318,7 @@
 
 /* line 885, ../src/sass/_body.scss */
 .ws-clients .ws-img-cont img {
+  padding: 10px 20px !important;
   height: auto;
 }
 @media only screen and (min-width: 576px) {
