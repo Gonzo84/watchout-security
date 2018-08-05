@@ -6,7 +6,7 @@ const HeaderItem = (props) => (
     <div className={classes.HeaderItem} style={{backgroundImage: 'url(' + props.backgroundImg + ')'}}>
 
 
-        <div className="row">
+        <div className={[classes.HeadersRow, 'row'].join(' ')}>
 
             <div className="col-md-8 ws-slider-info">
                 <h1>{props.bodyContent.title}</h1>

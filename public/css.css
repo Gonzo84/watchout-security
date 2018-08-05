@@ -156,7 +156,7 @@
 @media only screen and (min-width: 576px) {
   /* line 123, ../src/sass/_header.scss */
   .ws-header .ws-slider-cont {
-    padding-top: 15%;
+    padding-top: 10%;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -235,7 +235,7 @@
 @media only screen and (min-width: 1200px) {
   /* line 198, ../src/sass/_header.scss */
   .ws-slider-info {
-    padding: 0 8.2rem 5rem 6rem;
+    padding: 0 8.2rem 15rem 6rem;
   }
 }
 /* line 213, ../src/sass/_header.scss */
