@@ -13,8 +13,8 @@ class AlkoTestiranje extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: alkoTestiranjeImg,
-            title: 'ALKO TESTIRANJE',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Alko testiranje zaposlenih',
+            description: '99% svih iznenađenja u biznisu su neprijatna! Harold Geneen'
         };
         return (
             <Aux>
@@ -27,22 +27,8 @@ class AlkoTestiranje extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>ALKO TESTIRANJE</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Sigurno želite ovu statističku pošalicu da okrenete u korist svoje organizacije, zar
+                                    ne?
                                 </p>
                             </div>
                         </div>
@@ -51,112 +37,31 @@ class AlkoTestiranje extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>ALKO TESTIRANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <p>Uspeh poslovanja u značajnoj meri zavisi od ljudskih resursa. Praksa u Srbiji beleži
+                                slučajeve neetičkog i neprofesionalnog ponašanja i situacije kada su se zaposleni na
+                                radnom mestu pojavljivali u alkoholisanom stanju.</p>
                         </div>
                     </div>
 
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>ALKO TESTIRANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <p>S obzirom da sve veći broj radnika dolazi na posao u alkoholisanom stanju ili konzumira
+                                alkohol na radnom mestu, sve su učestalije povrede na radu kao i druge neprijatnosti,
+                                nastale kao posledica povišenog nivoa alkohola u krvi. Zbog pomenutih razloga,
+                                poslodavci se sve češće opredeljuju za uslugu alko testiranja zaposlenih. Informacije
+                                dobijene na ovaj način, firme mogu koristiti za preduzimanje adekvatnih mera za
+                                suzbijanje takvog ponašanja u budućnosti čime se osigurava nesmetano poslovanje.</p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>ALKO TESTIRANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>ALKO TESTIRANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>ALKO TESTIRANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <p>Pružanje usluge alkotestiranja zaposlenih lica putem Etilometra Alkotest DRAGER 6810
+                                (uređaj poseduje Uverenje Direkcije za mere i dragocene metale o ispunjenosti uslova
+                                propisanih Pravilnikom o metrološkim uslovima za etilometre). Pružanje usluge se vrši
+                                svakog radnog dana u mesecu, u periodu od 8 do 16 sati i tom prilikom se najmanje pet
+                                osoba mogu testirati.</p>
                         </div>
                     </div>
 

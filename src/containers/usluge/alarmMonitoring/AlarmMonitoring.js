@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import aktImg from '../../../assets/images/usluge/aktOProceniRizika.jpg'
+import aktImg from '../../../assets/images/usluge/alarmMonitoring.jpg'
 
 
 class AlarmMonitoring extends Component {
