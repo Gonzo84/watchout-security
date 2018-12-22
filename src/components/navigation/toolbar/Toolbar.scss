@@ -1,5 +1,5 @@
 .Toolbar {
-  height: 56px;
+  height: 70px;
   width: 100%;
   position: relative;
   top: 0;
@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 50px;
   box-sizing: border-box;
   z-index: 90;
   margin-right: auto;
@@ -16,7 +16,6 @@
 
   nav {
     height: 100%;
-    margin-right: 10%;
   }
 }
 
@@ -27,29 +26,5 @@
 @media (max-width: 499px) {
   .DesktopOnly {
     display: none;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .Toolbar {
-    width: 1440px;
-  }
-}
-
-@media only screen and (min-width: 1200px )and (max-width: 1439px) {
-  .Toolbar {
-    width: 1140px;
-  }
-}
-
-@media only screen and (min-width: 992px )and (max-width: 1199px) {
-  .Toolbar {
-    width: 960px;
-  }
-}
-
-@media only screen and (min-width: 768px )and (max-width: 991px) {
-  .Toolbar {
-    width: 720px;
   }
 }
