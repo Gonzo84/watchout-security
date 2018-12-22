@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import aktImg from '../../../assets/images/usluge/aktOProceniRizika.jpg'
+import aktImg from '../../../assets/images/usluge/interventniTim.JPG'
 
 
 class InterventniTim extends Component {
@@ -13,8 +13,8 @@ class InterventniTim extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: aktImg,
-            title: 'USLUGA ANGAZOVANJA INTERVENTNOG TIMA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Angažovanje interventnog tima',
+            description: 'Vreme je novac. Bendžamin Frenklin'
         };
         return (
             <Aux>
@@ -27,22 +27,10 @@ class InterventniTim extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Da li znate da 8 od 10 pokušaja krađe i akata vandalizma bude uspešno sprečeno
+                                    zahvaljujući pravovremenoj intervenciji službenika obezbeđenja? U slučaju nastanka
+                                    neželjenog događaja u štićenom objektu, u Kontrolni centar Watchout Security-a stiže
+                                    dojava i na lice mesta se šalje interventna patrola.
                                 </p>
                             </div>
                         </div>
@@ -51,111 +39,47 @@ class InterventniTim extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <p>U vašem štićenom objektu ćete, u najkraćem vremenskom roku, imati jasno obeleženo
+                                Watchout Security vozilo sa rotacijom. Tako ćete značajno smanjiti rizik od krađe i
+                                vandalizma.</p>
                         </div>
                     </div>
 
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Svi službenici mobilnog obezbeđenja su adekvatno obučeni da reaguju u najkraćem mogućem
+                                roku. Brz i profesionalan odgovor korisniku uliva osećaj sigurnosti da će neželjeni
+                                događaj biti okončan sa minimalnim posledicama.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Članove mobilne ekipe obezbeđenja Watchout Security-a, selektuju i kroz specijalizovane
+                                programe i obučavaju poznati i priznati majstori borilačkih veština i psiholozi usko
+                                specijalizovani za rad u ovoj oblasti.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
                         <div className="container">
-                            <h3>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Usluge mobilne Watchout Security ekipe možete koristiti kratkoročno i dugoročno, kao
+                                samostalni servis ili ih možete prilagoditi u kombinaciji sa različitim vrstama sistema
+                                tehničke zaštite, to jest našim jedinstvenim sistemom integrisanog obezbeđenja.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>USLUGA ANGAZOVANJA INTERVENTNOG TIMA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Pored mnogobrojnih primenjenih inovacija, Watchout Security je prva organizacija za
+                                pružanje usluga privatnog obezbeđenja u zemlji i regionu koja je primenila snimanje i
+                                arhviranje video i audio zapisa svake intervencije. Video materijal je na raspolaganju
+                                korisnicima usluge, a menadžeri rizika u Watchout Security-u na osnovu njega predlažu
+                                poboljšanja sistema obezbeđenja.
                             </p>
                         </div>
                     </div>

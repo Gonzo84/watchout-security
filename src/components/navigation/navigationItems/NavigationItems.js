@@ -41,8 +41,8 @@ const navigationItems = (props) => (
 
                 <NavigationItem link="/alarm-monitoring" navClickedHandler={props.navClickedHandler}>ALARM MONITORING</NavigationItem>
                 <NavigationItem link="/video-monitoring" navClickedHandler={props.navClickedHandler}>VIDEO MONITORING</NavigationItem>
-                <NavigationItem link="/interventni-tim" navClickedHandler={props.navClickedHandler}>ANGAZOVANJE INTERVENTNOG TIMA</NavigationItem>
-                <NavigationItem link="/obilazak-patrole" navClickedHandler={props.navClickedHandler}>PREVENTIVNI OBILASCI PATROLNOG TIMA</NavigationItem>
+                <NavigationItem link="/interventni-tim" navClickedHandler={props.navClickedHandler}>ANGAZOVANJE<br></br>INTERVENTNOG TIMA</NavigationItem>
+                <NavigationItem link="/obilazak-patrole" navClickedHandler={props.navClickedHandler}>PREVENTIVNI<br></br>OBILASCI PATROLNOG TIMA</NavigationItem>
 
                 <NavigationItem link="/fizicka-zastita" navClickedHandler={props.navClickedHandler}>FIZICKA ZASTITA</NavigationItem>
                 <NavigationItem link="/alko-testiranje" navClickedHandler={props.navClickedHandler}>ALKO TESTIRANJE</NavigationItem>
