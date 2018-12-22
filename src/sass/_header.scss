@@ -126,7 +126,11 @@
     overflow: hidden;
 
     @media only screen and (min-width: $ws-breakpoint-sm) {
-      padding-top: 10%;
+      padding-top: 7%;
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-md) {
+      padding-top: 7%;
     }
 
     > div {

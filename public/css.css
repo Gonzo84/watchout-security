@@ -164,17 +164,26 @@
   .ws-header .ws-slider-cont > div {
     min-height: 390px;
   }
+  .ws-header .ws-slider-cont {
+    padding-top: 7%;
+  }
 }
 @media only screen and (min-width: 1200px) {
   /* line 132, ../src/sass/_header.scss */
   .ws-header .ws-slider-cont > div {
     min-height: 625px;
   }
+  .ws-header .ws-slider-cont {
+    padding-top: 7%;
+  }
 }
 @media only screen and (min-width: 1440px) {
   /* line 132, ../src/sass/_header.scss */
   .ws-header .ws-slider-cont > div {
     min-height: 820px;
+  }
+  .ws-header .ws-slider-cont {
+    padding-top: 5%;
   }
 }
 /* line 152, ../src/sass/_header.scss */
