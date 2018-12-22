@@ -91,8 +91,8 @@ class Home extends Component {
         const headerCarouselConfig = [{
             backgroundImg: headerCarousel1,
             bodyContent: {
-                title: '24/7 u sluzbi vase bezbednosti',
-                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
+                title: '24/7 u službi vaše bezbednosti!',
+                content: '',
                 widgets: [{
                     number: '4,3min',
                     label: 'vreme reagovanja inteventne patrole'

@@ -379,14 +379,14 @@
 }
 /* line 322, ../src/sass/_header.scss */
 .ws-slide-counters .ws-slider-counter p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: center;
   font-weight: lighter;
 }
 @media only screen and (min-width: 768px) {
   /* line 322, ../src/sass/_header.scss */
   .ws-slide-counters .ws-slider-counter p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
