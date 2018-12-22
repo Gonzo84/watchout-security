@@ -29,12 +29,6 @@
   overflow: hidden;
   position: relative;
 }
-@media only screen and (min-width: 576px) {
-  /* line 1, ../src/sass/_header.scss */
-  .ws-header {
-    padding-bottom: 4.8rem;
-  }
-}
 /* line 11, ../src/sass/_header.scss */
 .ws-header.ws-gradient {
   background: linear-gradient(to right, #6D0E0F, #200e22);
@@ -161,9 +155,9 @@
 }
 @media only screen and (min-width: 992px) {
   /* line 132, ../src/sass/_header.scss */
-  .ws-header .ws-slider-cont > div {
-    min-height: 390px;
-  }
+  /*.ws-header .ws-slider-cont > div {*/
+    /*min-height: 390px;*/
+  /*}*/
   .ws-header .ws-slider-cont {
     padding-top: 7%;
   }
@@ -475,7 +469,7 @@
   /* line 409, ../src/sass/_header.scss */
   .ws-header-no-slider div {
     justify-content: center;
-    min-height: 390px;
+    /*min-height: 390px;*/
   }
 }
 /* line 421, ../src/sass/_header.scss */

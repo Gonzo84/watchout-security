@@ -141,7 +141,7 @@
       }
 
       @media only screen and (min-width: $ws-breakpoint-lg) {
-        min-height: 390px;
+        //min-height: 390px;
       }
 
       @media only screen and (min-width: $ws-breakpoint-xl) {
@@ -417,7 +417,7 @@
 
     @media only screen and (min-width: $ws-breakpoint-sm) {
       justify-content: center;
-      min-height: 390px;
+      //min-height: 390px;
     }
   }
   
