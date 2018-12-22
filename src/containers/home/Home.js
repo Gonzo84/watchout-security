@@ -55,8 +55,6 @@ import sl39Img from '../../assets/images/reference/watchout.png';
 import sl40Img from '../../assets/images/reference/zastava_arms.png';
 
 import headerCarousel1 from '../../assets/images/home/header_1_light.jpg';
-import headerCarousel2 from '../../assets/images/home/header_2.jpg';
-import headerCarousel3 from '../../assets/images/home/header_3.jpg';
 
 
 import fizickaZastita from '../../assets/images/home/home-fizicka-zastita-ikonica.png';
@@ -92,40 +90,6 @@ class Home extends Component {
         window.scrollTo(0, 0);
         const headerCarouselConfig = [{
             backgroundImg: headerCarousel1,
-            bodyContent: {
-                title: '24/7 u sluzbi vase bezbednosti',
-                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
-                widgets: [{
-                    number: '4,3min',
-                    label: 'vreme reagovanja inteventne patrole'
-                }, {
-                    number: '3458',
-                    label: 'instaliranih sistema tehnicke zastite'
-                }, {
-                    number: '8765',
-                    label: 'instaliranih kamera'
-                }]
-            },
-            type: 'header'
-        }, {
-            backgroundImg: headerCarousel2,
-            bodyContent: {
-                title: '24/7 u sluzbi vase bezbednosti',
-                content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',
-                widgets: [{
-                    number: '4,3min',
-                    label: 'vreme reagovanja inteventne patrole'
-                }, {
-                    number: '3458',
-                    label: 'instaliranih sistema tehnicke zastite'
-                }, {
-                    number: '8765',
-                    label: 'instaliranih kamera'
-                }]
-            },
-            type: 'header'
-        }, {
-            backgroundImg: headerCarousel3,
             bodyContent: {
                 title: '24/7 u sluzbi vase bezbednosti',
                 content: 'Aliquam et semper sem, vitae lobortis lorem. Vestibulum lacinia leo ut odio malesuada ultricies. Nulla vulputate libero vel scelerisque gravida. Donec hendrerit venenatis lectus.',

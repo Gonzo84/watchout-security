@@ -306,16 +306,16 @@
 @media only screen and (min-width: 768px) {
   /* line 255, ../src/sass/_header.scss */
   .ws-slide-counters .ws-slider-counter {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
     display: flex;
   }
 }
 @media only screen and (min-width: 992px) {
   /* line 255, ../src/sass/_header.scss */
   .ws-slide-counters .ws-slider-counter {
-    height: 140px;
-    width: 140px;
+    height: 160px;
+    width: 160px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -323,6 +323,13 @@
   .ws-slide-counters .ws-slider-counter {
     height: 160px;
     width: 160px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* line 255, ../src/sass/_header.scss */
+  .ws-slide-counters .ws-slider-counter {
+    height: 180px;
+    width: 180px;
   }
 }
 /* line 281, ../src/sass/_header.scss */
