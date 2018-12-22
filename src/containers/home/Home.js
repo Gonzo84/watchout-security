@@ -479,13 +479,16 @@ class Home extends Component {
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
                                         <div>
                                             <h2>FIZICKA <br/> LICA</h2>
-                                            <p className="ws-txt-bold">It is a long established fact that a reader will be distracted by
+                                            <p className="ws-txt-bold">It is a long established fact that a reader will
+                                                be distracted by
                                                 the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/fizicka-lica">
                                                 <button type="button" className="btn ws-btn">Saznaj vise</button>
                                             </Link>
+                                        </div>
+                                        <div className="ws-layer">
                                         </div>
                                     </div>
                                 </div>
@@ -494,13 +497,16 @@ class Home extends Component {
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
                                             <h2>PRAVNA <br/> LICA</h2>
-                                            <p className="ws-txt-bold">It is a long established fact that a reader will be distracted by
+                                            <p className="ws-txt-bold">It is a long established fact that a reader will
+                                                be distracted by
                                                 the readable content of a page when looking at its layout. </p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/pravna-lica">
                                                 <button type="button" className="btn ws-btn">Saznaj vise</button>
                                             </Link>
+                                        </div>
+                                        <div className="ws-layer">
                                         </div>
                                     </div>
                                 </div>
