@@ -4,16 +4,16 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import bezbednosnoTehnickiIDaljinskiNadzorImg from '../../../assets/images/usluge/bezbednosnoTehnickiDaljinskiNadzor.jpg'
+import aktImg from '../../../assets/images/usluge/aktOProceniRizika.jpg'
 
 
-class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
+class PreventivniObilazakPatrole extends Component {
 
     render() {
         window.scrollTo(0, 0);
         const headerConfig = {
-            backgroundImg: bezbednosnoTehnickiIDaljinskiNadzorImg,
-            title: 'BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR',
+            backgroundImg: aktImg,
+            title: 'USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
         };
         return (
@@ -27,7 +27,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h6>
+                                <h6>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h6>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -51,7 +51,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h3>
+                            <h3>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h3>
                             <p className="ws-stronger-color">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -74,7 +74,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h3>
+                            <h3>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h3>
                             <p className="ws-stronger-color">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -96,7 +96,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h3>
+                            <h3>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h3>
                             <p className="ws-stronger-color">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -118,7 +118,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
                         <div className="container">
-                            <h3>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h3>
+                            <h3>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h3>
                             <p className="ws-stronger-color">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -140,7 +140,7 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>BEZBEDNOSNO TEHNICKI I DALJINSKI NADZOR</h3>
+                            <h3>USLUGA PREVENTIVNIH OBILAZAKA PATROLNOG TIMA</h3>
                             <p className="ws-stronger-color">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -166,4 +166,4 @@ class BezbednosnoTehnickiIDaljinskiNadzor extends Component {
     }
 }
 
-export default BezbednosnoTehnickiIDaljinskiNadzor;
+export default PreventivniObilazakPatrole;

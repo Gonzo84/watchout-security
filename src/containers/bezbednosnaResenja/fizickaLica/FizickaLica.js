@@ -1,31 +1,31 @@
 import React, {Component} from 'react';
 
 
-import Aux from '../../hoc/Auxiliary/Auxiliary';
-import Header from '../../components/header/Header';
-import LicaItem from '../../components/licaItem/LicaItem';
-
-import pravnaLicaHeaderImg from '../../assets/images/pravnaLica/pravna_lica.jpg';
-
-import smallImg from '../../assets/images/pravnaLica/small_business.jpg';
-import mediumImg from '../../assets/images/pravnaLica/medium_business.jpg';
-import largeImg from '../../assets/images/pravnaLica/large_business.jpg';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
+import Header from '../../../components/header/Header';
+import LicaItem from '../../../components/licaItem/LicaItem';
 
 
-class PravnaLica extends Component {
+import fizickaLicaHeaderImg from '../../../assets/images/fizickaLica/fizicka_lica.jpg';
+import stanoviImg from '../../../assets/images/fizickaLica/stanovi.jpg';
+import kuceIVikendiceImg from '../../../assets/images/fizickaLica/kuce_i_vikendice.jpg';
+import zgradeImg from '../../../assets/images/fizickaLica/stambene_zgrade.jpg';
+
+
+class FizickaLica extends Component {
     render() {
         window.scrollTo(0, 0);
         const headerConfig = {
-            backgroundImg: pravnaLicaHeaderImg,
-            title: 'PRAVNA LICA',
+            backgroundImg: fizickaLicaHeaderImg,
+            title: 'FIZICKA LICA',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
         };
 
         const contentConfig = [{
             left: true,
-            imageUrl: smallImg,
-            title: 'Small Business',
-            id: 'small',
+            imageUrl: stanoviImg,
+            title: 'Stanovi',
+            id: 'stanovi',
             description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
             content: ` when an unknown printer took a galley of type and scrambled it to make a
                                                 type specimen book.
@@ -49,9 +49,9 @@ class PravnaLica extends Component {
                                                 electronic typesetting, remaining essentially unchanged.`
         }, {
             left: false,
-            imageUrl: mediumImg,
-            title: 'Medium Business',
-            id: 'medium',
+            imageUrl: kuceIVikendiceImg,
+            title: 'Kuce i vikendice',
+            id: 'kuce',
             description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
             content: ` when an unknown printer took a galley of type and scrambled it to make a
                                                 type specimen book.
@@ -75,9 +75,9 @@ class PravnaLica extends Component {
                                                 electronic typesetting, remaining essentially unchanged.`
         }, {
             left: true,
-            imageUrl: largeImg,
-            title: 'Large Business',
-            id: 'large',
+            imageUrl: zgradeImg,
+            title: 'Stambene zgrade',
+            id: 'zgrade',
             description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
             content: ` when an unknown printer took a galley of type and scrambled it to make a
                                                 type specimen book.
@@ -212,4 +212,4 @@ class PravnaLica extends Component {
     }
 }
 
-export default PravnaLica;
+export default FizickaLica;
