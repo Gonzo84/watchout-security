@@ -585,6 +585,7 @@
   background-color: #fff;
   overflow: hidden;
   position: relative;
+  min-height: 270px;
 }
 /* line 66, ../src/sass/_body.scss */
 .ws-body .ws-triangle-holder::after {
