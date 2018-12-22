@@ -153,7 +153,7 @@ const footer = (props) => {
                     <a href="https://www.instagram.com/watchoutsecurity/"  target="_blank"><i className="fab fa-instagram"></i></a>
                 </div>
                 <div className={'container ' + classes.wsCopyrights}>
-                    2017 (c) Watchout Security <a href="#">Privacy Policy</a>
+                    2018 (c) Watchout Security <a href="#">Privacy Policy</a>
                 </div>
             </div>
         </footer>)

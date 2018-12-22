@@ -11,6 +11,8 @@ const Header = (props) => (
                     <div className={classes.Header} style={{backgroundImage: 'url(' + props.backgroundImg + ')'}}>
                         <h4>{props.title}</h4>
                         <p>{props.description}</p>
+                        <div className="ws-layer">
+                        </div>
                     </div>
                 </div>
             </div>

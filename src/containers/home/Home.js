@@ -406,12 +406,11 @@ class Home extends Component {
                         <div className="container">
 
                             <div className="ws-centered-info-block">
-                                <h6>BEZBEDNOSNA RESENJA</h6>
+                                <h6>Bezbednosna rešenja</h6>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    Bezbednosni koncept prilagođen individualnim potrebama korisnika i štićenog objekta
+                                    uspešno realizujemo na osnovu procene rizika, temeljnog planiranja i implementiranja
+                                    dogovorenih mera.
                                 </p>
                             </div>
 
@@ -423,15 +422,15 @@ class Home extends Component {
                                             <img src={fizickaZastita} alt="icon"/>
                                         </div>
                                         <div className="ws-body">
-                                            <h5>Fizicka zastita</h5>
-                                            <p className="ws-stronger-color">Lorem Ipsum is simply dummy text of the
-                                                printing.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.</p>
+                                            <h5>Fizička zaštita</h5>
+                                            <p className="ws-stronger-color">Fizičkim obezbeđenjem doprinosi se zaštiti
+                                                ljudi i imovine od oštećenja, uništenja, krađe i drugih oblika štetnog
+                                                delovanja.</p>
+                                            <br></br>
+                                            <p>Usluga fizičke zaštite je usluga obezbeđenja koja se pruža ličnim
+                                                prisustvom i neposrednom aktivnošću službenika obezbeđenja u određenom
+                                                prostoru i vremenu, kao i primenom mera i upotrebom sredstava
+                                                prinude.</p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/fizicka-zastita">
@@ -449,15 +448,12 @@ class Home extends Component {
                                             <img src={tehnickaZastita} alt="icon"/>
                                         </div>
                                         <div className="ws-body">
-                                            <h5>Tehnicka zastita</h5>
-                                            <p className="ws-stronger-color">Lorem Ipsum is simply dummy text of the
-                                                printing.</p>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry.</p>
+                                            <h5>Tehnička zaštita</h5>
+                                            {/*<p className="ws-stronger-color">Lorem Ipsum is simply dummy text of the*/}
+                                            {/*printing.</p>*/}
+                                            <p>Savremene tehnologije u službi vaše bezbednosti! Sofisticiranost metoda
+                                                rada, veštine Watchout Security kadrova i visoki standardi kvaliteta
+                                                omogućavaju nam da efikasno štitimo vaše najvrednije resurse.</p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/daljinski-nadzor">
@@ -478,14 +474,13 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
                                         <div>
-                                            <h2>FIZICKA <br/> LICA</h2>
-                                            <p className="ws-txt-bold">It is a long established fact that a reader will
-                                                be distracted by
-                                                the readable content of a page when looking at its layout. </p>
+                                            <h2>Fizička<br/>lica</h2>
+                                            <p className="ws-txt-bold">Brinemo o bezbednosti vaše porodice i doma
+                                                24/7!</p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/fizicka-lica">
-                                                <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                                <button type="button" className="btn ws-btn">Saznaj više</button>
                                             </Link>
                                         </div>
                                         <div className="ws-layer">
@@ -503,7 +498,7 @@ class Home extends Component {
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/pravna-lica">
-                                                <button type="button" className="btn ws-btn">Saznaj vise</button>
+                                                <button type="button" className="btn ws-btn">Saznaj više</button>
                                             </Link>
                                         </div>
                                         <div className="ws-layer">

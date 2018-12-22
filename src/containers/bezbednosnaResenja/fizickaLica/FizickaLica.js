@@ -17,8 +17,8 @@ class FizickaLica extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: fizickaLicaHeaderImg,
-            title: 'FIZICKA LICA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Fizička lica',
+            description: 'Brinemo o bezbednosti vaše porodice i doma 24/7!'
         };
 
         const contentConfig = [{
@@ -26,79 +26,22 @@ class FizickaLica extends Component {
             imageUrl: stanoviImg,
             title: 'Stanovi',
             id: 'stanovi',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Osećaj bezbednosti u sopstvenom domu esencijalna je komponenta bezbrižnog i srećnog života. Ne dozvolite da nemili događaji poput provala, krađa, požara narušavaju harmoniju svakodnevnog života. Kontaktirajte nas za više informacija već danas!`
         }, {
             left: false,
             imageUrl: kuceIVikendiceImg,
-            title: 'Kuce i vikendice',
+            title: 'Kuće i vikendice',
             id: 'kuce',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Kako biste u potpunosti uživali u “toplini doma”, razmišljajte preventivno. Od vaše odluke zavisi bezbednost porodične kuće ili vikendice. Kontaktirajte nas za više informacija već danas!`
         }, {
             left: true,
             imageUrl: zgradeImg,
             title: 'Stambene zgrade',
             id: 'zgrade',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Delujte preventivno. Sprečite potencijalne nemile događaje i kontaktirajte nas već danas da saznate više o obezbeđenju vaše stambene zgrade.`
         }];
         return (
             <Aux>
