@@ -13,8 +13,8 @@ class BezbednosnoIzvestavanje extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: bezbednosnoIzvestavanjeImg,
-            title: 'BEZBEDNOSNO IZVESTAVANJE',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Bezbednosno izveštavanje',
+            description: 'Autoritet znanja jednako je legitiman kao i autoritet položaja. Peter Drucker'
         };
         return (
             <Aux>
@@ -27,22 +27,9 @@ class BezbednosnoIzvestavanje extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>BEZBEDNOSNO IZVESTAVANJE</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Sistemski pristup i transparentnost u pogledu realizovanih bezbednosnih mera pružaju
+                                    osnovu za kontinuirano poboljšanje nivoa bezbednosti štićenog objekta i usklađivanje
+                                    sitema tehničke zaštite sa konkretnim potrebama klijenta.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +38,9 @@ class BezbednosnoIzvestavanje extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>BEZBEDNOSNO IZVESTAVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Bezbednosni izveštaji od izuzetnog su značaja za korisnike usluga, pa će i ubuduće
+                                orijentacija Watchout Security tima biti usmerena ka što boljem sistemu izveštavanja o
+                                sprovedenim aktivnostima.
                             </p>
                         </div>
                     </div>
@@ -74,88 +48,20 @@ class BezbednosnoIzvestavanje extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>BEZBEDNOSNO IZVESTAVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Sastavni deo svakog izveštaja su podaci o sprovedenim aktivnostima koji se dobijaju
+                                automatski iz informacionih sistema. Drugi deo izveštaja su svi uočeni rizici u procesu
+                                obezbeđenja, a kao najbitniji deo se podrazumevaju zaključci menadžera rizika koji
+                                predviđaju korektivne i preventivne mere za poboljšanje procesa u cilju podizanja
+                                bezbednosnog nivoa. Izveštavanje se može vršiti periodično i na zahtev korisnika.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>BEZBEDNOSNO IZVESTAVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>BEZBEDNOSNO IZVESTAVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>BEZBEDNOSNO IZVESTAVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Izveštavanjem, Watchout Security doprinosi boljim performansama pruženih usluga i
+                                istovremeno razvija efikasan sistem istraživanja i ublažavanja svih potencijalnih
+                                bezbednosnih opasnosti i rizika na štićenom objektu.
                             </p>
                         </div>
                     </div>
