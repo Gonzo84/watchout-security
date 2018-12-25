@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import aktImg from '../../../assets/images/usluge/interventniTim.JPG'
+import aktImg from '../../../assets/images/usluge/interventniTim.jpg'
 
 
 class InterventniTim extends Component {

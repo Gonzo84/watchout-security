@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import montazaPovezivanjeProgramiranjeIObukaImg from '../../../assets/images/usluge/montazaPovezivanjeProgramiranjeIObukaZaSTZ.jpg'
+import montazaPovezivanjeProgramiranjeIObukaImg from '../../../assets/images/usluge/montaza.jpg'
 
 
 class MontazaPovezivanjeProgramiranjeIObuka extends Component {

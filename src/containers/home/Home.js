@@ -3,56 +3,33 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 import SimpleSlider from "../../components/carousel/Carousel";
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import sl1Img from '../../assets/images/reference/alfa.png';
-import sl2Img from '../../assets/images/reference/amss.png';
-import sl3Img from '../../assets/images/reference/asseco.png';
-import sl4Img from '../../assets/images/reference/baki.png';
-import sl5Img from '../../assets/images/reference/becchis_siride.png';
-import sl6Img from '../../assets/images/reference/bm_ritam.png';
-import sl7Img from '../../assets/images/reference/car.png';
-import sl8Img from '../../assets/images/reference/cilis.png';
-import sl9Img from '../../assets/images/reference/coffe_dream.png';
-import sl10Img from '../../assets/images/reference/diopia.png';
-import sl11Img from '../../assets/images/reference/emisia.png';
-import sl12Img from '../../assets/images/reference/energetika.png';
-import sl13Img from '../../assets/images/reference/eparhija.png';
-import sl14Img from '../../assets/images/reference/eps.png';
-import sl15Img from '../../assets/images/reference/euro_heat.png';
+
+import sl1Img from '../../assets/images/reference/amss.png';
+import sl2Img from '../../assets/images/reference/asseco.png';
+import sl3Img from '../../assets/images/reference/bmRitam.png';
+import sl4Img from '../../assets/images/reference/diopta.png';
+import sl5Img from '../../assets/images/reference/emisia.png';
+import sl6Img from '../../assets/images/reference/ewe.png';
+import sl7Img from '../../assets/images/reference/fca.png';
+import sl8Img from '../../assets/images/reference/johnsonControl.png';
+import sl9Img from '../../assets/images/reference/knjazMilos.png';
+import sl10Img from '../../assets/images/reference/krka.png';
+import sl11Img from '../../assets/images/reference/kronospan.png';
+import sl12Img from '../../assets/images/reference/mercata.png';
+import sl13Img from '../../assets/images/reference/messer.png';
+import sl14Img from '../../assets/images/reference/milanovic.png';
+import sl15Img from '../../assets/images/reference/ottobock.png';
 
 
-import sl16Img from '../../assets/images/reference/ewe.png';
-import sl17Img from '../../assets/images/reference/fca.png';
-import sl18Img from '../../assets/images/reference/gomma_line.png';
-import sl19Img from '../../assets/images/reference/inter_komerc_raca.png';
-import sl20Img from '../../assets/images/reference/jevtic.png';
+import sl16Img from '../../assets/images/reference/panasonic.png';
+import sl17Img from '../../assets/images/reference/policija.png';
+import sl18Img from '../../assets/images/reference/sunce.png';
+import sl19Img from '../../assets/images/reference/triglav.png';
+import sl20Img from '../../assets/images/reference/unior.png';
 
 
-import sl21Img from '../../assets/images/reference/johnson_controls.png';
-import sl22Img from '../../assets/images/reference/knjaz_milos.png';
-import sl23Img from '../../assets/images/reference/krka.png';
-import sl24Img from '../../assets/images/reference/kronospan.png';
-import sl25Img from '../../assets/images/reference/max_bet.png';
-
-
-import sl26Img from '../../assets/images/reference/mercata.png';
-import sl27Img from '../../assets/images/reference/messer.png';
-import sl28Img from '../../assets/images/reference/milanovic_inzenjering.png';
-import sl29Img from '../../assets/images/reference/obi.png';
-import sl30Img from '../../assets/images/reference/panasonic.png';
-
-
-import sl31Img from '../../assets/images/reference/policija.png';
-import sl32Img from '../../assets/images/reference/sunce.png';
-import sl33Img from '../../assets/images/reference/tera.png';
-import sl34Img from '../../assets/images/reference/todorovic.png';
-import sl35Img from '../../assets/images/reference/triglav.png';
-
-
-import sl36Img from '../../assets/images/reference/un_women.png';
-import sl37Img from '../../assets/images/reference/unior.png';
-import sl38Img from '../../assets/images/reference/vulovic_transport.png';
-import sl39Img from '../../assets/images/reference/watchout.png';
-import sl40Img from '../../assets/images/reference/zastava_arms.png';
+import sl21Img from '../../assets/images/reference/unWomen.png';
+import sl22Img from '../../assets/images/reference/zastava.png';
 
 import headerCarousel1 from '../../assets/images/home/header_1_light.jpg';
 
@@ -224,60 +201,6 @@ class Home extends Component {
             bodyContent: null
         }, {
             backgroundImg: sl22Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl23Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl24Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl25Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl26Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl27Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl28Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl29Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl30Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl31Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl32Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl33Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl34Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl35Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl36Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl37Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl38Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl39Img,
-            bodyContent: null
-        }, {
-            backgroundImg: sl40Img,
             bodyContent: null
         }];
 
