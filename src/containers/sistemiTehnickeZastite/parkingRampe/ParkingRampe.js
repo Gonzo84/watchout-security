@@ -13,8 +13,8 @@ class ParkingRampe extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: parkingRampeImg,
-            title: 'PARKING RAMPE',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Parking rampe',
+            description: ''
         };
         return (
             <Aux>
@@ -27,22 +27,11 @@ class ParkingRampe extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>PARKING RAMPE</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Sistem tehničke zaštite koji unapređuje nivo bezbednosti, a ujedno predstavlja i
+                                    vizit kartu objekta jesu parking rampe. Prvo što posetilac primeti čak i pre samog
+                                    objekta je upravo rampa za parking. Rampa je efikasno sredstvo za sprečavanje
+                                    neovlašćenog ulaza vozila u ograđeni prostor, javne garaže, ulaza na zajednički
+                                    parking stambenih objekata i druge objekte.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +40,11 @@ class ParkingRampe extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>PARKING RAMPE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Česta pojava na ulazima u kompanije sa velikom frekvencijom prolaza su automatske kapije.
+                                U poređenju sa automatskim kapijama, velika prednost parking rampe je brzina otvaranja.
+                                Parking rampe koje Watchout Security ima u ponudi mogu se podizati ili spuštati za samo
+                                dve sekunde. U odnosu na kapiju kojoj je potrebno u zavisnosti od širine, od 20 sekundi
+                                na više, to je ogromna ušteda vremena.
                             </p>
                         </div>
                     </div>
@@ -74,92 +52,24 @@ class ParkingRampe extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>PARKING RAMPE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Naše parking rampe rade na 24V dc i imaju mogućnost baterijskog napajanja, koje će
+                                omogućiti da koristite rampu čak i kada mnogi to ne mogu – kada nema struje. Ukoliko
+                                dođe do fizičkog oštećenja parking rampe garantujemo osposobljavanje ili zamenu delova u
+                                roku od 24 sata od poziva kroz uslugu održavanja. U zavisnosti od konkretnih potreba
+                                korisnika, parking rampu moguće je povezati sa čitačima kartica, otiska prsta,
+                                daljinskim upravljačima, GSM modulima za upravljanje putem mobilnih telefona,
+                                induktivnim petljama, mikrotalasnim radarima PRAP, fotoćelijama.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>PARKING RAMPE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Korisnicima koji kupe rampu kod nas, garantujemo najpovoljniju cenu dodatnih daljinskih
+                                upravljača italijanske proizvodnje.
                             </p>
                         </div>
                     </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>PARKING RAMPE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>PARKING RAMPE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </Aux>
         );
