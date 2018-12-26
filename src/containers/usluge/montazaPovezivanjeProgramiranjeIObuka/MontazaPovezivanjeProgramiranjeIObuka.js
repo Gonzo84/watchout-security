@@ -13,8 +13,8 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: montazaPovezivanjeProgramiranjeIObukaImg,
-            title: 'MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Montaža, povezivanje, programiranje i obuka za sisteme tehničke zaštite',
+            description: 'Moć ne dolazi od znanja zadržanog za sebe, već od deljenja znanja. Bil Gejts'
         };
         return (
             <Aux>
@@ -27,22 +27,10 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Da bi sistemi tehničke zaštite u potpunosti odgovorili na potrebe organizacije,
+                                    minimizirali ili otklonili rizike i doprineli realizaciji ciljeva poslovanja,
+                                    neophodno je poverenje u znanje, stručnost i veštine kadrova koji realizuju
+                                    projekat.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +39,9 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Samo kada je korisnik usluge siguran u kompetentnost organizacije koja montira, povezuje
+                                i programira sisteme tehničke zaštite, može uvideti opravdanost investicije i neometano
+                                obavljati poslovne aktivnosti.
                             </p>
                         </div>
                     </div>
@@ -74,88 +49,30 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Montažom sistema tehničke zaštite smatra se:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>postavljanje instalacija;</li>
+                                <li>ugradnja uređaja i opreme;</li>
+                                <li>programiranje, podešavanje (parametrisanje) i ispitivanje sistema tehničke zaštite
+                                    kao i njegovo puštanje u rad;
+                                </li>
+                                <li>verifikacija uređaja i opreme, odnosno sistema i tehnički prijem;</li>
+                                <li>izrada uputstava za rukovanje;</li>
+                                <li>obuku osoblja.</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Postavljanju instalacija tehničke zaštite i ugradnji uređaja i opreme prethode pripremni
+                                radovi. Instalacije tehničke zaštite moraju biti izvedene u skladu sa propisima koji
+                                uređuju uslove postavljanja elektrotehničkih instalacija.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>MONTAZA POVEZIVANJE PROGRAMIRANJE I OBUKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Watchout Security tehničku službu čine zaposleni, starosti između 20 i 40 godina,
+                                osposobljeni za rad na visini, sa visokim iskustvom u izvođenju telekomunikacionih
+                                instalacija.
                             </p>
                         </div>
                     </div>
