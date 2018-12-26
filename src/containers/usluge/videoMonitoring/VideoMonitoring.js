@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import aktImg from '../../../assets/images/usluge/aktOProceniRizika.jpg'
+import aktImg from '../../../assets/images/usluge/videoMonitoring.jpg'
 
 
 class VideoMonitoring extends Component {
@@ -13,8 +13,8 @@ class VideoMonitoring extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: aktImg,
-            title: 'VIDEO MONITORING',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Video monitoring',
+            description: ''
         };
         return (
             <Aux>
@@ -27,22 +27,13 @@ class VideoMonitoring extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>VIDEO MONITORING</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Efikasnija usluga obezbeđenja lica, imovine i poslovanja u odnosu na alarm
+                                    monitoring, predstavlja <span
+                                        className="ws-stronger-color">usluga video monitoringa</span>. Prilikom
+                                    aktiviranja alarmnog
+                                    sistema, službenik obezbeđenja nema vizuelni prikaz događaja na terenu i iz tog
+                                    razloga <span className="ws-stronger-color">usluga video monitoringa</span> dodatno
+                                    doprinosi bezbednosti štićenog prostora.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +42,14 @@ class VideoMonitoring extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>VIDEO MONITORING</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p><span className="ws-stronger-color">Video monitoring</span> je usluga obezbeđenja koja
+                                podrazumeva potpunu vizuelnu kontrolu nad
+                                objektom i kada dođe do incidenta mogu se preduzeti odgovarajuće mere da bi se
+                                minimizirala šteta.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Osnovni preduslov za pružanje usluge <span
+                                className="ws-stronger-color">video monitoring</span> je instaliran efikasan sistem
+                                video obezbeđenja povezan na internet.
                             </p>
                         </div>
                     </div>
@@ -74,88 +57,32 @@ class VideoMonitoring extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>VIDEO MONITORING</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p><span
+                                className="ws-stronger-color">Sistem video obezbeđenja</span> u svom osnovnom izvođenju
+                                treba da sadrži kamere, međusobno
+                                spregnute odgovarajućim prenosnim putem preko uređaja za snimanje i reprodukciju slike
+                                (video rekorder). Kamere se postavljaju na mestima koja treba osmatrati, u spoljnim i
+                                unutrašnjim prostorima, a kučišta su im prilagođena uslovima primene, kako klimatskim,
+                                tako i ambijentalnim. Mogu biti fiksne i pokretne, sa mogućnošću daljinskog upravljanja
+                                optikom i motorikom - pokretanje po horizontali i vertikali.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>VIDEO MONITORING</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p><span
+                                className="ws-stronger-color">Usluga video monitoringa</span> pruža i dimenziju fizičke
+                                zaštite, kroz aktivnosti dežurnih
+                                službenika obezbeđenja, čime se takav vid obezbeđenja tretira kao najefikasniji.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Putem softvera obeležavaju se zone u kojima je pristup zabranjen. U slučaju da
+                                neovlašćena osoba pristupi štićenoj zoni iz Kontrolnog centra upućuje se upozorenje
+                                putem zvučnika, pri čemu je omogućena dvosmerna komunikacija. Sistem prepoznaje lica i
+                                registarske tablice vozila i sadrži bazu potencijalnih počinioca prekršajnih dela.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>VIDEO MONITORING</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>VIDEO MONITORING</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Prema Vašim zahtevima određuje se vreme pružanja usluge, odnosno vremenski periodi tokom
+                                kojih se kamere nadgledaju.
                             </p>
                         </div>
                     </div>
