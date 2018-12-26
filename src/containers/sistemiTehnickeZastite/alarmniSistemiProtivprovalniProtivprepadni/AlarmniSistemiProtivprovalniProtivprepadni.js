@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/alarmniSistemiZaVozila.jpg'
+import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/protivprovalniIProtivprepadniSistemi.jpg'
 
 
 class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
@@ -13,8 +13,8 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: alarmniSisImg,
-            title: 'ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Alarmni sistemi',
+            description: 'Najskuplje je ne preduzimati ništa. John Ford'
         };
         return (
             <Aux>
@@ -27,22 +27,11 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Beskompromisna bezbednost objekata, ljudi i imovine osnovni je preduslov za uspeh u
+                                    poslovanju. S druge strane, savremeni način života često dovodi do stresnih
+                                    situacija, pa se osećaj apsolutne sigurnosi u spostvenom domu logično javlja kao
+                                    jedna od osnovnih potreba čoveka. Provale, krađe, vandalizam, neovlašćeni pristup
+                                    objektu - u kontekstu ovakvih i sličnih nemilih događaja treba delovati preventivno.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +40,10 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Protivprovalni alarmni sistemi dizajnirani su za detekciju neautorizovanog ulaska u
+                                objekat ili oblast. Sastoje se od različitih tipova senzora, alarmne centrale, sirene i
+                                uređaja za dojavu. U zavisnosti od načina detekcije postoje senzori koji detektuju
+                                pokret, zvuk (lom stakla), vibracije ili mikrotalase.
                             </p>
                         </div>
                     </div>
@@ -74,88 +51,12 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Alarmni sistemi mogu služiti kao protivprovalni sistemi, ali i kao sistemi za zaštitu od
+                                požara. Protivprovalni alarmni sistemi mogu biti povezani sa sistemima video nadzora
+                                kako bi se automatski snimio željeni pokret ili događaj i osigurao viši stepen
+                                bezbednosti. Osnovna funkcija alarmnog sistema je što ranija detekcija opasnosti i
+                                upozoravanje dežurnog lica na nju čime se u značajnoj meri smanjuju negativne posledice
+                                po zdravlje, bezbednost ljudi i imovine.
                             </p>
                         </div>
                     </div>

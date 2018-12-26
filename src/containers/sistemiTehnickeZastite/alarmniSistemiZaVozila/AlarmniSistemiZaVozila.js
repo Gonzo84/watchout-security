@@ -13,8 +13,8 @@ class AlarmniSistemiZaVozila extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: alarmniSisImg,
-            title: 'ALARMNI SISTEMI ZA VOZILA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Alarmni sistemi za vozila',
+            description: 'Najuspešniji ljudi su oni koji su dobri u ispunjavanju plana B. James Yorke'
         };
         return (
             <Aux>
@@ -27,22 +27,12 @@ class AlarmniSistemiZaVozila extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>ALARMNI SISTEMI ZA VOZILA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Budući da su se serijski, fabrički i konvencionalni sistemi zaštite vozila u praksi
+                                    pokazali kao nepouzdani, javila se potreba za individualnim sistemom zaštite u
+                                    zavisnosti od tipa i modela automobila. Dovozeći novo vozilo kući, mnogi ne
+                                    razmišljaju o krađi jer su od prodavca dobili fabrički daljinski upravljač ili su
+                                    ugradili dodatnu bravu. Fabrički daljinski upravljač najčešće ne služi za zaštitu od
+                                    krađe, već samo za daljinsko zaključavanje vrata.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +41,8 @@ class AlarmniSistemiZaVozila extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>ALARMNI SISTEMI ZA VOZILA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Alarmni sistem koji se prilagođava vlasniku i karakteristikama vozila, najbolje je
+                                rešenje za zaštitu vozila od krađe.
                             </p>
                         </div>
                     </div>
@@ -74,88 +50,10 @@ class AlarmniSistemiZaVozila extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>ALARMNI SISTEMI ZA VOZILA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI ZA VOZILA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI ZA VOZILA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>ALARMNI SISTEMI ZA VOZILA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Auto alarm Watchout Security auto alarm u radu ne koristi digitalnu vezu za komunikaciju
+                                sa kompjuterom vozila, pa ne postoji mogućnost kvara na alarmu i prestanka rada zaštite.
+                                Kombinacijom više podsistema, elektronske i alarmne zaštite, najčešći načini krađe i
+                                neutralisanja zaštite vozila, izbegnuti su u potpunosti.
                             </p>
                         </div>
                     </div>
