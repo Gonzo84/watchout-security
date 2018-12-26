@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/alarmniSistemiZaVozila.jpg'
+import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/kontrolaPostojecihSluzbenika.jpg'
 
 
 class KontrolaSluzbenikaObezbedjenja extends Component {
@@ -13,8 +13,8 @@ class KontrolaSluzbenikaObezbedjenja extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: alarmniSisImg,
-            title: 'SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Sistemi za kontrolu službenika obezbeđenja',
+            description: 'Postaviti pravo pitanje je pola znanja. Rodžer Bejkon'
         };
         return (
             <Aux>
@@ -27,22 +27,10 @@ class KontrolaSluzbenikaObezbedjenja extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>U cilju kontinuiranog unapređenja bezbednosnih procedura, potrebno je pratiti
+                                    realizaciju plana obilazaka službenika fizičkog obezbeđenja. Ovim tipom kontrole
+                                    stiče se uvid u opravdanost investicije u fizičko obezbeđenje i uspostavlja se
+                                    efikasan sistem rada angažovanih kadrova u ovoj sferi.
                                 </p>
                             </div>
                         </div>
@@ -51,111 +39,12 @@ class KontrolaSluzbenikaObezbedjenja extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU POSTOJECIH SLUZBENIKA OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Sa korisnikom usluge se pre početka pružanja usluge definiše Plan obilazaka koji sadrži
+                                tačan broj lokacija kontrolnih tačaka sa preciznim nazivima i vremenskim intervalom
+                                obilazaka. Službenik obezbeđenja pri svakom obilasku lokacije prinosi čitač memorijskom
+                                dugmentu na kontrolnom punktu, a poseta biva memorisana u sistem. Prenos podataka o
+                                vremenima obilazaka patrole korisniku usluge dostavlja Kontrolni centar Watchout
+                                Security-a.
                             </p>
                         </div>
                     </div>
