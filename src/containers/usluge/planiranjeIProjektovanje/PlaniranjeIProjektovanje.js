@@ -13,8 +13,8 @@ class PlaniranjeIProjektovanje extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: planiranjeIProjektovanjeImg,
-            title: 'PLANIRANJE I PROJEKTOVANJE',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Planiranje i projektovanje sistema tehničke zaštite',
+            description: 'Ne planirati znači planirati neuspeh. Bendžamin Frenklin'
         };
         return (
             <Aux>
@@ -27,22 +27,9 @@ class PlaniranjeIProjektovanje extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>PLANIRANJE I PROJEKTOVANJE</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Osnovni preduslov za uspeh u poslovanju jeste bezbednost lica i imovine. Bilo da je
+                                    reč o uslužnoj delatnosti ili o proizvodnim pogonima, neophodno je preduzeti mere u
+                                    zaštiti ljudskih resursa i celokupne imovine.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +38,9 @@ class PlaniranjeIProjektovanje extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>PLANIRANJE I PROJEKTOVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Bezbedno poslovno okruženje i zaposleni koji imaju poverenje u sisteme tehničke zaštite
+                                pozitivno utiču na rast produktivnosti, poboljšanje efikasnosti u obavljanju radnih
+                                zadataka i finansijski aspekt uspešnosti poslovanja.
                             </p>
                         </div>
                     </div>
@@ -74,92 +48,35 @@ class PlaniranjeIProjektovanje extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>PLANIRANJE I PROJEKTOVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Planiranje sistema tehničke zaštite vrši se na osnovu Akta o proceni rizika u zaštiti
+                                lica, imovine i poslovanja izrađenog po standardu serije SRPS A.L2.003. Na osnovu
+                                izrađenog Plana sistema tehničke zaštite i posebnih zahteva vlasnika ili korisnika
+                                objekta, izrađuje se projektni zadatak.
+                                Projektnim zadatkom utvrđuju se svi parametri potrebni za izradu projekta sistema
+                                tehničke zaštite, a naročito:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>vrsta tehničke zaštite;</li>
+                                <li>smeštaj centra tehničke zaštite (kontrolni paneli, centrale, digitalni video
+                                    rekorderi i drugo);
+                                </li>
+                                <li>smeštaj uređaja i opreme (detektori, kamere i senzori);</li>
+                                <li>način polaganja instalacija (kablova za povezivanje).</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>PLANIRANJE I PROJEKTOVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Projektovanje sistema tehničke zaštite obuhvata:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>implementaciju plana sistema tehničke zaštite;</li>
+                                <li>izbor uređaja i opreme;</li>
+                                <li>izradu projektne dokumentacije.</li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>PLANIRANJE I PROJEKTOVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>PLANIRANJE I PROJEKTOVANJE</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </Aux>
         );
