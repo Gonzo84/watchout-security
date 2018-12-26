@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import sistemiZaEvidencijuRadnogVremenaImg from '../../../assets/images/sistemiTehnickeZastite/sistemiZaEvidencijuRadnogVremena.jpg'
+import sistemiZaEvidencijuRadnogVremenaImg
+    from '../../../assets/images/sistemiTehnickeZastite/sistemiZaEvidencijuRadnogVremena.jpg'
 
 
 class SistemiZaEvidencijuRadnogVremena extends Component {
@@ -13,8 +14,8 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: sistemiZaEvidencijuRadnogVremenaImg,
-            title: 'SISTEMI ZA EVIDENCIJU RADNOG VREMENA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Sistemi za evidenciju radnog vremena i kontrolu pristupa',
+            description: 'Ako ne znate ili ne možete da upravljate svojim vremenom, čime onda uopšte možete da upravljate? Peter Drucker'
         };
         return (
             <Aux>
@@ -27,22 +28,9 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Evidencija radnog vremena, kontrola kretanja kroz objekat i dozvola pristupa
+                                    autorizovanim kadrovima u restriktivne prostorije, tri su važna segmenta u
+                                    funkcionisanju savremene organizacije.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +39,14 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>ZKTime je sistem za evidenciju radnog vremena zaposlenih i/ili kontrolu pristupa i
+                                sastoji se od terminala za identifikaciju RFID kartice, otiska prstiju, prepoznavanja
+                                lica ili PIN-a, zatim serverske aplikacije, te web aplikacije za administraciju i
+                                upravljanje samim sistemom, kao i izveštavanje.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Implementacijom i primenom sistema kontrole sprečava se nepotrebno i nedozvoljeno
+                                kretanje po objektu, čime se povećava nivo bezbednosti što svakako doprinosi
+                                racionalnijem i efikasnijem poslovanju.
                             </p>
                         </div>
                     </div>
@@ -74,92 +54,24 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Pored kontrole pristupa, ZKTime sistem koristi se za praćenje i evidentiranje radnog
+                                vremena, tako da menadžment kompanije dobija vrlo efikasan mehanizam za kontrolu utroška
+                                radnog vremena. Primenom sistema za evidenciju radnog vremena omogućena je potpuna i
+                                efikasna kontrola vremena koje zaposleni provedu na poslu, kontrola njihovog kašnjenja,
+                                prekovremenog rada, bolovanja, godišnjih odmora, a na kraju i završnog obračuna troškova
+                                za zaposlene.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Softver za upravljanje sistemom i pregled izveštaja je web orijentisan, tako da korisnici
+                                imaju mogućnost pristupa unutar lokalne mreže, ali i pristup sa ostalih lokacija vezanih
+                                na internet.
                             </p>
                         </div>
                     </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA EVIDENCIJU RADNOG VREMENA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </Aux>
         );
