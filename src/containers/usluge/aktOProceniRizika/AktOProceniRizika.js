@@ -13,8 +13,8 @@ class AktOProceniRizika extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: aktImg,
-            title: 'AKT O PROCENI RIZIKA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Izrada Akta o proceni rizika u zaštiti lica, imovine i poslovanja',
+            description: 'Rizik je donositi odluke u nesigurnom okruženju. Ne donositi ih, takođe je rizik. Warren Buffett'
         };
         return (
             <Aux>
@@ -27,22 +27,8 @@ class AktOProceniRizika extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>AKT O PROCENI RIZIKA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Da li znate da ste prema Zakonu o privatnom obezbeđenju (“Sl. glasnik RS”, br.
+                                    104/2013 i 42/2015) u obavezi da posedujete Akt o proceni rizika?
                                 </p>
                             </div>
                         </div>
@@ -51,22 +37,13 @@ class AktOProceniRizika extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>AKT O PROCENI RIZIKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Cilj izrade ovog Akta jeste da se klijentu predoči stepen rizika kome je izložen on sam,
+                                njegova imovina ili poslovanje. Korisnik usluge na ovaj način ima uvid u sve
+                                potencijalne neželjene događaje kao i posledice u slučaju njihovog nastanka. Informacije
+                                dobijene ovim Aktom se dalje koriste kako bi se korisniku predložilo najbolje moguće
+                                bezbednosno rešenje. Celokupno planiranje sistema tehničke zaštite vrši se na osnovu
+                                Akta o proceni rizika u zaštiti lica, imovine i poslovanja. Akt o proceni rizika u
+                                zaštiti lica, imovine i poslovanja se izrađuje po standardu serije SRPS A.L2.003.
                             </p>
                         </div>
                     </div>
@@ -74,89 +51,50 @@ class AktOProceniRizika extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>AKT O PROCENI RIZIKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Rizici se analiziraju u sledećim oblastima:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>od opšth poslovnih aktivnosti;</li>
+                                <li>po bezbednost i zdravlje na radu;</li>
+                                <li>pravni rizici;</li>
+                                <li>od protivpravnog delovanja;</li>
+                                <li>od požara;</li>
+                                <li>od elementarnih nepogoda i drugih nesreća;</li>
+                                <li>od eksplozija;</li>
+                                <li>od neusaglašenosti sa standardima;</li>
+                                <li>po životnu sredinu;</li>
+                                <li>u upravljanju ljudskim resursima;</li>
+                                <li>u oblasti informaciono-komunikaciono-telekomunikacijskih sistema;</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>AKT O PROCENI RIZIKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Dokument je početni korak posle koga sledi detaljan plan rada u cilju realizacije
+                                definisanih mera.
                             </p>
                             <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                                Watchout Security poseduje Licencu za procenu rizika u zaštiti lica, imovine i
+                                poslovanja, izdatu od strane Ministarstva unutrašnjih poslova Republike Srbije i nudi
+                                vam mogućnost da vaše poslovanje usaglasite sa Zakonom.
+
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
                         <div className="container">
-                            <h3>AKT O PROCENI RIZIKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Procena rizika u zaštiti lica, imovine i poslovanja uređuje se Zakonom na način propisan
+                                važećim standardom u oblasti privatnog obezbeđenja. Procena rizika se ne vrši za
+                                korisnike usluga:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>AKT O PROCENI RIZIKA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>zaštite lica;</li>
+                                <li>zaštite objekata za stanovanje;</li>
+                                <li>zaštite javnih skupova na kojima redarsku službu obavljaju samo redari;</li>
+                                <li>zaštite mikro pravnih lica i preduzetnika.</li>
+                            </ul>
                         </div>
                     </div>
 

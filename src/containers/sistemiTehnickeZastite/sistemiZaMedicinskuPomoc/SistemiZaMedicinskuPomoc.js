@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/alarmniSistemiZaVozila.jpg'
+import alarmniSisImg from '../../../assets/images/sistemiTehnickeZastite/panikTaster.JPG'
 
 
 class SistemiZaMedicinskuPomoc extends Component {
@@ -13,8 +13,8 @@ class SistemiZaMedicinskuPomoc extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: alarmniSisImg,
-            title: 'SISTEMI ZA MEDICINSKU POMOC',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Medicinski panik taster',
+            description: 'Koncept “zlatnog sata”'
         };
         return (
             <Aux>
@@ -27,22 +27,8 @@ class SistemiZaMedicinskuPomoc extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI ZA MEDICINSKU POMOC</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Da li ste znali da 50% starijih od 60 godina nakon pada ne mogu da ustanu sami već im
+                                    je potrebna nečija pomoć?
                                 </p>
                             </div>
                         </div>
@@ -51,22 +37,14 @@ class SistemiZaMedicinskuPomoc extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI ZA MEDICINSKU POMOC</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>U medicini je poznat koncept “zlatnog sata” koji ukazuje da je za osobu koja je doživela
+                                neželjenu zdravstvenu komplikaciju od kritičnog značaja stručno medicinsko zbrinjavanje
+                                u prvih sat vremena od nastanka zdravstvenog problema. Samim tim, brza reakcija je jedan
+                                od najbitnijih faktora u sprečavanju nastanka daljih zdravstvenih komplikacija ili čak
+                                fatalnog ishoda. Iako vreme za adekvatnu reakciju zavisi u velikoj meri od tipa
+                                zdravstvenog problema, opšte je prihvaćeno stanovište da ugrožena osoba ima više šansi
+                                za oporavak ukoliko je stručna medicinska nega ukazana u što kraćem periodu od trenutka
+                                nastanka zdravstvenog problema.
                             </p>
                         </div>
                     </div>
@@ -74,92 +52,40 @@ class SistemiZaMedicinskuPomoc extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI ZA MEDICINSKU POMOC</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Prilikom nastanka iznenadnog zdravstvenog problema, svaka sekunda se računa. Postoji
+                                veliki broj situacija u kojima Medicinski panik taster može odigrati ključnu ulogu i
+                                posebno se preporučuje:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>starijim osobama koje žive same;</li>
+                                <li>osobama kod kojih postoji viši stepen rizika od padova, poput osoba koje boluju od
+                                    artritisa, Parkinsonove bolesti, hronične nesvestice;
+                                </li>
+                                <li>osobama koje imaju hronične zdravstvene probleme, poput epilepsije, demencije,
+                                    artritisa, mišićnih oboljenja, srčanih problema, itd.;
+                                </li>
+                                <li>paraplegičarima</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>SISTEMI ZA MEDICINSKU POMOC</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Medicinski panik taster pruža niz benefita korisnicima usluge i to kroz:
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
+                            <ul>
+                                <li>najbržu moguću reakciju u slučaju iznenadnih zdravstvenih problema;</li>
+                                <li>mogućnost reagovanja 24 časa dnevno, 7 dana u nedelji, 365 dana godišnje;
+                                </li>
+                                <li>lakoću korišćenja i pouzdanosti uređaja;
+                                </li>
+                                <li>osećaj spokojstva kako za korisnike, tako i za njihove najbliže;</li>
+                                <li>omogućavanje korisniku da zadrži privatnost i ostane nezavistan u komforu sopstvenog
+                                    doma
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>SISTEMI ZA MEDICINSKU POMOC</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA MEDICINSKU POMOC</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </Aux>
         );

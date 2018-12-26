@@ -27,7 +27,7 @@ const navigationItems = (props) => (
                 <NavigationItem link="/kontrola-sluzbenika-obezbedjenja" navClickedHandler={props.navClickedHandler}>SISTEMI ZA KONTROLU<br></br>POSTOJECIH SLUZBENIKA OBEZBEDJENJA</NavigationItem>
                 <NavigationItem link="/gps-pracenje-vozila" navClickedHandler={props.navClickedHandler}>GPS PRACENJE VOZILA</NavigationItem>
                 <NavigationItem link="/alarmi-vozila" navClickedHandler={props.navClickedHandler}>ALARMNI SISTEMI ZA VOZILA</NavigationItem>
-                <NavigationItem link="/medicinska-pomoc" navClickedHandler={props.navClickedHandler}>SISTEMI ZA MEDICINSKU POMOC</NavigationItem>
+                <NavigationItem link="/medicinska-pomoc" navClickedHandler={props.navClickedHandler}>MEDICINSKI PANIK TASTER</NavigationItem>
                 <NavigationItem link="/iso" navClickedHandler={props.navClickedHandler}>I.S.O.<br></br>INTEGRISANI SISTEMI OBEZBEDJENJA</NavigationItem>
             </div>
         </span>
