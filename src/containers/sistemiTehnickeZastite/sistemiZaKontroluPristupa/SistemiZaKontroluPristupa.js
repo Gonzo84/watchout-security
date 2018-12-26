@@ -13,8 +13,8 @@ class SistemiZaKontroluPristupa extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: sistemiZaKontroluPristupaImg,
-            title: 'SISTEMI ZA KONTROLU PRISTUPA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Sistemi za kontrolu pristupa',
+            description: 'Najbolji način da predvidite budućnost je da je stvorite. Abraham Linkoln'
         };
         return (
             <Aux>
@@ -27,22 +27,9 @@ class SistemiZaKontroluPristupa extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI ZA KONTROLU PRISTUPA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>U skladu sa ciljem ka povećanju bezbednosti i težnjom ka prilagođavanju bezbednosnih
+                                    sistema poslovnoj politici i procedurama rada organizacije, pristup restriktivnim
+                                    prostorijama treba da bude efikasno kontrolisan.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +38,11 @@ class SistemiZaKontroluPristupa extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI ZA KONTROLU PRISTUPA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Prvi stepenik u kontroli pristupa je fizička barijera, koja sprečava prilaz ograđenom
+                                prostoru, a ulazi su strogo definisani i pod nadzorom osoblja službe fizičkog
+                                obezbedenja. Svako lice koje želi pristup mora biti identifikovano i tu funkciju, za
+                                objekte sa malim brojem zaposlenih i ređim posetama sa strane, vrše dežurna lica na
+                                ulazima.
                             </p>
                         </div>
                     </div>
@@ -74,88 +50,24 @@ class SistemiZaKontroluPristupa extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI ZA KONTROLU PRISTUPA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Međutim, kod objekata gde ima više zaposlenih i gde je frekvencija “saobraćaja” povećana,
+                                kao i kod vrlo osetljivih objekata, gde oslonac isključivo na lica fizičkog obezbeđenja
+                                nije dovoljno pouzdan, koriste se razne vrste tehničkih sistema za kontrolu pristupa.
+                                Sem povećane bezbednosti, njihova primena smanjuje i broj mesta nadziranih od strane
+                                lica fizičkog obezbeđenja.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>SISTEMI ZA KONTROLU PRISTUPA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU PRISTUPA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA KONTROLU PRISTUPA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Tehnički sistemi za kontrolu pristupa baziraju se na tri tehnike koje na određeni
+                                utvrđuju autorizovanost lica za ulazak u osetljiv prostor i, po dobijanju potvrde, daju
+                                dozvolu za ulazak. Prva tehnika se zasniva na poznavanju šifre za otvaranje brave, druga
+                                na posedovanju identifikacione kartice ili bedža i treća na prepoznavanju neke fizičke
+                                osobenosti lica koje traži pristup. Pri ovome je moguće vršiti kontrolu u tri nivoa, na
+                                ulazu u krug objekta, na ulazu u sam objekat i na ulazu u kritičnu prostoriju i povezati
+                                sistem sa alarmnim sistemom.
                             </p>
                         </div>
                     </div>

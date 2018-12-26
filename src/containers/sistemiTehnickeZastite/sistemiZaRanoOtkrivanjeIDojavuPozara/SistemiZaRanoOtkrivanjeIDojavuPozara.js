@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
 
-import sistemiZaRanoOtkrivanjeIDojavuPozaraImg from '../../../assets/images/sistemiTehnickeZastite/sistemiZaRanoOtkrivanjeIDojavuPozara.jpg'
+import sistemiZaRanoOtkrivanjeIDojavuPozaraImg
+    from '../../../assets/images/sistemiTehnickeZastite/sistemiZaRanoOtkrivanjeIDojavuPozara.jpg'
 
 
 class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
@@ -13,8 +14,8 @@ class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: sistemiZaRanoOtkrivanjeIDojavuPozaraImg,
-            title: 'SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Sistemi za rano otkrivanje i dojavu požara',
+            description: 'Svaka akcija nosi rizike i troškove, ali su rizici i troškovi komfora i neaktivnosti daleko veći. Džon Kenedi'
         };
         return (
             <Aux>
@@ -27,22 +28,9 @@ class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>Zdravlje i bezbednost ljudi, kao i imovina mogu biti ugroženi u slučaju izbijanja
+                                    požara. Bilans nastale štete usled požara često se može izraziti ljudskim žrtvama,
+                                    finansijskim i materijalnim gubitkom.
                                 </p>
                             </div>
                         </div>
@@ -51,22 +39,15 @@ class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Sistemi za dojavu požara služe za rano otkrivanje, alarmiranje i pravovremenu reakciju
+                                nadležnih timova kako bi se pružila najbolja zaštita od požara. Sistemi za dojavu požara
+                                su za razliku od protivprovalnih uvek aktivni (nalaze se u 24/7 režimu rada).
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Za rano otkrivanje požara koriste se dim i toplota. Javljači požara koriste sledeće
+                                fizičke principe za detekciju požara: merenje prisutnosti dima, merenje temperature,
+                                treperenje plamena ili izvora toplote. Informaciju dalje prosleđuju do protivpožarne
+                                centrale koja proverava verodostojnost signala. U slučaju potvrde kritične vrednosti
+                                aktivira se alarm. Alarm se može oglasiti pomoću sirene ili putem telefonske dojave.
                             </p>
                         </div>
                     </div>
@@ -74,88 +55,25 @@ class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Sisteme za dojavu požara moguće je realizovati u dve varijante: kao konvencionalne i kao
+                                adresabilne sisteme. Osnovna razlika između ova dva sistema je u tome što je kod
+                                adresabilnog sistema dojave požara moguće preciznije detektovati mesto opasnosti. Kod
+                                adresabilnih sistema detektori se povezuju na centralu preko petlje, za razliku od
+                                konvencionalnih gde se detektori povezuju na centralu linijski, a takav način
+                                povezivanja omogućava da sistem ostaje celokupno funkcionalan u slučaju jednog prekida
+                                ili greške u instalaciji. Adresabilni sistemi za detekciju i dojavu požara pružaju
+                                najmoderniju i najbolju zaštitu od požara.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
-                        <div className="container">
-                            <h3>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
-                            <h3>SISTEMI ZA RANO OTKRIVANJE I DOJAVU POZARA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>U ovoj oblasti predlažemo ugradnju visoko kvalitetne opreme proizvođača Detnov, Nittan,
+                                Bentel, Advanced, GLT Zeta, Satel i SD3. Watchout Security u ponudi ima protivpožarne
+                                centrale (pp centrale), senzore, ručne javljače, detektore dima, optičke detektore,
+                                detektore plamena za adresabilne i konvencijalne sisteme dojave požara. Watchout
+                                Security nudi i uslugu servisiranja sistema za dojavu požara.
                             </p>
                         </div>
                     </div>
