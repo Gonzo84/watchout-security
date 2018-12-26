@@ -13,8 +13,8 @@ class SistemiVideoObezbedjenja extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: sistemiVideoObezbedjenjaImg,
-            title: 'SISTEMI VIDEO OBEZBEDJENJA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Video obezbeđenje',
+            description: 'Neka naše brige koje unapred brinemo postanu razmišljanje i planiranje unapred. Vinston Čerčil'
         };
         return (
             <Aux>
@@ -27,22 +27,10 @@ class SistemiVideoObezbedjenja extends Component {
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>SISTEMI VIDEO OBEZBEDJENJA</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
-                                </p>
-                                <p>
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                <p>U savremenim uslovima poslovanja koje karakterišu brojni rizici, kao jedna od mogućih
+                                    kriznih situacija izdvajaju se provale i krađe. Posledice nastale u tom slučaju u
+                                    značajnoj meri mogu narušiti stabilnost poslovanja organizacije. Shodno tome, javlja
+                                    se potreba za ekonomičnim načinom poboljšanja bezbednosti ljudi, objekata i imovine
                                 </p>
                             </div>
                         </div>
@@ -51,22 +39,10 @@ class SistemiVideoObezbedjenja extends Component {
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
                         <div className="container">
-                            <h3>SISTEMI VIDEO OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Sistemi video obezbeđenja se sve više koriste u sigurnosnim sistemima i to sa dobrim
+                                razlogom. Čak i samo prisustvo video kamera odvraća potencijalne provalnike od krađe.
+                                Moguće je takođe otkrivanje opasnosti u ranoj fazi. Odgovarajuća i brza intervencija
+                                omogućiće smanjenje štete.
                             </p>
                         </div>
                     </div>
@@ -74,88 +50,52 @@ class SistemiVideoObezbedjenja extends Component {
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI VIDEO OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Video obezbeđenje omogućava potpunu vizuelnu kontrolu nad objektom i kada dođe do
+                                incidenta mogu se preduzeti odgovarajući koraci da bi se minimizirala šteta.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>CTV (televizija zatvorenog kruga - Closed Circuit TeleVision), kao jedan od
+                                najzastupljenijih sistema tehničke zaštite objekata može se sagledati kroz tri osnovne
+                                funkcije i to: 1. osmatranje, 2. snimanje i 3. odvraćanje.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
-                            <h3>SISTEMI VIDEO OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Prva funkcija (osmatranje) omogućava sagledavanje stanja na značajnim punktovima
+                                restriktivnog prostora i procenu događaja na njima. Na mestima gde se zahteva pregled
+                                posetilaca pre njihovog ulaska, CCTV omogućava da se prati tok događaja i interveniše u
+                                slučaju pokušaja nasilnog ulaska.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Druga funkcija (snimanje) u cilju arhiviranja, omogućava da se ima reprodukcija događaja
+                                kako bi se mogla izvršiti analiza ekscesnih situacija i voditi dalji postupak ukoliko to
+                                bude potrebno.
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
                         <div className="container">
-                            <h3>SISTEMI VIDEO OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <p>Treća funkcija (odvraćanje) ima psihološko dejstvo na lice koje namerava da
+                                neautorizovano uđe u restriktivan prostor. Saznanje da će biti uočeno i snimljeno i da
+                                će samim tim postojati materijalni dokazi njegove neregularne aktivnosti zbog koje može
+                                odgovarati, zastrašuje i najčešće odvraća od namere.
                             </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Sistem video nadzora u svom osnovnom izvođenju treba da sadrži kamere i monitor ili više
+                                njih, međusobno spregnute odgovarajućim prenosnim putem preko uređaja za snimanje i
+                                reprodukciju slike (video rekorder).
                             </p>
                         </div>
                     </div>
 
                     <div className="ws-simple-style-cont">
                         <div className="container">
-                            <h3>SISTEMI VIDEO OBEZBEDJENJA</h3>
-                            <p className="ws-stronger-color">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
-                            </p>
-                            <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged.
+                            <p>Kamere se postavljaju na mestima koja treba osmatrati, u spoljnim i unutrašnjim
+                                prostorima, a kučišta su im prilagođena uslovima primene, kako klimatskim, tako i
+                                ambijentalnim. Mogu biti fiksne i pokretne, sa mogućnošću daljinskog upravljanja optikom
+                                i motorikom - pokretanje po horizontali i vertikali. Monitori se obično smeštaju na
+                                komandno-kontrolnom pultu u kontrolnom centru, gde se smešta i ostala oprema sistema
+                                tehničke zaštite.
                             </p>
                         </div>
                     </div>
