@@ -16,7 +16,6 @@ class Layout extends Component {
     componentDidMount() {
         window.addEventListener('scroll', (event) => {
             let scrollTop = event.currentTarget.pageYOffset;
-            console.log('scrollTop ', scrollTop);
             let toolbarClass = '';
             if(scrollTop > 0){
                 toolbarClass = 'fixed-background-color'
