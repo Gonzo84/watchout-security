@@ -1,8 +1,9 @@
 .CarouselBody {
   z-index: 89;
+  text-align: center !important;
   img {
     height: 80px;
-    width: auto;
+    width: auto !important;
     padding: 0 10px;
   }
 }
