@@ -51,13 +51,21 @@ import starGoldImg from '../../assets/images/home/star-gold.png';
 import starSilverImg from '../../assets/images/home/star-silver.png';
 import starCoperImg from '../../assets/images/home/star-copper.png';
 
-import badgeSsmImg from '../../assets/images/home/sertifikat-1-ISO-9001.png';
-import badgeCreImg from '../../assets/images/home/sertifikat-2-20181.png';
-import badgeCsmImg from '../../assets/images/home/sertifikat-3-20182.png';
-import badgeQsqImg from '../../assets/images/home/sertifikat-4-quality-service.png';
-import badgeCspImg from '../../assets/images/home/sertifikat-5-20183.png';
-import badgeCsp2Img from '../../assets/images/home/sertifikat-6-20433.png';
-import badgeCmsImg from '../../assets/images/home/sertifikat-7-IQNet.png';
+import badge1 from '../../assets/images/home/IQNet.png';
+import badge2 from '../../assets/images/home/ISO-9001.png';
+import badge3 from '../../assets/images/home/Licenca-1-20433.png';
+import badge4 from '../../assets/images/home/Licenca-2-20181.png';
+import badge5 from '../../assets/images/home/Licenca-3-20182.png';
+import badge6 from '../../assets/images/home/Licenca-4-20183.png';
+import badge7 from '../../assets/images/home/Licenca-5-30161.png';
+import badge8 from '../../assets/images/home/Sertifikat-1-SRPS-OHSAS.png';
+import badge9 from '../../assets/images/home/Sertifikat-2-SRPS-ISO.png';
+import badge10 from '../../assets/images/home/Sertifikat-3-SRPS-ISO.png';
+import badge11 from '../../assets/images/home/Sertifikat-4-SRPS-ISO.png';
+import badge12 from '../../assets/images/home/Sertifikat-5-SRPS-ISO.png';
+import badge13 from '../../assets/images/home/Sertifikat-6-SRPS-ISO.png';
+import badge14 from '../../assets/images/home/Sertifikat-7-SRPS-ISO.png';
+import badge15 from '../../assets/images/home/Sertifikat-8-SRPS-ISO.png';
 
 import attachIconImg from '../../assets/images/home/home-document-ikonica.png';
 
@@ -464,13 +472,23 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ws-alt ws-quality-badge">
                         <div className="container">
                             <div className="ws-img-cont">
-                                <img src={badgeSsmImg} alt="badge"/>
-                                <img src={badgeCreImg} alt="badge"/>
-                                <img src={badgeCsmImg} alt="badge"/>
-                                <img src={badgeQsqImg} alt="badge"/>
-                                <img src={badgeCspImg} alt="badge"/>
-                                <img src={badgeCsp2Img} alt="badge"/>
-                                <img src={badgeCmsImg} alt="badge"/>
+                                <img src={badge1} alt="badge"/>
+                                <img src={badge2} alt="badge"/>
+                                <img src={badge3} alt="badge"/>
+                                <img src={badge4} alt="badge"/>
+                                <img src={badge5} alt="badge"/>
+                                <img src={badge6} alt="badge"/>
+                                <img src={badge7} alt="badge"/>
+                            </div>
+                            <div className="ws-img-cont">
+                                <img src={badge8} alt="badge"/>
+                                <img src={badge9} alt="badge"/>
+                                <img src={badge10} alt="badge"/>
+                                <img src={badge11} alt="badge"/>
+                                <img src={badge12} alt="badge"/>
+                                <img src={badge13} alt="badge"/>
+                                <img src={badge14} alt="badge"/>
+                                <img src={badge15} alt="badge"/>
                             </div>
                         </div>
                     </div>
