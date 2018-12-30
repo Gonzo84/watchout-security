@@ -8,21 +8,8 @@ import Footer from '../../components/footer/Footer'
 
 class Layout extends Component {
     state = {
-        showSideDrawer: false,
-        toolbarClass: ''
+        showSideDrawer: false
     };
-
-
-    componentDidMount() {
-        window.addEventListener('scroll', (event) => {
-            let scrollTop = event.currentTarget.pageYOffset;
-            let toolbarClass = '';
-            if(scrollTop > 0){
-                toolbarClass = 'fixed-background-color'
-            }
-            this.setState({toolbarClass: toolbarClass})
-        })
-    }
 
     sideDrawerClosedHandler = () => {
         this.setState({showSideDrawer: false});
@@ -37,7 +24,7 @@ class Layout extends Component {
     render() {
         return (
             <Aux>
-                <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler} toolbarClass={this.state.toolbarClass}/>
+                <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
                 <SideDrawer
                     open={this.state.showSideDrawer}
                     closed={this.sideDrawerClosedHandler}/>
