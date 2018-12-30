@@ -838,7 +838,7 @@
 }
 
 /* line 174, ../src/sass/_body.scss */
-.ws-packages .ws-package:first-child .ws-package-header {
+.ws-packages .ws-package:hover .ws-package-header {
     background-color: #200D21;
     color: #fff;
 }
