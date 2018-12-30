@@ -1129,6 +1129,16 @@
     z-index: 3;
 }
 
+/* line 402, ../src/sass/_body.scss */
+.ws-simple-style-cont .ws-no-side-padding-right {
+    padding-right: 0 !important;
+}
+
+/* line 402, ../src/sass/_body.scss */
+.ws-simple-style-cont .ws-no-side-padding-left {
+    padding-left: 0 !important;
+}
+
 /* line 414, ../src/sass/_body.scss */
 .ws-business-slider {
     border-top: 2px solid #f1eff1;

@@ -515,8 +515,8 @@ class Home extends Component {
                     </div>
                     <div className="ws-simple-style-cont ws-alt ws-card-gradient">
                         <div className="container">
-                            <div className="row">
-                                <div className="col-12 col-md-6">
+                            <div className="row ">
+                                <div className="col-12 col-md-6 ws-no-side-padding-left">
                                     <div className="ws-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
@@ -542,7 +542,7 @@ class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 col-md-6 ws-no-side-padding-right">
                                     <div className="ws-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
@@ -568,7 +568,7 @@ class Home extends Component {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 col-md-6 ws-no-side-padding-left">
                                     <div className="ws-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
@@ -593,7 +593,7 @@ class Home extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-md-6">
+                                <div className="col-12 col-md-6 ws-no-side-padding-right">
                                     <div className="ws-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
