@@ -8,7 +8,7 @@ import DrawerToggle from '../sideDrawer/drawerToggle/DrawerToggle';
 import companyLogo from '../../../assets/images/logo/ws-logo-red-white.png';
 
 const toolbar = (props) => (
-    <header className={classes.Toolbar}>
+    <header className={[classes.Toolbar, props.toolbarClass, 'fixed'].join(' ')}>
         <DrawerToggle clicked={props.drawerToggleClicked}/>
         <div className={classes.Logo}>
             <Logo companyLogo={companyLogo}/>
