@@ -5,7 +5,7 @@ import Logo from '../../logo/Logo';
 import NavigationItems from '../navigationItems/NavigationItems';
 import DrawerToggle from '../sideDrawer/drawerToggle/DrawerToggle';
 
-import companyLogo from '../../../assets/images/logo/ws-logo-white.png';
+import companyLogo from '../../../assets/images/logo/ws-logo-red-white.png';
 
 const toolbar = (props) => (
     <header className={classes.Toolbar}>

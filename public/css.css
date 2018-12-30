@@ -29,6 +29,9 @@
   overflow: hidden;
   position: relative;
 }
+.ws-header .ws-o-nama {
+  padding: 10vh !important;
+ }
 /* line 11, ../src/sass/_header.scss */
 .ws-header.ws-gradient {
   background: linear-gradient(to right, #6D0E0F, #200e22);
@@ -570,6 +573,7 @@
   /* line 6, ../src/sass/_body.scss */
   .ws-body .ws-border-holder {
     min-height: 7.2rem;
+    background-color: #fff !important;
   }
 }
 /* line 16, ../src/sass/_body.scss */

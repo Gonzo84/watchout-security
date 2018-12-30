@@ -98,14 +98,8 @@ const footer = (props) => {
                             <div className="col-sm-12 col-md-7">
                                 <div className="row">
                                     <div className={'col-sm-6 ' + classes.wsInfoBlock}>
-                                        <p className={classes.wsTitle}>About Us</p>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                                            1500s,
-                                            when an unknown printer took a galle
-                                            y of type and scrambled it to make a type specimen book. It has survived not
-                                            only five centuries, but also the
+                                        <p className={classes.wsTitle}>O Nama</p>
+                                        <p>Watchout Security doo osnovan je 2008. godine u Kragujevcu sa fokusom na pružanje usluga fizičko-tehničkog obezbeđenja pravnim i fizičkim licima
                                         </p>
                                     </div>
                                     <div className={'col-sm-6 ' + classes.wsInfoBlock}>

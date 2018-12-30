@@ -1,5 +1,16 @@
 .ONama {
   background-image: url("../../assets/images/oNama/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw 150vh;
+  background-size: cover;
+}
+.ONamaHeader{
+  background-color: #200D21 !important;
+  overflow: hidden;
+  width: 100%;
+}
+.ONamaHeader::after {
+  background-color: #200D21 !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
