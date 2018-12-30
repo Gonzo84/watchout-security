@@ -1643,3 +1643,18 @@ h6 {
   font-weight: bolder;
   padding-bottom: 1.6rem;
 }
+
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    background: #210E21 !important;
+
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+}
+
+.content-correction-fixed-header {
+    padding-top: 70px;
+}
