@@ -469,7 +469,7 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont ws-alt ws-quality-badge">
+                    <div className="ws-simple-style-cont ws-quality-badge">
                         <div className="container">
                             <div className="ws-img-cont">
                                 <img src={badge3} alt="badge"/>
