@@ -52,7 +52,7 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Pored kontrole pristupa, ZKTime sistem koristi se za praćenje i evidentiranje radnog
                                 vremena, tako da menadžment kompanije dobija vrlo efikasan mehanizam za kontrolu utroška

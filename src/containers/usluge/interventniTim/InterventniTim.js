@@ -46,7 +46,7 @@ class InterventniTim extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Svi službenici mobilnog obezbeđenja su adekvatno obučeni da reaguju u najkraćem mogućem
                                 roku. Brz i profesionalan odgovor korisniku uliva osećaj sigurnosti da će neželjeni

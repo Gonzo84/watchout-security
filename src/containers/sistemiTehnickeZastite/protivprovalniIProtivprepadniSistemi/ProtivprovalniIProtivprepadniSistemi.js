@@ -72,7 +72,7 @@ class ProtivprovalniIProtivprepadniSistemi extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <h3>PROTIVPROVALNI I PROTIVPREPADNI SISTEMI</h3>
                             <p className="ws-stronger-color">

@@ -44,7 +44,7 @@ class AlkoTestiranje extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>S obzirom da sve veći broj radnika dolazi na posao u alkoholisanom stanju ili konzumira
                                 alkohol na radnom mestu, sve su učestalije povrede na radu kao i druge neprijatnosti,

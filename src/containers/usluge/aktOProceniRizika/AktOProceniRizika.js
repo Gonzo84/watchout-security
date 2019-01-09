@@ -49,7 +49,7 @@ class AktOProceniRizika extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Rizici se analiziraju u sledećim oblastima:
                             </p>

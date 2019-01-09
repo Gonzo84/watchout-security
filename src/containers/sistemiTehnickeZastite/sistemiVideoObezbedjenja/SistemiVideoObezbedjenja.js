@@ -48,7 +48,7 @@ class SistemiVideoObezbedjenja extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Video obezbeđenje omogućava potpunu vizuelnu kontrolu nad objektom i kada dođe do
                                 incidenta mogu se preduzeti odgovarajući koraci da bi se minimizirala šteta.

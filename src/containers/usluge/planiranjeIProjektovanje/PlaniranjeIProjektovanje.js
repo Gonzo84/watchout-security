@@ -46,7 +46,7 @@ class PlaniranjeIProjektovanje extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Planiranje sistema tehničke zaštite vrši se na osnovu Akta o proceni rizika u zaštiti
                                 lica, imovine i poslovanja izrađenog po standardu serije SRPS A.L2.003. Na osnovu

@@ -46,7 +46,7 @@ class PreventivniObilazakPatrole extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Pružanjem ove usluge maksimalno se povećava bezbednost štićenog prostora, pri čemu se
                                 preventivni obilasci mogu prilagoditi zahtevima korisnika tako da se obavljaju u

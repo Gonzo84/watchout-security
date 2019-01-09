@@ -398,7 +398,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-images-info-block">
+                    <div className="ws-simple-style-cont ws-images-info-block ws-triangle-holder ws-triangle-light">
                         <div className="container">
                             <div className="row">
 
@@ -450,7 +450,7 @@ class Home extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont ws-complex-cards">
+                    <div className="ws-simple-style-cont ws-complex-cards ws-triangle-holder ws-triangle-light">
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE AKCIJE WATCHOUT SECURITY</h6>
@@ -491,7 +491,7 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ">
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE VESTI / ZAKONI WATCHOUT SECURITY</h6>

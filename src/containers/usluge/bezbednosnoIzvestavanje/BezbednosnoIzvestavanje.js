@@ -46,7 +46,7 @@ class BezbednosnoIzvestavanje extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Sastavni deo svakog izveštaja su podaci o sprovedenim aktivnostima koji se dobijaju
                                 automatski iz informacionih sistema. Drugi deo izveštaja su svi uočeni rizici u procesu

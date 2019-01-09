@@ -50,7 +50,7 @@ class SistemiZaMedicinskuPomoc extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Prilikom nastanka iznenadnog zdravstvenog problema, svaka sekunda se računa. Postoji
                                 veliki broj situacija u kojima Medicinski panik taster može odigrati ključnu ulogu i

@@ -48,7 +48,7 @@ class AlarmniSistemiZaVozila extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Auto alarm Watchout Security auto alarm u radu ne koristi digitalnu vezu za komunikaciju
                                 sa kompjuterom vozila, pa ne postoji mogućnost kvara na alarmu i prestanka rada zaštite.

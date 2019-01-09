@@ -55,7 +55,7 @@ class VideoMonitoring extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p><span
                                 className="ws-stronger-color">Sistem video obezbeđenja</span> u svom osnovnom izvođenju

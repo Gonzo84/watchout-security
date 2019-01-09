@@ -52,7 +52,7 @@ class Odrzavanje extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Korektivno održavanje je usluga koje se ne zasniva na preventivi i realizuje se nakon što
                                 nastane kvar u radu sistema, čime se povećava rizik po bezbednost lica, imovine i

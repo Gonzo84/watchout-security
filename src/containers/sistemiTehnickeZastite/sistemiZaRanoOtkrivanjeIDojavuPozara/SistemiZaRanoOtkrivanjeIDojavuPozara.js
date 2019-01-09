@@ -53,7 +53,7 @@ class SistemiZaRanoOtkrivanjeIDojavuPozara extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Sisteme za dojavu požara moguće je realizovati u dve varijante: kao konvencionalne i kao
                                 adresabilne sisteme. Osnovna razlika između ova dva sistema je u tome što je kod

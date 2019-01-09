@@ -48,7 +48,7 @@ class SistemiZaKontroluPristupa extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Međutim, kod objekata gde ima više zaposlenih i gde je frekvencija “saobraćaja” povećana,
                                 kao i kod vrlo osetljivih objekata, gde oslonac isključivo na lica fizičkog obezbeđenja

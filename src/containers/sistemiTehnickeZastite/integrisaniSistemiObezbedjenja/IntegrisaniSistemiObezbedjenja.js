@@ -54,7 +54,7 @@ class IntegrisaniSistemiObezbedjenja extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>I.S.O. pruža mogućnost korisniku da preko aplikacija upravlja integrisanim sistemom
                                 obezbeđenja. Ovlašćena lica su dužna da evidentiraju dolazak/odlazak prinošenjem svoje

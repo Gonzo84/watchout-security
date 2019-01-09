@@ -47,7 +47,7 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Montažom sistema tehničke zaštite smatra se:
                             </p>

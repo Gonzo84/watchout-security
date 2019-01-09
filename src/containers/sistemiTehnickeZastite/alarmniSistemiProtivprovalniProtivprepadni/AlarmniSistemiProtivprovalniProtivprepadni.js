@@ -49,7 +49,7 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Alarmni sistemi mogu služiti kao protivprovalni sistemi, ali i kao sistemi za zaštitu od
                                 požara. Protivprovalni alarmni sistemi mogu biti povezani sa sistemima video nadzora

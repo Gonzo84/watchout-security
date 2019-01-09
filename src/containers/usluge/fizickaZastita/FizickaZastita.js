@@ -44,7 +44,7 @@ class FizickaZastita extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Usluga fizičke zaštite je usluga obezbeđenja koja se pruža ličnim prisustvom i
                                 neposrednom aktivnošću službenika obezbeđenja u određenom prostoru i vremenu, kao i

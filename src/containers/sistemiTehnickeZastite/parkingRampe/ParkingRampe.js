@@ -50,7 +50,7 @@ class ParkingRampe extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Naše parking rampe rade na 24V dc i imaju mogućnost baterijskog napajanja, koje će
                                 omogućiti da koristite rampu čak i kada mnogi to ne mogu – kada nema struje. Ukoliko

@@ -50,7 +50,7 @@ class AlarmMonitoring extends Component {
                     </div>
 
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p className="ws-stronger-color">Alarmni sistemi
                             </p>
