@@ -21,7 +21,7 @@
 
   .logo {
     height: auto;
-    width: 100%;
+    width: 20%;
 
     img {
       height: auto;
@@ -31,6 +31,11 @@
 
   .wsInfoBlock {
     padding-bottom:  $ws-spacing-large;
+    line-height: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
 
   .navLink {
@@ -71,6 +76,7 @@
 
   .wsCopyrights {
     text-align: center;
+    padding-top: 2rem;
 
     a {
       color: $ws-assertive-color;

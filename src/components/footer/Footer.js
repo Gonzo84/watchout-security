@@ -88,65 +88,35 @@ const footer = (props) => {
         <footer className={classes.footer}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-12 col-lg-3">
-                        <span className={classes.logo}>
-                            <Logo companyLogo={companyLogo}/>
-                        </span>
+
+                    <div className="col-md-12 col-lg-4">
+                        <div className={'row ' + classes.wsSoc}>
+                            <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg"  target="_blank"><i className="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/watchoutsecurity/"  target="_blank"><i className="fab fa-instagram"></i></a>
+                        </div>
                     </div>
-                    <div className="col-md-12 col-lg-9">
-                        <div className="row">
-                            <div className="col-sm-12 col-md-7">
-                                <div className="row">
-                                    <div className={'col-sm-6 ' + classes.wsInfoBlock}>
-                                        <p className={classes.wsTitle}>O Nama</p>
-                                        <p>Watchout Security doo osnovan je 2008. godine u Kragujevcu sa fokusom na pružanje usluga fizičko-tehničkog obezbeđenja pravnim i fizičkim licima
-                                        </p>
-                                    </div>
-                                    <div className={'col-sm-6 ' + classes.wsInfoBlock}>
-                                        <p className={classes.wsTitle}>Usluge</p>
-                                        <ul className="nav">
-                                            {uslugeNavigation}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="col-sm-12 col-md-5">
-                                <div className="row">
-                                    <div className={'col-sm-6 ' + classes.wsInfoBlock}>
-                                        <p className={classes.wsTitle}>Bezbednosna resenja</p>
 
-                                        <ul className="nav">
-                                            {resenjaNavigation}
-                                        </ul>
-                                    </div>
-                                    <div className={'col-sm-6 ' + classes.wsInfoBlock}>
-                                        <p className={classes.wsTitle}>Kontakt</p>
+                    <div className="col-md-12 col-lg-4">
+                        <div className={'row ' + classes.wsInfoBlock}>
 
-                                        <p>Adresa</p>
-                                        <p>
-                                            34000 Kragujevac <br/>
-                                            Kralja Aleksandra I Karadjordjevica <br/>
-                                            132
-                                        </p>
-                                        <p>
-                                            11000 Beograd <br/>
-                                            Cara Dusana <br/>
-                                            212
-                                        </p>
-                                        <p>012-3456789</p>
-                                    </div>
-                                </div>
-                            </div>
+                                Spasenije Cane Babović 5<br/>
+                                34000 Kragujevac<br/>
+                        </div>
+                    </div>
+
+
+                    <div className="col-md-12 col-lg-4">
+                        <div className={'row ' + classes.wsInfoBlock}>
+                                Call Centar: 0800 011 013<br/>
+                                email: info@ws.co.rs
                         </div>
                     </div>
                 </div>
-                <div className={'row ' + classes.wsSoc}>
-                    <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                    <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg"  target="_blank"><i className="fab fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/watchoutsecurity/"  target="_blank"><i className="fab fa-instagram"></i></a>
-                </div>
-                <div className={'container ' + classes.wsCopyrights}>
+                <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
+
+                    <Logo companyLogo={companyLogo}/>
                     2018 (c) Watchout Security <a href="#">Privacy Policy</a>
                 </div>
             </div>

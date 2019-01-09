@@ -57,22 +57,30 @@
     &:hover, &:active, &.active {
       color: $ws-color-white-light;
     }
+    li a {
+      color: #1f0e22;
+      font-weight: bold;
+      &:hover, &:active, &.active {
+        background-color: #1f0e22;
+        color: $ws-color-white-light;
+      }
+    }
   }
 
   .dropdownContent {
     font-size: 0.8em;
     display: none;
     position: absolute;
-    background-color: #1f0e22;
+    background-color: #fff;
     min-width: 160px;
     z-index: 1;
-    padding: 1rem;
+    padding: 0.8rem;
   }
 
   .dropdown:hover .dropdownContent {
     display: block;
     a {
-      padding: 8px 4px 8px 0;
+      padding: 0 8px;
     }
   }
 }

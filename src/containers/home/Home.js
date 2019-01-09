@@ -422,7 +422,7 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
-                                            <h2>PRAVNA <br/> LICA</h2>
+                                            <h2>Pravna <br/> lica</h2>
                                             <p className="ws-txt-bold">It is a long established fact that a reader will
                                                 be distracted by
                                                 the readable content of a page when looking at its layout. </p>
@@ -472,8 +472,6 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ws-alt ws-quality-badge">
                         <div className="container">
                             <div className="ws-img-cont">
-                                <img src={badge1} alt="badge"/>
-                                <img src={badge2} alt="badge"/>
                                 <img src={badge3} alt="badge"/>
                                 <img src={badge4} alt="badge"/>
                                 <img src={badge5} alt="badge"/>

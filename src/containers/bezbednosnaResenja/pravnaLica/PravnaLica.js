@@ -161,7 +161,7 @@ class PravnaLica extends Component {
 
                                 <div className="ws-package col-12 col-md-4">
                                     <div className="ws-package-header">
-                                        Mediimu Business
+                                        Medimu Business
                                     </div>
                                     <div className="ws-package-body">
                                         <p>Be in control of your home whether you're there or not.</p>
