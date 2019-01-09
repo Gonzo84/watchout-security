@@ -17,88 +17,31 @@ class PravnaLica extends Component {
         window.scrollTo(0, 0);
         const headerConfig = {
             backgroundImg: pravnaLicaHeaderImg,
-            title: 'PRAVNA LICA',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo malesuada, vestibulum nibh sed, congue neque. Fusce id erat felis. Aenean vel tortor libero. Quisque vitae purus eget magna porta vehicula.'
+            title: 'Pravna lica',
+            description: 'Pored toga što smanjuju bezbednosne rizike, bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa. Implementacijom bezbednosnih sistema poboljšava se celokupno poslovanje privrednih subjekata.'
         };
 
         const contentConfig = [{
             left: true,
             imageUrl: smallImg,
-            title: 'Small Business',
+            title: 'Small',
             id: 'small',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Za male biznise nudimo bezbednosna rešenja koja vlasnicima omogućavaju stvaranje boljeg poslovnog ambijenta kroz visoko kvalitetnu uslugu praćenu veoma pristupačnim cenama. `
         }, {
             left: false,
             imageUrl: mediumImg,
-            title: 'Medium Business',
+            title: 'Medium',
             id: 'medium',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Za biznise koji su pokretač privrede nudimo integrisana bezbednosna rešenja kombinovana fizičko tehničkom zaštitom. Usaglašavanje sa zakonskom regulativom i jasno definisanje zahteva korisnika usluge, omogućavaju da se rizici koji se javljaju u svakodnevnom poslovanju svedu na prihvatljiv nivo.`
         }, {
             left: true,
             imageUrl: largeImg,
-            title: 'Large Business',
+            title: 'Large',
             id: 'large',
-            description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,',
-            content: ` when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.
-                                            </p>
-                                            <p>
-                                                when an unknown printer took a galley of type and scrambled it to make a
-                                                type specimen book.
-                                                It has survived not only five centuries, but also the leap into
-                                                electronic typesetting, remaining essentially unchanged.`
+            description: '',
+            content: `Prilagođavanjem tržištu uspeli smo da odgovorimo na najkompleksnije zahteve najvećih kompanija u Srbiji. Iskustvo u radu sa velikim sistemima danas garantuje kvalitet kakav očekuju odgovorna lica. Maksimalnu usaglašenost sa zakonskom regulativom, kvalitet usaglašen sa međunarodnim standardima i realizacija usaglašena sa zahtevima korisnik, danas čine sastavni deo naše organizacije koja nudi složena bezbednosna rešenja.`
         }];
         return (
             <Aux>
