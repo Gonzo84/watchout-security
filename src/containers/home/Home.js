@@ -582,7 +582,7 @@ class Home extends Component {
                                                 usluge obezbeđivanja lica, imovine i kontinuiteta poslovanja...</p>
                                             <div className="ws-footer">
                                                 <Link to="/procena-rizika">
-                                                    <a>Saznaj vise -</a>
+                                                    Saznaj vise -
                                                 </Link>
                                             </div>
                                         </div>
