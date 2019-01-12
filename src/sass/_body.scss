@@ -518,9 +518,28 @@
   }
 
   img {
+    height: 35px;
+    width: 35px;
+
+  }
+}
+
+@media only screen and (min-width: 575px) {
+
+  /* line 520, ../src/sass/_body.scss */
+  .ws-quality-badge img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  /* line 520, ../src/sass/_body.scss */
+  .ws-quality-badge img {
     height: 100px;
     width: 100px;
-
   }
 }
 
