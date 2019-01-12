@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {HashLink as Link} from 'react-router-hash-link';
 
+
+import classes from './Home.scss';
+
 import SimpleSlider from "../../components/carousel/Carousel";
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 
@@ -38,9 +41,12 @@ import fizickaZastita from '../../assets/images/home/home-fizicka-zastita-ikonic
 import tehnickaZastita from '../../assets/images/home/home-tehnicka-zastita-ikonica.png';
 
 
-import akcija1 from '../../assets/images/home/WS-Paket-4.jpg';
-import akcija2 from '../../assets/images/home/WS-Paket-8.jpg';
-import akcija3 from '../../assets/images/home/WS-Paket-16.jpg';
+import akcija1 from '../../assets/images/home/akcija-akt-o-proceni-rizika.jpg';
+import akcija2 from '../../assets/images/home/akcija-alarm-monitoring.jpg';
+import akcija3 from '../../assets/images/home/akcija-medicinski-panik-taster.jpg';
+import akcija4 from '../../assets/images/home/akcija-odrzavanje-sistema.jpg';
+import akcija5 from '../../assets/images/home/akcija-sistem-za-evidenciju-radnog-vremena.jpg';
+import akcija6 from '../../assets/images/home/akcija-video-monitoring.jpg';
 
 
 import pravnaLicaImg from '../../assets/images/pravnaLica/pravna_lica.jpg';
@@ -51,8 +57,6 @@ import starGoldImg from '../../assets/images/home/star-gold.png';
 import starSilverImg from '../../assets/images/home/star-silver.png';
 import starCoperImg from '../../assets/images/home/star-copper.png';
 
-import badge1 from '../../assets/images/home/IQNet.png';
-import badge2 from '../../assets/images/home/ISO-9001.png';
 import badge3 from '../../assets/images/home/Licenca-1-20433.png';
 import badge4 from '../../assets/images/home/Licenca-2-20181.png';
 import badge5 from '../../assets/images/home/Licenca-3-20182.png';
@@ -214,52 +218,61 @@ class Home extends Component {
 
         const najnovijeAkcijeConfig = [{
             backgroundImg: akcija1,
-            title: 'Alarm monitoring Akcija',
-            star: 'Gold',
-            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
-            duration: {
-                from: '01.09.2017',
-                to: '31.12.2017'
-            }
+            title: 'Procena rizika',
+            star: 'Silver',
+            lead: 'Cilj izrade Akta o proceni rizika',
+            description: ' jeste identifikacija i vrednovanje rizika, predlaganje mera za smanjenje rizika i planiranje realizacije mera i ocena efektivnosti sprovedenih mera.'
         }, {
             backgroundImg: akcija2,
-            title: 'Instalacija alarmnih sistema',
+            title: 'Alarm monitoring',
             star: 'Gold',
-            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
-            duration: {
-                from: '01.09.2017',
-                to: '31.12.2017'
-            }
+            lead: 'Alarm monitoring',
+            description: ' je usluga daljinskog nadzora alarmnog sistema iz Kontrolnog centra Watchout Security-a koja korisniku pruža viši stepen tehničke zaštite kroz signaliziranje neovlašćenog pristupa štićenom prostoru.'
         }, {
             backgroundImg: akcija3,
-            title: 'Instalacija sistema video nadzora',
+            title: 'Medicinski panik tester',
             star: 'Bronze',
-            description: 'U vase objekte WATCHOUT SECURITY ugradjuje PROTIVPROVALNI sistem za zastitu sa izuzetnim...',
-            duration: {
-                from: '01.09.2017',
-                to: '31.12.2017'
-            }
+            lead: 'Medicinski panik tester',
+            description: ' pruža niz benefita korisnicima usluge i to kroz: najbržu moguću reakciju u slučaju iznenadnih zdravstvenih problema, mogućnost reagovanja 24 časa dnevno, 7 dana u nedelji, 365 dana godišnje.'
+        }, {
+            backgroundImg: akcija4,
+            title: 'Održavanje sistema',
+            star: 'Gold',
+            lead: 'Održavanje sistema',
+            description: ' tehničke zaštite podrazumeva predviđanje potencijalnih kvarova i pravovremeno reagovanje u cilju smanjivanja verovatnoće kvara na sistemu.'
+        }, {
+            backgroundImg: akcija5,
+            title: 'Sistemi za evidenciju radnog vremena',
+            star: 'Silver',
+            lead: 'ZKTime',
+            description: ' je sistem za evidenciju radnog vremena zaposlenih i/ili kontrolu pristupa (kontrola prolaza), a on obuhvata beleženje i memorisanje prolazaka, dozvolu pristupa, obradu podataka i, na osnovu rečenog, kreiranje izveštaja.'
+        }, {
+            backgroundImg: akcija6,
+            title: 'Video monitoring',
+            star: 'Gold',
+            lead: 'Video monitoring',
+            description: ' je usluga obezbeđenja koja podrazumeva potpunu vizuelnu kontrolu nad objektom i kada dođe do incidenta mogu se preduzeti odgovarajuće mere da bi se minimizirala šteta.'
         }];
 
         const najnovijeVestiConfig = [{
             title: 'GPS Satelitsko pracenje vozila',
             description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
             nav: {
-                pathname: '/gps-pracenje',
+                pathname: '/gps-pracenje-vozila',
                 hash: ''
             }
         }, {
             title: 'Alko test',
             description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
             nav: {
-                pathname: '/alko-test',
+                pathname: '/alko-testiranje',
                 hash: ''
             }
         }, {
             title: 'Kontrola sluzbenika obezbedjenja',
             description: 'Poboljšanje kvaliteta življenja je polazna ideja integracije i automatizacije svih kućnih sistema kojima se želi jednostavno upravljati, a da pri tome tehnološka rešenja budu nevidljiva i uklopljena u svakodnevni život.',
             nav: {
-                pathname: '/kontrola-sluzbenika',
+                pathname: '/kontrola-sluzbenika-obezbedjenja',
                 hash: ''
             }
         }, {
@@ -303,17 +316,14 @@ class Home extends Component {
             }
             return (
                 <div className="col-12 col-md-4" key={index}>
-                    <div className="ws-card">
+                    <div className={[classes.Akcije, 'ws-card'].join(' ')}>
                         <div className="ws-card-header"
                              style={{backgroundImage: 'url(' + item.backgroundImg + ')'}}>
                             {star}
                         </div>
                         <div className="ws-body">
                             <h6>{item.title}</h6>
-                            <p>{item.description}</p>
-                            <div className="ws-footer">
-                                {item.duration.from} - <span>{item.duration.to}</span>
-                            </div>
+                            <p><span className={[classes.Assertive]}>{item.lead}</span> {item.description}</p>
                         </div>
                     </div>
                 </div>
@@ -454,11 +464,8 @@ class Home extends Component {
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE AKCIJE WATCHOUT SECURITY</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                <p>U prilici smo da Vam ponudimo najpovoljnija i najefikasnija bezbednosna rešenja
+                                    primenom fizičko tehničke zaštite lica, imovine i poslovanja.
                                 </p>
                             </div>
 
@@ -495,11 +502,9 @@ class Home extends Component {
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE VESTI / ZAKONI WATCHOUT SECURITY</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                <p>Danas su aktivnosti u implementaciji fizičko tehničke zaštite jasno definisane kroz
+                                    Zakone i propise, zato Vam informišemo o svim promenama zakonske regulative u
+                                    oblasti privatnog obezbeđenja.
                                 </p>
                             </div>
                         </div>
@@ -519,22 +524,18 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o polaniranju sistema tehnicke
-                                                    zastite
+                                                <div className="ws-text-holder">Zakon o privatnom obezbeđenju
                                                 </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
                                         </div>
                                         <div className="ws-body">
-                                            <p>Poboljsanje kvaliteta zivljenja je polazna ideja integracije i
-                                                automatizacije svih
-                                                kucnih
-                                                sistema kojima se zeli jednostavno upravljati, a da pri tome
-                                                tehnoloska resenja vudu
-                                                nevidljiva
-                                                i uklopljena u svakodnevni zivot.</p>
+                                            <p>Ovim zakonom uređuju se obavezno obezbeđenje i zaštita određenih
+                                                objekata,poslovi i rad pravnih i fizičkih lica u oblasti privatnog
+                                                obezbeđenja, uslovi za njihovo licenciranje, način vršenja poslova i
+                                                ostvarivanje nadzora nad njihovim radom.</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                <a href="http://arhiva.mup.gov.rs/cms/resursi.nsf/Zakon-o-privatnom-obezbedjenju-lat.pdf"
                                                    target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
@@ -545,20 +546,19 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o proceni rizika</div>
+                                                <div className="ws-text-holder">Pravilnik o načinu vršenja tehničke
+                                                    zaštite
+                                                </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
                                         </div>
                                         <div className="ws-body">
-                                            <p>Poboljsanje kvaliteta zivljenja je polazna ideja integracije i
-                                                automatizacije svih
-                                                kucnih
-                                                sistema kojima se zeli jednostavno upravljati, a da pri tome
-                                                tehnoloska resenja vudu
-                                                nevidljiva
-                                                i uklopljena u svakodnevni zivot.</p>
+                                            <p>Na osnovu člana 33. stav 2. Zakona o privatnom obezbeđenju („Službeni
+                                                glasnik RS”, br. 104/13 i 42/15), Ministar unutrašnjih poslova donosi
+                                                PRAVILNIK o izmenama i dopunama Pravilnika o načinu vršenja poslova
+                                                tehničke zaštite i korišćenja tehničkih sredstava...</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
                                                    target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
@@ -571,22 +571,19 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o vrsenju poslova montaze
+                                                <div className="ws-text-holder">Standard SRPS A.L2.003 Procena rizika
                                                 </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
                                         </div>
                                         <div className="ws-body">
-                                            <p>Poboljsanje kvaliteta zivljenja je polazna ideja integracije i
-                                                automatizacije svih
-                                                kucnih
-                                                sistema kojima se zeli jednostavno upravljati, a da pri tome
-                                                tehnoloska resenja vudu
-                                                nevidljiva
-                                                i uklopljena u svakodnevni zivot.</p>
+                                            <p>Korišćenjem ovog standarda se obezbeđuje izvršenje sveobuhvatne procene
+                                                rizika za organe javne vlasti, organizacije koje pružaju ili koriste
+                                                usluge obezbeđivanja lica, imovine i kontinuiteta poslovanja...</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
-                                                   target="_blank">Saznaj vise -</a>
+                                                <Link to="/procena-rizika">
+                                                    <a>Saznaj vise -</a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -596,20 +593,17 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o kontroli pristupa</div>
+                                                <div className="ws-text-holder">Zakon o zaštiti od požara</div>
                                                 <div className="ws-triangle"></div>
                                             </div>
                                         </div>
                                         <div className="ws-body">
-                                            <p>Poboljsanje kvaliteta zivljenja je polazna ideja integracije i
-                                                automatizacije svih
-                                                kucnih
-                                                sistema kojima se zeli jednostavno upravljati, a da pri tome
-                                                tehnoloska resenja vudu
-                                                nevidljiva
-                                                i uklopljena u svakodnevni zivot.</p>
+                                            <p>Ovim zakonom uređuju se sistemi zaštite od požara, prava i obaveze
+                                                državnih organa, organa autonomne pokrajine i organa jedinica lokalne
+                                                samouprave, privrednih društava, drugih pravnih i fizičkih lica,
+                                                organizacija vatrogasne službe ...</p>
                                             <div className="ws-footer">
-                                                <a href="http://www.pks.rs/SADRZAJ/Files/Zakon%20o%20privatnom%20obezbedjenju(3).pdf"
+                                                <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
                                                    target="_blank">Saznaj vise -</a>
                                             </div>
                                         </div>
