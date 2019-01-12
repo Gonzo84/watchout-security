@@ -31,7 +31,7 @@ import sl20Img from '../../assets/images/reference/unior.png';
 import sl21Img from '../../assets/images/reference/unWomen.png';
 import sl22Img from '../../assets/images/reference/zastava.png';
 
-import headerCarousel1 from '../../assets/images/home/header_1_light.jpg';
+import headerCarousel1 from '../../assets/images/home/home-page-main-image.jpg';
 
 
 import fizickaZastita from '../../assets/images/home/home-fizicka-zastita-ikonica.png';
