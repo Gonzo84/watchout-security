@@ -40,6 +40,7 @@ import VideoMonitoring from "./containers/usluge/videoMonitoring/VideoMonitoring
 import InterventniTim from "./containers/usluge/interventniTim/InterventniTim";
 import PreventivniObilazakPatrole from "./containers/usluge/preventivniObilazakPatrole/PreventivniObilazakPatrole";
 import Saradnja from "./containers/saradnja/Saradnja";
+import Analitika from "./containers/analitika/Analitika";
 
 class App extends Component {
     render() {
@@ -51,6 +52,8 @@ class App extends Component {
                     <Route path="/o-nama" component={ONama}/>
 
                     <Route path="/saradnja" component={Saradnja}/>
+
+                    <Route path="/analitika" component={Analitika}/>
 
                     <Route path="/custom-paketi" component={CustomPaketi}/>
                     <Route path="/fizicka-lica" component={FizickaLica}/>

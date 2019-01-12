@@ -1,0 +1,20 @@
+.Analitika {
+  ul {
+    list-style: none;
+  }
+
+  li::before {
+    content: "• ";
+    color:  #f3782e;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Buducnost {
+    max-width: 1140px !important;
+  }
+  .MarginTop {
+    margin-top: 40vh;
+  }
+}

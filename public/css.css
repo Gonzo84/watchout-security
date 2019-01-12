@@ -1592,7 +1592,7 @@
 @media only screen and (min-width: 1350px) {
     /* line 823, ../src/sass/_body.scss */
     .ws-overflow-img-container .ws-left-img .ws-img-cont img {
-        transform: translate(-100px, 0);
+        transform: translate(-150px, 0);
     }
 }
 
