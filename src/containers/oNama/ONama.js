@@ -4,34 +4,6 @@ import React, {Component} from 'react';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './ONama.scss';
 
-
-import sl1Img from '../../assets/images/reference/amss.png';
-import sl2Img from '../../assets/images/reference/asseco.png';
-import sl3Img from '../../assets/images/reference/bmRitam.png';
-import sl4Img from '../../assets/images/reference/diopta.png';
-import sl5Img from '../../assets/images/reference/emisia.png';
-import sl6Img from '../../assets/images/reference/ewe.png';
-import sl7Img from '../../assets/images/reference/fca.png';
-import sl8Img from '../../assets/images/reference/johnsonControl.png';
-import sl9Img from '../../assets/images/reference/knjazMilos.png';
-import sl10Img from '../../assets/images/reference/krka.png';
-import sl11Img from '../../assets/images/reference/kronospan.png';
-import sl12Img from '../../assets/images/reference/mercata.png';
-import sl13Img from '../../assets/images/reference/messer.png';
-import sl14Img from '../../assets/images/reference/milanovic.png';
-import sl15Img from '../../assets/images/reference/ottobock.png';
-
-
-import sl16Img from '../../assets/images/reference/panasonic.png';
-import sl17Img from '../../assets/images/reference/policija.png';
-import sl18Img from '../../assets/images/reference/sunce.png';
-import sl19Img from '../../assets/images/reference/triglav.png';
-import sl20Img from '../../assets/images/reference/unior.png';
-
-
-import sl21Img from '../../assets/images/reference/unWomen.png';
-import sl22Img from '../../assets/images/reference/zastava.png';
-
 class ONama extends Component {
 
     render() {
