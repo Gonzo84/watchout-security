@@ -39,6 +39,7 @@ import AlarmMonitoring from "./containers/usluge/alarmMonitoring/AlarmMonitoring
 import VideoMonitoring from "./containers/usluge/videoMonitoring/VideoMonitoring";
 import InterventniTim from "./containers/usluge/interventniTim/InterventniTim";
 import PreventivniObilazakPatrole from "./containers/usluge/preventivniObilazakPatrole/PreventivniObilazakPatrole";
+import Saradnja from "./containers/saradnja/Saradnja";
 
 class App extends Component {
     render() {
@@ -48,6 +49,8 @@ class App extends Component {
                     <Route path="/" exact component={Home}/>
 
                     <Route path="/o-nama" component={ONama}/>
+
+                    <Route path="/saradnja" component={Saradnja}/>
 
                     <Route path="/custom-paketi" component={CustomPaketi}/>
                     <Route path="/fizicka-lica" component={FizickaLica}/>

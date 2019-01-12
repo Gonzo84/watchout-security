@@ -1,0 +1,43 @@
+.Saradnja {
+  ul {
+    list-style: none;
+  }
+
+  li::before {
+    content: "• ";
+    color:  #f3782e;
+    font-weight: bold;
+  }
+}
+
+.Assertive {
+  color: #f3782e;
+  font-weight: bold;
+}
+.DeoTima {
+  background-image: url("../../assets/images/saradnja/img-0.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Partner {
+  background-image: url("../../assets/images/saradnja/img-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.KorisnikFransize {
+  background-image: url("../../assets/images/saradnja/img-1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.MarginTop {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .Buducnost {
+    max-width: 1140px !important;
+  }
+  .MarginTop {
+    margin-top: 40vh;
+  }
+}

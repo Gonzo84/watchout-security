@@ -50,6 +50,8 @@ const navigationItems = (props) => (
             </div>
         </span>
 
+        <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>SARADNJA</NavigationItem>
+
         <NavigationItem link="/o-nama" navClickedHandler={props.navClickedHandler}>O NAMA</NavigationItem>
     </ul>
 );
