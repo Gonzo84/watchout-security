@@ -727,6 +727,17 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 992px) {
+    .ws-body .ws-triangle-holder {
+        min-height: 150px;
+    }
+
+    /* line 66, ../src/sass/_body.scss */
+    .ws-body .ws-triangle-holder::after {
+        border-width: 150px 100vw 0 0;
+    }
+}
+
 /* line 79, ../src/sass/_body.scss */
 .ws-body .ws-triangle-holder.ws-triangle-light {
     background-color: #f1eff1;
@@ -764,9 +775,15 @@
 
 /* line 116, ../src/sass/_body.scss */
 .ws-simple-style-cont {
-    padding: 6.4rem 0;
+    padding: 3.4rem 0;
     position: relative;
     overflow: hidden;
+}
+
+@media only screen and (min-width: 992px) {
+    .ws-simple-style-cont {
+        padding: 4.4rem 0;
+    }
 }
 
 /* line 121, ../src/sass/_body.scss */
