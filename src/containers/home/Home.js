@@ -433,9 +433,10 @@ class Home extends Component {
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
                                             <h2>Pravna <br/> lica</h2>
-                                            <p className="ws-txt-bold">It is a long established fact that a reader will
-                                                be distracted by
-                                                the readable content of a page when looking at its layout. </p>
+                                            <p className="ws-txt-bold">Pored toga što smanjuju bezbednosne rizike,
+                                                bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa.
+                                                Implementacijom bezbednosnih sistema poboljšava se celokupno poslovanje
+                                                privrednih subjekata. </p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/pravna-lica">
