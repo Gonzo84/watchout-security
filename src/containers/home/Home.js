@@ -87,7 +87,7 @@ class Home extends Component {
                     label: 'vreme reagovanja inteventne patrole'
                 }, {
                     number: '3458',
-                    label: 'instaliranih sistema tehnicke zastite'
+                    label: 'instaliranih sistema tehničke zastite'
                 }, {
                     number: '8765',
                     label: 'instaliranih kamera'
