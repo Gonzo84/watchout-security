@@ -11,6 +11,7 @@ const navigationItems = (props) => (
             <div className={classes.dropdownContent}>
                 <NavigationItem link="/pravna-lica" navClickedHandler={props.navClickedHandler}>PRAVNA LICA</NavigationItem>
                 <NavigationItem link="/fizicka-lica" navClickedHandler={props.navClickedHandler}>FIZIČKA LICA</NavigationItem>
+                <NavigationItem link="/custom-paketi" navClickedHandler={props.navClickedHandler}>CUSTOM PAKETI</NavigationItem>
             </div>
         </span>
 

@@ -45,31 +45,31 @@ import akcija1 from '../../assets/images/home/akcija-akt-o-proceni-rizika.jpg';
 import akcija2 from '../../assets/images/home/akcija-alarm-monitoring.jpg';
 import akcija3 from '../../assets/images/home/akcija-medicinski-panik-taster.jpg';
 import akcija4 from '../../assets/images/home/akcija-odrzavanje-sistema.jpg';
-import akcija5 from '../../assets/images/home/akcija-sistem-za-evidenciju-radnog-vremena.jpg';
+import akcija5 from '../../assets/images/home/akcija_sistem_za-evidenciju_radnog_vremena.jpg';
 import akcija6 from '../../assets/images/home/akcija-video-monitoring.jpg';
 
 
-import pravnaLicaImg from '../../assets/images/pravnaLica/pravna_lica.jpg';
-import fizickaLicaImg from '../../assets/images/fizickaLica/fizicka_lica.jpg';
+import pravnaLicaImg from '../../assets/images/home/pravna_lica.jpg';
+import fizickaLicaImg from '../../assets/images/home/fizicka_lica.jpg';
 
 
 import starGoldImg from '../../assets/images/home/star-gold.png';
 import starSilverImg from '../../assets/images/home/star-silver.png';
 import starCoperImg from '../../assets/images/home/star-copper.png';
 
-import badge3 from '../../assets/images/home/Licenca-1-20433.png';
-import badge4 from '../../assets/images/home/Licenca-2-20181.png';
-import badge5 from '../../assets/images/home/Licenca-3-20182.png';
-import badge6 from '../../assets/images/home/Licenca-4-20183.png';
-import badge7 from '../../assets/images/home/Licenca-5-30161.png';
-import badge8 from '../../assets/images/home/Sertifikat-1-SRPS-OHSAS.png';
-import badge9 from '../../assets/images/home/Sertifikat-2-SRPS-ISO.png';
-import badge10 from '../../assets/images/home/Sertifikat-3-SRPS-ISO.png';
-import badge11 from '../../assets/images/home/Sertifikat-4-SRPS-ISO.png';
-import badge12 from '../../assets/images/home/Sertifikat-5-SRPS-ISO.png';
-import badge13 from '../../assets/images/home/Sertifikat-6-SRPS-ISO.png';
-import badge14 from '../../assets/images/home/Sertifikat-7-SRPS-ISO.png';
-import badge15 from '../../assets/images/home/Sertifikat-8-SRPS-ISO.png';
+import badge3 from '../../assets/images/home/licenc_01.png';
+import badge4 from '../../assets/images/home/licenc_02.png';
+import badge5 from '../../assets/images/home/licenc_03.png';
+import badge6 from '../../assets/images/home/licenc_04.png';
+import badge7 from '../../assets/images/home/licenc_05.png';
+import badge8 from '../../assets/images/home/sert_01.png';
+import badge9 from '../../assets/images/home/sert_02.png';
+import badge10 from '../../assets/images/home/sert_03.png';
+import badge11 from '../../assets/images/home/sert_04.png';
+import badge12 from '../../assets/images/home/sert_05.png';
+import badge13 from '../../assets/images/home/sert_06.png';
+import badge14 from '../../assets/images/home/sert_07.png';
+import badge15 from '../../assets/images/home/sert_08.png';
 
 import attachIconImg from '../../assets/images/home/home-document-ikonica.png';
 
@@ -149,6 +149,46 @@ class Home extends Component {
                 }
             }],
             type: 'resenja'
+        }];
+        const certificatesCarouselConfig = [{
+            backgroundImg: badge3,
+            bodyContent: null
+        }, {
+            backgroundImg: badge4,
+            bodyContent: null
+        }, {
+            backgroundImg: badge5,
+            bodyContent: null
+        }, {
+            backgroundImg: badge6,
+            bodyContent: null
+        }, {
+            backgroundImg: badge7,
+            bodyContent: null
+        }, {
+            backgroundImg: badge8,
+            bodyContent: null
+        }, {
+            backgroundImg: badge9,
+            bodyContent: null
+        }, {
+            backgroundImg: badge10,
+            bodyContent: null
+        }, {
+            backgroundImg: badge11,
+            bodyContent: null
+        }, {
+            backgroundImg: badge12,
+            bodyContent: null
+        }, {
+            backgroundImg: badge13,
+            bodyContent: null
+        }, {
+            backgroundImg: badge14,
+            bodyContent: null
+        }, {
+            backgroundImg: badge15,
+            bodyContent: null
         }];
 
         const clientsCarouselConfig = [{
@@ -290,7 +330,7 @@ class Home extends Component {
         const najnovijeVesti = najnovijeVestiConfig.map(function (item, index) {
             return (
                 <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont" key={index}>
-                    <div className="ws-attached">
+                    <div className="ws-attached ws-on-hover">
                         <div className="ws-body">
                             <div className="ws-icon-cont">
                                 <img src={attachIconImg} alt="icon"/>
@@ -319,7 +359,7 @@ class Home extends Component {
             }
             return (
                 <div className="col-12 col-md-4" key={index}>
-                    <div className={[classes.Akcije, 'ws-card'].join(' ')}>
+                    <div className={[classes.Akcije, 'ws-card  ws-on-hover'].join(' ')}>
                         <div className="ws-card-header"
                              style={{backgroundImage: 'url(' + item.backgroundImg + ')'}}>
                             {star}
@@ -483,24 +523,10 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont ws-quality-badge">
+                    <div className="ws-simple-style-cont ws-slider-clients">
                         <div className="container">
-                            <div className="ws-img-cont">
-                                <img src={badge3} alt="badge"/>
-                                <img src={badge4} alt="badge"/>
-                                <img src={badge5} alt="badge"/>
-                                <img src={badge6} alt="badge"/>
-                                <img src={badge7} alt="badge"/>
-                            </div>
-                            <div className="ws-img-cont">
-                                <img src={badge8} alt="badge"/>
-                                <img src={badge9} alt="badge"/>
-                                <img src={badge10} alt="badge"/>
-                                <img src={badge11} alt="badge"/>
-                                <img src={badge12} alt="badge"/>
-                                <img src={badge13} alt="badge"/>
-                                <img src={badge14} alt="badge"/>
-                                <img src={badge15} alt="badge"/>
+                            <div className="ws-clients">
+                                <SimpleSlider config={certificatesCarouselConfig} slidesToShow='5' dots='false' slidesToScroll='5'/>
                             </div>
                         </div>
                     </div>
@@ -527,7 +553,7 @@ class Home extends Component {
                         <div className="container">
                             <div className="row ">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
-                                    <div className="ws-card">
+                                    <div className="ws-card ws-on-hover">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -549,7 +575,7 @@ class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
-                                    <div className="ws-card">
+                                    <div className="ws-card ws-on-hover">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -574,7 +600,7 @@ class Home extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
-                                    <div className="ws-card">
+                                    <div className="ws-card ws-on-hover">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -596,7 +622,7 @@ class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
-                                    <div className="ws-card">
+                                    <div className="ws-card ws-on-hover">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -625,7 +651,7 @@ class Home extends Component {
                                 <h5>Zadovoljni korisnici</h5>
                             </div>
                             <div className="ws-clients">
-                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='5' dots='false'/>
+                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='3' dots='false' slidesToScroll='3'/>
                             </div>
                         </div>
                     </div>

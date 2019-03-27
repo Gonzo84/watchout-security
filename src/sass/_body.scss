@@ -31,7 +31,7 @@
     }
 
     &::after {
-      border-color: transparent  transparent transparent $secondary-color;
+      border-color: transparent transparent transparent $secondary-color;
       border-style: solid;
       border-width: 0 0 270px 100vw;
       bottom: 0; //-20px;
@@ -53,6 +53,7 @@
       }
     }
   }
+
   ///
 
   .ws-triangle-holder {
@@ -67,17 +68,17 @@
       border-color: transparent $secondary-color transparent transparent;
       border-style: solid;
       border-width: 270px 100vw 0 0;
-      bottom: 0;//-20px;
+      bottom: 0; //-20px;
       content: " ";
-      display:block;
-      left:0;
-      position:absolute;
+      display: block;
+      left: 0;
+      position: absolute;
       top: 0;
-      width:100%;
+      width: 100%;
     }
 
     &.ws-triangle-light {
-      background-color: $secondary-color;//#fff;
+      background-color: $secondary-color; //#fff;
 
       &::after {
         border-color: transparent #fff transparent transparent;
@@ -145,8 +146,8 @@
   }
 
   @media only screen and (min-width: $ws-breakpoint-md) {
-    -webkitbox-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkitbox-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
 
   .ws-package {
@@ -155,8 +156,8 @@
     padding: 0;
 
     @media only screen and (max-width: $ws-breakpoint-md - 1) {
-      -webkitbox-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      -webkitbox-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     }
 
     @media only screen and (min-width: $ws-breakpoint-md) {
@@ -205,7 +206,7 @@
     .ws-package-footer {
       bottom: 0;
       left: 0;
-      padding:  ($ws-spacing-large) 0;
+      padding: ($ws-spacing-large) 0;
       position: absolute;
       text-align: center;
       width: 100%;
@@ -221,13 +222,13 @@
   justify-content: center;
   padding: $ws-spacing;
 
-  &:nth-child(odd){
+  &:nth-child(odd) {
     @media only screen and (min-width: $ws-breakpoint-sm) {
       padding: $ws-spacing $ws-spacing $ws-spacing 0;
     }
   }
 
-  &:nth-child(even){
+  &:nth-child(even) {
     @media only screen and (min-width: $ws-breakpoint-sm) {
       padding: $ws-spacing 0 $ws-spacing $ws-spacing;
     }
@@ -250,7 +251,7 @@
   background-color: #fff;
   padding: $ws-spacing $ws-spacing-large;
   @extend %box-shadow-card;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -271,7 +272,7 @@
   .ws-body {
     padding-bottom: $ws-spacing;
     min-height: 205px;
-    
+
     h6 {
       color: $ws-color-stonger;
       padding-bottom: $ws-spacing;
@@ -380,7 +381,7 @@
       //background-image: url("./assets/images/fizicka-lica/fizicka-lica-info.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      
+
       height: 100%;
       padding-top: 50%;
       position: relative;
@@ -420,7 +421,7 @@
   }
 
   .row {
-    @media only screen and (min-width: $ws-breakpoint-md){
+    @media only screen and (min-width: $ws-breakpoint-md) {
       padding: 0 10%;
     }
   }
@@ -454,6 +455,21 @@
   }
 }
 
+.ws-on-hover {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  &:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+}
+
 /// complex cards
 .ws-complex-cards {
   .ws-centered-info-block {
@@ -478,11 +494,13 @@
 
       .ws-star {
         background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
         height: 40%;
-        left: -5px;
+        left: -20px;
         position: absolute;
-        top: -5px;
-        width: 40%;
+        top: -13px;
+        width: 30%;
       }
     }
 
@@ -499,6 +517,7 @@
 
     .ws-footer {
       padding-top: $ws-spacing-large;
+
       span {
         color: $ws-assertive-color;
         font-weight: 500;
@@ -538,8 +557,8 @@
 
   /* line 520, ../src/sass/_body.scss */
   .ws-quality-badge img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 }
 
@@ -574,7 +593,7 @@
           //background-image: url("./assets/images/card-header-part.png");
           background-repeat: no-repeat;
           position: absolute;
-          
+
           top: -1px;
           left: -5px;
           width: 10px;
@@ -661,9 +680,11 @@
     //  flex-direction: row;
     //  justify-content: space-between;
     //
-      img {
-        padding: 10px 50px;
-      }
+    img {
+      padding: 10px 50px;
+      max-width: 200px;
+    }
+
     //}
 
   }

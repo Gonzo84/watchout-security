@@ -13,7 +13,7 @@ class Carousel extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: parseInt(this.props.slidesToShow),
-            slidesToScroll: 1,
+            slidesToScroll: parseInt(this.props.slidesToScroll) || 1,
             autoplay: true
         };
         const slideItems = this.props.config.map(function (item, index) {
