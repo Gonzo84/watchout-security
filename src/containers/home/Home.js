@@ -73,6 +73,9 @@ import badge15 from '../../assets/images/home/Sertifikat-8-SRPS-ISO.png';
 
 import attachIconImg from '../../assets/images/home/home-document-ikonica.png';
 
+import heroVideoUrl from '../../assets/loopEarth.mp4';
+import HeaderItem from "./headerItem/HeaderItem";
+
 
 class Home extends Component {
     render() {
@@ -332,12 +335,15 @@ class Home extends Component {
         return (
             <Aux>
 
-                <div className="ws-header ws-gradient">
-                    <div className="container">
-                        <div className="ws-slider-cont">
-                            <SimpleSlider config={headerCarouselConfig} slidesToShow='1' type='header'/>
-                        </div>
-                    </div>
+                <div className={[classes.HeaderVideo]}>
+
+                    <video autoPlay
+                           loop
+                           muted
+                           playsInline>
+                        <source src={heroVideoUrl} type="video/mp4" />
+                    </video>
+                    <HeaderItem bodyContent={headerCarouselConfig[0].bodyContent}/>
                 </div>
                 <div className="ws-body">
                     <div className="ws-border-holder">
