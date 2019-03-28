@@ -13,6 +13,7 @@
 
   ///
   $ws-triangle-revers-spacing: 120px;
+
   .ws-triangle-reverse-holder {
     position: absolute;
     top: 0;
@@ -463,6 +464,7 @@
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
+
   &:hover {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.02);
@@ -694,19 +696,27 @@
 .ws-building-plan {
   .ws-plan {
     background-color: $secondary-color;
-    padding: $ws-spacing-large;
     @extend %box-shadow-card;
+    display: none;
 
     > div {
       width: 100% !important;
     }
 
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      height: 360px
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-md) {
+      height: 460px
+    }
+
     @media only screen and (min-width: $ws-breakpoint-lg) {
-      padding: $ws-spacing-large * 2;
+      height: 660px
     }
 
     @media only screen and (min-width: $ws-breakpoint-xl) {
-      padding: $ws-spacing-large * 4;
+      height: 780px
     }
 
     img {
@@ -719,8 +729,13 @@
 /// qa form
 .ws-qa-form {
   .ws-card {
+    background: white;
     padding: ($ws-spacing-large * 2) ($ws-spacing-large * 4) $ws-spacing-large * 4;
     @extend %box-shadow-card;
+
+    @media only screen and (min-width: $ws-breakpoint-sm) {
+      padding: ($ws-spacing-large * 6) 0 ($ws-spacing-large * 2) ($ws-spacing-large * 4);
+    }
   }
 
   .ws-card-header {
@@ -937,5 +952,13 @@
         width: 19%;
       }
     }
+  }
+}
+
+.ws-contact-form {
+  margin-top: 2rem;
+
+  @media only screen and (min-width: $ws-breakpoint-sm) {
+    margin-top: 5rem;
   }
 }

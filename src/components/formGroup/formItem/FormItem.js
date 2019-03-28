@@ -1,15 +1,16 @@
 import React from 'react';
 
-const FormItem = (props) => (
-    <div>
-        <input type="radio"
-               name={props.groupName}
-               value={props.value}
-               className="btn ws-btn-option"
-               onChange={props.onChangeHandler}
-               required/>
-        <label>{props.label}</label>
-    </div>
-);
+const FormItem = (props) => {
+    return (
+        <div>
+            <input type="radio"
+                   value={props.value}
+                   className="btn ws-btn-option"
+                   checked={props.state.selectedOption === 'option1'}
+                   onClick={props.onChangeHandler}/>
+            <label>{props.label}</label>
+        </div>
+    );
+};
 
 export default FormItem;

@@ -15,6 +15,7 @@
     outline: none !important;
     -webkit-appearance: none !important;
   }
+
   input[type='radio']:after {
     width: 17px;
     height: 17px;
@@ -44,5 +45,40 @@
     border: 3px solid white;
     box-shadow: 0 0 1px #505250;
     -webkit-appearance: none;
+  }
+}
+
+.Header {
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  div {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 500px) {
+  .Header {
+    //height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.TitleHolder {
+  width: 100%;
+  margin: 10rem auto;
+  text-align: center;
+  color: white;
+}
+
+.ContactForm {
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e5e1e5;
   }
 }
