@@ -962,3 +962,40 @@
     margin-top: 5rem;
   }
 }
+
+.bluprintTooltip {
+  background: white !important;
+  max-width: 20rem;
+  max-height: 15rem;
+  padding: 0.1rem 0.2rem;
+
+  .ws-tooltip-container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .ws-tooltip-title {
+    position: absolute;
+    height: 1.5rem;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+    top: 0;
+    left: 0;
+    background-color: #1f0e22;
+    color: white;
+    width: 100%;
+    padding: 0.1rem 0.2rem;
+  }
+
+  .ws-tooltip-content {
+    padding: 0.1rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+    color: #6d6e70;
+    font-size: 1rem;
+  }
+}

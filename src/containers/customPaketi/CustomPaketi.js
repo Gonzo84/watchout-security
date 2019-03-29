@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
-import {findDOMNode} from 'react-dom'
 import ReactTooltip from 'react-tooltip'
 
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import Header from '../../components/header/Header';
 import FormGroup from '../../components/formGroup/FormGroup'
 
 import ImageMapper from 'react-image-mapper';
@@ -12,36 +10,48 @@ import ImageMapper from 'react-image-mapper';
 
 import classes from './CustomPaketi.scss';
 
-import paketiPoMeriImg from '../../assets/images/customPaketi/custom.jpg'
 import gradjevinskiPlanImg from '../../assets/images/customPaketi/bluprint.png';
-import fizickaLicaImg from "../../assets/images/home/fizicka_lica.jpg";
-import {HashLink as Link} from "react-router-hash-link";
+import h4 from "eslint-plugin-jsx-a11y/src/util/implicitRoles/h4";
 
 const MAP = {
     name: "my-map",
     areas: [
-        {shape: "circle", coords: [72, 95, 18]},
-        {shape: "circle", coords: [72, 292, 18]},
-        {shape: "circle", coords: [207, 305, 18]},
-        {shape: "circle", coords: [207, 358, 18]},
-        {shape: "circle", coords: [207, 545, 18]},
-        {shape: "circle", coords: [320, 470, 18]},
-        {shape: "circle", coords: [355, 392, 18]},
-        {shape: "circle", coords: [355, 365, 18]},
-        {shape: "circle", coords: [320, 305, 18]},
-        {shape: "circle", coords: [320, 108, 18]},
-        {shape: "circle", coords: [665, 238, 18]},
-        {shape: "circle", coords: [445, 498, 18]},
-        {shape: "circle", coords: [405, 268, 18]},
-        {shape: "circle", coords: [72, 365, 18]},
-        {shape: "circle", coords: [815, 108, 18]},
-        {shape: "circle", coords: [885, 38, 18]},
-        {shape: "circle", coords: [885, 615, 18]},
-        {shape: "circle", coords: [772, 543, 18]}
+        {shape: "circle", coords: [218, 89, 16]},
+        {shape: "circle", coords: [183, 481, 16]},
+        {shape: "circle", coords: [338, 329, 16]},
+        {shape: "circle", coords: [459, 693, 16]},
+        {shape: "circle", coords: [516, 456, 16]},
+        {shape: "circle", coords: [649, 265, 16]},
+        {shape: "circle", coords: [813, 542, 16]},
+        {shape: "circle", coords: [1075, 157, 16]}
     ]
 };
 
-const tooltipMap = ['PARKING RAMPA', 'CITAC KARTICA', 'CITAC KARTICA 2', 'IP DOME KAMERA', 'SPOLJNA SIRENA', 'DETEKTOR DIMA', 'INTERFON SLUSALICA', 'TASTATURA SIFRATOR', 'DETEKTOR POKRETA', 'DALJINSKI UPRAVLJAC', 'PANIK TASTER', 'NVR SNIMAC', 'ALARMNA CENTRALA', 'INTERFON POZIVNO TABLO', 'IP BULLET KAMERA', 'IC BARIJERA', 'IC BARIJERA', 'IC BARIJERA', 'SPOLJNI DETEKTOR POKRETA'];
+const tooltipMap = [{
+    title: 'IP  kamera',
+    content: 'Element sistema video obezbeđenja čijom se pojavom smanjuje rizik od protivpravnih delovanja, viši kvalitet digitalne kamere omogućava kvalitetniji proces osmatranja, snimanja i odvraćanja...'
+}, {
+    title: 'Senzor pokreta',
+    content: 'Element protivprovalnog sistema koji ima za cilj ranu detekciju ulaska neovlašćenog lica u štićeni prostor, detektuje sve vrste pomeranja u štićenoj zoni i informacije šalje alarmnoj centrali...'
+}, {
+    title: 'Senzor za vodu',
+    content: 'Element sistema tehničke zaštite koji detektuje pojavu vode i shodno programiranom modu, šalje informacije o alarmnoj situaciji zainteresovanom subjektu...'
+}, {
+    title: 'Video interfon',
+    content: 'Element sistema kontrole pristupa u štićeni prostor i za cilj da smanji rizik od neovlašćenih ulaza, podiže nivo bezbednosti, olakšava daljinsku kontrolu nad kapijom ili vratima...'
+}, {
+    title: 'Protivpožarni detektor',
+    content: 'Element protivpožarnog sistema koji ima za cilj smanjenje rizika od požara radnim otkrivanje i upozorenjem, detektuje dim ili povišenu temperaturu u zoni delovanja...'
+}, {
+    title: 'Panik taster',
+    content: 'Samostalni uređaj ili kao element protivprepadnog sistema čija je najbitnija funkcija zaštita lica pravovremenom tihom ili zvučnom dojavom, i alarmiranje i obaveštavanje nadležnih lica...'
+}, {
+    title: 'Spoljna sirena',
+    content: 'Element alarmnog sistema koji ima za cilj zvučnu i svetlosnu signalizaciju alarmnog stanja, uglavnom su antisabotažno zaštićene čime je smanjen rizik od sabotaže...'
+}, {
+    title: 'HDCVI kamera',
+    content: 'Element sistema video obezbeđenja čijom se pojavom smanjuje rizik od protivpravnih delovanja, viši kvalitet analogne kamere omogućava kvalitetniji proces osmatranja, snimanja i odvraćanja...'
+}];
 
 class CustomPaketi extends Component {
     state = {
@@ -341,6 +351,13 @@ class CustomPaketi extends Component {
         return (
             <Aux>
                 <ReactTooltip class='bluprintTooltip' getContent={() => {
+                    if (tooltipContent) {
+                        return (
+                            <div className="ws-tooltip-container">
+                                <div className="ws-tooltip-title">{tooltipContent.title}</div>
+                                <div className="ws-tooltip-content">{tooltipContent.content}</div>
+                            </div>)
+                    }
                     return tooltipContent
                 }} className={classes.Tooltip}/>
 
@@ -360,7 +377,8 @@ class CustomPaketi extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className={[classes.Form, 'ws-qa-form', 'ws-simple-style-cont', 'ws-alt', 'ws-simple-style-cont'].join(' ')}>
+                    <div
+                        className={[classes.Form, 'ws-qa-form', 'ws-simple-style-cont', 'ws-alt', 'ws-simple-style-cont'].join(' ')}>
                         <div className="ws-triangle-reverse-holder ws-triangle-light"></div>
                         <div className="container">
                             <form ref={form => (this.formEl1 = form)} onSubmit={this.onFormSubmit}>

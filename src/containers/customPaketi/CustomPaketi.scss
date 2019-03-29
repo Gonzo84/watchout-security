@@ -1,5 +1,9 @@
+@import "../../sass/variables";
+
 .Tooltip {
   transition: 0.3s;
+  white-space: pre-wrap;
+  background-color: white;
 }
 
 .hide {
