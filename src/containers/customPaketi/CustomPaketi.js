@@ -3,7 +3,9 @@ import ReactTooltip from 'react-tooltip'
 
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import FormGroup from '../../components/formGroup/FormGroup'
+import FormGroup from '../../components/formGroup/FormGroup';
+
+import SmtpService from '../../services/SmtpService';
 
 import ImageMapper from 'react-image-mapper';
 
@@ -52,6 +54,88 @@ const tooltipMap = [{
     title: 'HDCVI kamera',
     content: 'Element sistema video obezbeđenja čijom se pojavom smanjuje rizik od protivpravnih delovanja, viši kvalitet analogne kamere omogućava kvalitetniji proces osmatranja, snimanja i odvraćanja...'
 }];
+
+const initialState = {
+    formValid: false,
+    prvaGrupa: {
+        name: 'Da li na štićenom objektu posedujete?',
+        questions: {
+            "Akt o proceni rizika u zaštiti lica, imovine i poslovanja": false,
+            "Plan obezbeđenja": false,
+            "Grafički prikaz elemenata sistema tehničke zaštite": false
+        }
+    },
+    drugaGrupa: {
+        name: 'Da li na štićenom objektu posedujete?',
+        questions: {
+            "Fizičku zaštitu": false,
+            "Tehničku zaštitu": false,
+            "Fizičko-tehničku zaštitu": false
+        }
+    },
+    trecaGrupa: {
+        name: 'Da li posedujete neku vrstu sistema tehničke šaštite?',
+        questions: {
+            "Alarmni sistem": false,
+            "Sistem video obezbeđenja": false,
+            "Kontrola pristupa (čitači, interfoni)": false
+        }
+    },
+    cetvrtaGrupa: {
+        name: 'Da li želite da štitite?',
+        questions: {
+            "Spoljašnji prostor": false,
+            "Unutrašnji prostor": false,
+            "Perimetar": false
+        }
+    },
+    petaGrupa: {
+        name: 'Da li želite da se neovlašćeni ulazak u štićeni prostor?',
+        questions: {
+            "Alarmira preko alarmnog sistema": false,
+            "Snimi preko sistema video obezbeđenja": false,
+            "Onemogući fizičkom barijerom": false
+        }
+    },
+    sestaGrupa: {
+        name: 'Da li želite da se prosledi informacija o neovlašćenom ulasku u objekat?',
+        questions: {
+            "Vama kao korisniku sistema": false,
+            "Kontrolnom centru": false,
+            "Vama i kontrolnom centru": false
+        }
+    },
+    sedmaGrupa: {
+        name: 'Da li želite da se uzrok dojave sa štićenog objekta utvrđuje?',
+        questions: {
+            "Od strane nekog od lica koje ste Vi ovlastili": false,
+            "Od strane službenika obezbeđenja iz kontrolnog centra": false,
+            "Od strane službenika obezbeđenja u interventnoj patroli": false
+        }
+    },
+    osmaGrupa: {
+        name: 'Da li želite da instalirane sisteme tehničke zaštite održavamo?',
+        questions: {
+            "Preventivno": false,
+            "Korektivno": false,
+            "Preventivno i korektivno": false
+        }
+    },
+    devetaGrupa: {
+        name: 'Da li želite da poboljšate poslovne procese kroz?',
+        questions: {
+            "Kontrolu radnog vremena zaposlenih": false,
+            "Kontrolu voznog parka i parking prostora": false,
+            "Kontrolu kretanja posetilaca u Vašem objektu": false
+        }
+    },
+    contactForm: {
+        name: '',
+        mail: '',
+        comment: ''
+    },
+    successMsg: false
+};
 
 class CustomPaketi extends Component {
     state = {
@@ -132,7 +216,8 @@ class CustomPaketi extends Component {
             name: '',
             mail: '',
             comment: ''
-        }
+        },
+        successMsg: false
     };
 
     checkFormValidity = (form) => {
@@ -155,16 +240,54 @@ class CustomPaketi extends Component {
 
     onFormSubmit = (event) => {
         event.preventDefault();
-        console.log('state ', this.state)
+        let sender = new SmtpService();
+        let body = this.getMailBody(this.state);
+        sender.send({
+            Host: "smtp.gmail.com",
+            Username: "testmailwatchout@gmail.com",
+            Password: "password2019",
+            To: 'testmailwatchout@gmail.com',
+            From: this.state.contactForm.mail,
+            Subject: "Upit za custom pakete",
+            Body: body
+        }).then(this.onSendMessageSuccess.bind(this)
+        );
+
+    };
+    getMailBody = (state) => {
+        let body = `Ime i prezime / Naziv organizacije: ${this.state.contactForm.name} <br> <br> Komantar : ${this.state.contactForm.comment} <br> <br> `;
+        for (let property in this.state) {
+            if (this.state.hasOwnProperty(property) && property !== 'formValid' && property !== 'contactForm' && property !== 'successMsg') {
+                let question = this.state[property].name;
+                let answers = '';
+                for (let answer in this.state[property].questions) {
+                    let questions = this.state[property].questions;
+                    if (questions.hasOwnProperty(answer) && questions[answer]) {
+                        answers = answers.concat(`${answer} ; <br>`)
+                    }
+                }
+                body = body.concat(`${question} : <br> ${answers} <br> <br>`)
+            }
+        }
+        return body;
+    };
+
+    onSendMessageSuccess = (message) => {
+        this.setState(initialState);
+        this.setState({successMsg: true});
+        setTimeout(() => {
+            this.setState({successMsg: false});
+        }, 3000)
     };
 
     updateState = (groupName, event) => {
-        const {questions} = {...this.state[groupName]};
-        const currentState = questions;
+        const oldState = {...this.state};
+        const questions = oldState[groupName].questions;
         const question = event.target.value;
-        currentState[question] = !currentState[question];
-
-        this.setState({question: currentState});
+        questions[question] = !questions[question];
+        this.setState({
+            ...this.oldState
+        });
     };
 
     render() {
@@ -348,6 +471,15 @@ class CustomPaketi extends Component {
                 onChangeHandler: this.updateState.bind(this, 'devetaGrupa')
             }]
         };
+
+        const messageSent = this.state.successMsg;
+        let successMsg;
+
+        if (messageSent) {
+            successMsg = <div>Poruka je uspešno poslata</div>;
+        } else {
+            successMsg = null;
+        }
         return (
             <Aux>
                 <ReactTooltip class='bluprintTooltip' getContent={() => {
@@ -428,16 +560,19 @@ class CustomPaketi extends Component {
                                                     name="name"
                                                     type="text"
                                                     placeholder="Ime i prezime / Naziv organizacije"
+                                                    value={this.state.contactForm.name}
                                                     onChange={this.onContactFormChange}/>
                                                 <input
                                                     name="mail"
                                                     type="mail"
                                                     placeholder="e-mail"
+                                                    value={this.state.contactForm.mail}
                                                     onChange={this.onContactFormChange}/>
                                                 <textarea
                                                     name="comment"
                                                     type="text"
                                                     placeholder="Tekst"
+                                                    value={this.state.contactForm.comment}
                                                     onChange={this.onContactFormChange}/>
                                             </div>
                                         </div>
@@ -447,6 +582,7 @@ class CustomPaketi extends Component {
                                                 disabled={!this.state.formValid}
                                                 type="submit">Submit
                                         </button>
+                                        {successMsg}
                                     </div>
                                 </div>
                             </form>
