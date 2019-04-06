@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import {HashLink as Link} from 'react-router-hash-link';
+
 
 import Aux from '../../../hoc/Auxiliary/Auxiliary';
 import Header from '../../../components/header/Header';
@@ -24,21 +26,21 @@ class PravnaLica extends Component {
         const contentConfig = [{
             left: true,
             imageUrl: smallImg,
-            title: 'Small',
+            title: 'Objekti malog rizika',
             id: 'small',
             description: '',
-            content: `Za male biznise nudimo bezbednosna rešenja koja vlasnicima omogućavaju stvaranje boljeg poslovnog ambijenta kroz visoko kvalitetnu uslugu praćenu veoma pristupačnim cenama. `
+            content: `Za male biznise nudimo bezbednosna rešenja koja vlasnicima omogućavaju stvaranje boljeg poslovnog ambijenta kroz visoko kvalitetnu uslugu praćenu veoma pristupačnim cenama.`
         }, {
             left: false,
             imageUrl: mediumImg,
-            title: 'Medium',
+            title: 'Objekti umereno velikog rizika',
             id: 'medium',
             description: '',
             content: `Za biznise koji su pokretač privrede nudimo integrisana bezbednosna rešenja kombinovana fizičko tehničkom zaštitom. Usaglašavanje sa zakonskom regulativom i jasno definisanje zahteva korisnika usluge, omogućavaju da se rizici koji se javljaju u svakodnevnom poslovanju svedu na prihvatljiv nivo.`
         }, {
             left: true,
             imageUrl: largeImg,
-            title: 'Large',
+            title: 'Objekti velikog rizika',
             id: 'large',
             description: '',
             content: `Prilagođavanjem tržištu uspeli smo da odgovorimo na najkompleksnije zahteve najvećih kompanija u Srbiji. Iskustvo u radu sa velikim sistemima danas garantuje kvalitet kakav očekuju odgovorna lica. Maksimalnu usaglašenost sa zakonskom regulativom, kvalitet usaglašen sa međunarodnim standardima i realizacija usaglašena sa zahtevima korisnik, danas čine sastavni deo naše organizacije koja nudi složena bezbednosna rešenja.`
@@ -70,11 +72,9 @@ class PravnaLica extends Component {
                     <div>
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>PAKETI I USLUGE</h6>
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                <h6>PAKETI ZA PRAVNA LICA</h6>
+                                <p>predložene usluge i sistemi su pokazali da njihova kombinacija predstavlja
+                                    bezbednosna rešenja koja eliminišu bezbednosne rizike ili ih svode na prihvatljive
                                 </p>
                             </div>
                         </div>
@@ -86,62 +86,108 @@ class PravnaLica extends Component {
 
                                 <div className="ws-package col-12 col-md-4">
                                     <div className="ws-package-header">
-                                        Small Business
+                                        OBJEKTI MALOG RIZIKA
                                     </div>
                                     <div className="ws-package-body">
-                                        <p>Professional monitored security for your home.</p>
                                         <ul>
+                                            <li>Montaža, programiranje i obuka za stz</li>
+                                            <li>Održavanje sistema</li>
                                             <li>Alarm monitoring</li>
-                                            <li>Instalacija alarmnih sistema</li>
-                                            <li>Instalacija sistema za video nadzor</li>
-                                            <li>Procena bezbednosti objekta</li>
+                                            <li>Video monitorig</li>
+                                            <li>Bezbednosno izveštavanje</li>
+                                            <li>Usaglašavanje sa zakonskom regulativom</li>
+                                            <li>Sistemi video obezbeđenja</li>
+                                            <li>Protivprovalni i Protivprepadni alarmni sistemi</li>
+                                            <li>Sistemi za kontrolu pristupa</li>
+                                            <li>Usaglašavanje sa zakonskom regulativom</li>
+                                            <li>Sistemi za evidenciju radnog vremena</li>
+                                            <li>Parking rampe, motori za kapije i pešačke barijere</li>
+                                            <li>Sistemi za kontrolu postojećeg obezbeđenja</li>
+                                            <li>GPS praćenje vozila</li>
+                                            <li>Alarmni sistemi za vozila</li>
                                         </ul>
                                         <div className="ws-package-footer">
-                                            <button type="button" className="btn ws-btn">Request a Quote</button>
+                                            <Link smooth to="custom-paketi/#kontaktForma"
+                                                  style={{textDecoration: 'none'}}>
+                                                <button type="button" className="btn ws-btn">Zatražite ponudu</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="ws-package col-12 col-md-4">
                                     <div className="ws-package-header">
-                                        Medimu Business
+                                        OBJEKTI UMERENO VELIKOG RIZIKA
                                     </div>
                                     <div className="ws-package-body">
-                                        <p>Be in control of your home whether you're there or not.</p>
                                         <ul>
+                                            <li>Procena rizika</li>
+                                            <li>Planiranje i projektovanje sistema tehničke zaštite</li>
+                                            <li>Montaža, programiranje i obuka za stz</li>
+                                            <li>Održavanje sistema</li>
                                             <li>Alarm monitoring</li>
-                                            <li>Instalacija alarmnih sistema</li>
-                                            <li>Instalacija sistema za video nadzor</li>
-                                            <li>Procena bezbednosti objekta</li>
-                                            <li>GPS satelitsko pracenje vozila</li>
-                                            <li>Video nadzor sa monitoringom</li>
-                                            <li>Mobilne patrole</li>
+                                            <li>Angažovanje interventnog tima</li>
+                                            <li>Preventivni obilasci patrolnog tima</li>
+                                            <li>Fizička zaštita</li>
+                                            <li>Alko testiranje zaposlenih</li>
+                                            <li>Bezbednosno izveštavanje</li>
+                                            <li>Usaglašavanje sa zakonskom regulativom</li>
+                                            <li>Sistemi video obezbeđenja</li>
+                                            <li>Protivprovalni i Protivprepadni alarmni sistemi</li>
+                                            <li>Sistemi za rano otkrivanje i dojavu požara</li>
+                                            <li>Sistemi za kontrolu pristupa</li>
+                                            <li>Sistemi za evidenciju radnog vremena</li>
+                                            <li>Parking rampe, motori za kapije i pešačke barijere</li>
+                                            <li>Sistemi za kontrolu postojećih službenika obezbeđenja</li>
+                                            <li>GPS praćenje vozila</li>
+                                            <li>Alarmni sistemi za vozila</li>
                                         </ul>
                                         <div className="ws-package-footer">
-                                            <button type="button" className="btn ws-btn">Request a Quote</button>
+                                            <Link smooth to="custom-paketi/#kontaktForma"
+                                                  style={{textDecoration: 'none'}}>
+                                                <button type="button" className="btn ws-btn">Zatražite ponudu</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="ws-package col-12 col-md-4">
                                     <div className="ws-package-header">
-                                        Large Business
+                                        OBJEKTI VELIKOG RIZIKA
                                     </div>
                                     <div className="ws-package-body">
-                                        <p>Know what's going on in your home from anywhre.</p>
                                         <ul>
+                                            <li>Procena rizika</li>
+                                            <li>Planiranje i projektovanje sistema tehničke zaštite</li>
+                                            <li>Montaža, programiranje i obuka za stz</li>
+                                            <li>Održavanje sistema</li>
                                             <li>Alarm monitoring</li>
-                                            <li>Instalacija alarmnih sistema</li>
-                                            <li>Instalacija sistema za video nadzor</li>
-                                            <li>Procena bezbednosti objekta</li>
-                                            <li>GPS satelitsko pracenje vozila</li>
-                                            <li>Video nadzor sa monitoringom</li>
-                                            <li>Mobilne patrole</li>
-                                            <li>Kontrola portirske sluzbe</li>
-                                            <li>Kontrola pristupa radnog vremena</li>
+                                            <li>Video monitoring</li>
+                                            <li>Angažovanje interventnog tima</li>
+                                            <li>Preventivni obilasci patrolnog tima</li>
+                                            <li>Fizička zaštita</li>
+                                            <li>Alko testiranje zaposlenih</li>
+                                            <li>Bezbednosno izveštavanje</li>
+                                            <li>Usaglašavanje sa zakonskom regulativom</li>
+                                            <li>Sistemi video obezbeđenja</li>
+                                            <li>Protivprovalni i Protivprepadni alarmni sistemi</li>
+                                            <li>Sistemi za rano otkrivanje i dojavu požara</li>
+                                            <li>Sistemi za kontrolu pristup</li>
+                                            <li>Sistemi za evidenciju radnog vremena</li>
+                                            <li>Parking rampe, motori za kapije i pešačke barijere</li>
+                                            <li>Sistemi za kontrolu postojećih službenika obezbeđenja</li>
+                                            <li>GPS praćenje vozila</li>
+                                            <li>Alarmni sistemi za vozila</li>
+                                            <li>Sistemi za medicinsku pomoć</li>
+                                            <li>I. S. O. Integrisani sistem obezbeđenja</li>
+                                            <li>S.O.P. Sistemi za organizaciju parkinga</li>
+                                            <li>Video analitika</li>
                                         </ul>
                                         <div className="ws-package-footer">
-                                            <button type="button" className="btn ws-btn">Request a Quote</button>
+                                            <Link smooth to="custom-paketi/#kontaktForma"
+                                                  style={{textDecoration: 'none'}}>
+                                                <button type="button" className="btn ws-btn">Zatražite ponudu</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

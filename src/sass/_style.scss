@@ -1,13 +1,11 @@
 @import 'variables';
-
 @import 'placeholders';
-
 @import 'header';
 @import 'body';
 @import 'footer';
 
 html {
-  font-size:  62.5%;
+  font-size: 62.5%;
   //@media only screen and (min-width: 576px) {}
   /// https://stackoverflow.com/questions/28988445/css-62-5-why-do-developers-use-it
 }
@@ -92,6 +90,10 @@ h6 {
   font-weight: bold;
 }
 
+.ws-no-padding-left {
+  padding-left: 0 !important;
+}
+
 //
 // z-index fixes
 .container,
@@ -136,7 +138,7 @@ $ws-slider-button-size: 12px;
 
 .ws-box {
   background-color: #fff;
-  padding: 6.4rem;// 3.2rem 6.4rem 6.4rem;
+  padding: 6.4rem; // 3.2rem 6.4rem 6.4rem;
   @extend %box-shadow-card;
 
   &.ws-alt {

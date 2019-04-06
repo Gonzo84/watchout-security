@@ -7,7 +7,7 @@ const navigationItems = (props) => (
     <ul className={classes.NavigationItems}>
         <NavigationItem link="/" exact navClickedHandler={props.navClickedHandler}>POČETNA</NavigationItem>
 
-        <span className={classes.dropdown}>BEZBEDNOSNA REŠENJA <i className="fa fa-caret-down"></i>
+        <span className={classes.dropdown}>REŠENJA<i className="fa fa-caret-down"></i>
             <div className={classes.dropdownContent}>
                 <NavigationItem link="/pravna-lica" navClickedHandler={props.navClickedHandler}>PRAVNA LICA</NavigationItem>
                 <NavigationItem link="/fizicka-lica" navClickedHandler={props.navClickedHandler}>FIZIČKA LICA</NavigationItem>
@@ -15,7 +15,7 @@ const navigationItems = (props) => (
             </div>
         </span>
 
-        <span className={classes.dropdown}>SISTEMI TEHNIČKE ZAŠTITE <i className="fa fa-caret-down"></i>
+        <span className={classes.dropdown}>SISTEMI<i className="fa fa-caret-down"></i>
             <div className={classes.dropdownContent}>
                 <NavigationItem link="/video-obezbedjenje" navClickedHandler={props.navClickedHandler}>SISTEMI VIDEO OBEZBEĐENJA</NavigationItem>
                 <NavigationItem link="/alarmni-sistemi" navClickedHandler={props.navClickedHandler}>ALARMNI SISTEMI PROTIVPROVALNI I PROTIVPREPADNI</NavigationItem>
@@ -33,7 +33,7 @@ const navigationItems = (props) => (
             </div>
         </span>
 
-        <span className={classes.dropdown}>USLUGE <i className="fa fa-caret-down"></i>
+        <span className={classes.dropdown}>USLUGE<i className="fa fa-caret-down"></i>
             <div className={classes.dropdownContent}>
                 <NavigationItem link="/procena-rizika" navClickedHandler={props.navClickedHandler}>AKT O PROCENI RIZIKA</NavigationItem>
                 <NavigationItem link="/planiranje-projektovanje" navClickedHandler={props.navClickedHandler}>PLANIRANJE I PROJEKTOVANJE</NavigationItem>
@@ -53,7 +53,7 @@ const navigationItems = (props) => (
 
         <NavigationItem link="/analitika" navClickedHandler={props.navClickedHandler}>ANALITIKA</NavigationItem>
 
-        <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>SARADNJA</NavigationItem>
+        <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>O VAMA</NavigationItem>
 
         <NavigationItem link="/o-nama" navClickedHandler={props.navClickedHandler}>O NAMA</NavigationItem>
     </ul>

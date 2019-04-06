@@ -86,13 +86,13 @@ class Home extends Component {
                 title: '24/7 u službi vaše bezbednosti!',
                 content: '',
                 widgets: [{
-                    number: '4,3min',
-                    label: 'vreme reagovanja inteventne patrole'
+                    number: 'ispod 4 min',
+                    label: 'reagovanje interventne patrole'
                 }, {
-                    number: '3458',
-                    label: 'instaliranih sistema tehničke zastite'
+                    number: 'preko 7000',
+                    label: 'instaliranih sistema tehničke zaštite'
                 }, {
-                    number: '8765',
+                    number: 'preko 12 000',
                     label: 'instaliranih kamera'
                 }]
             },
@@ -260,23 +260,17 @@ class Home extends Component {
         }];
 
         const najnovijeAkcijeConfig = [{
-            backgroundImg: akcija1,
-            title: 'Procena rizika',
-            star: 'Silver',
-            lead: 'Cilj izrade Akta o proceni rizika',
-            description: ' jeste identifikacija i vrednovanje rizika, predlaganje mera za smanjenje rizika i planiranje realizacije mera i ocena efektivnosti sprovedenih mera.'
-        }, {
             backgroundImg: akcija2,
             title: 'Alarm monitoring',
             star: 'Gold',
             lead: 'Alarm monitoring',
-            description: ' je usluga daljinskog nadzora alarmnog sistema iz Kontrolnog centra Watchout Security-a koja korisniku pruža viši stepen tehničke zaštite kroz signaliziranje neovlašćenog pristupa štićenom prostoru.'
+            description: 'je usluga daljinskog nadzora alarmnog sistema iz Kontrolnog centra Watchout Security-a koja korisniku pruža viši stepen tehničke zaštite kroz signaliziranje neovlašćenog pristupa štićenom prostoru.'
         }, {
-            backgroundImg: akcija3,
-            title: 'Medicinski panik tester',
-            star: 'Bronze',
-            lead: 'Medicinski panik tester',
-            description: ' pruža niz benefita korisnicima usluge i to kroz: najbržu moguću reakciju u slučaju iznenadnih zdravstvenih problema, mogućnost reagovanja 24 časa dnevno, 7 dana u nedelji, 365 dana godišnje.'
+            backgroundImg: akcija6,
+            title: 'Video monitoring',
+            star: 'Gold',
+            lead: 'Video monitoring',
+            description: 'je usluga obezbeđenja koja podrazumeva potpunu vizuelnu kontrolu nad objektom i kada dođe do incidenta mogu se preduzeti odgovarajuće mere da bi se minimizirala šteta.'
         }, {
             backgroundImg: akcija4,
             title: 'Održavanje sistema',
@@ -290,11 +284,17 @@ class Home extends Component {
             lead: 'ZKTime',
             description: ' je sistem za evidenciju radnog vremena zaposlenih i/ili kontrolu pristupa (kontrola prolaza), a on obuhvata beleženje i memorisanje prolazaka, dozvolu pristupa, obradu podataka i, na osnovu rečenog, kreiranje izveštaja.'
         }, {
-            backgroundImg: akcija6,
-            title: 'Video monitoring',
-            star: 'Gold',
-            lead: 'Video monitoring',
-            description: ' je usluga obezbeđenja koja podrazumeva potpunu vizuelnu kontrolu nad objektom i kada dođe do incidenta mogu se preduzeti odgovarajuće mere da bi se minimizirala šteta.'
+            backgroundImg: akcija1,
+            title: 'Procena rizika',
+            star: 'Silver',
+            lead: 'Cilj izrade Akta o proceni rizika',
+            description: ' jeste identifikacija i vrednovanje rizika, predlaganje mera za smanjenje rizika i planiranje realizacije mera i ocena efektivnosti sprovedenih mera.'
+        }, {
+            backgroundImg: akcija3,
+            title: 'Medicinski panik tester',
+            star: 'Bronze',
+            lead: 'Medicinski panik tester',
+            description: ' pruža niz benefita korisnicima usluge i to kroz: najbržu moguću reakciju u slučaju iznenadnih zdravstvenih problema, mogućnost reagovanja 24 časa dnevno, 7 dana u nedelji, 365 dana godišnje.'
         }];
 
         const najnovijeVestiConfig = [{
@@ -381,7 +381,7 @@ class Home extends Component {
                            loop
                            muted
                            playsInline>
-                        <source src={heroVideoUrl} type="video/mp4" />
+                        <source src={heroVideoUrl} type="video/mp4"/>
                     </video>
                     <HeaderItem bodyContent={headerCarouselConfig[0].bodyContent}/>
                 </div>
@@ -394,11 +394,11 @@ class Home extends Component {
 
                             <div className="ws-centered-info-block">
                                 <h6>Bezbednosna rešenja</h6>
-                                <p>
-                                    Bezbednosni koncept prilagođen individualnim potrebama korisnika i štićenog objekta
-                                    uspešno realizujemo na osnovu procene rizika, temeljnog planiranja i implementiranja
-                                    dogovorenih mera.
-                                </p>
+                                <p>Watchout security svojim bezbednosnim rešenjima u procesu obezbeđenja lica, imovine i
+                                    poslovanja sve vrste bezbednosnih rizika svodi na prihvatljiv nivo. Imamo rešenje i
+                                    za najspecifičnije zahteve korisnika jer je bezbednosni koncept prilagođen
+                                    individualnim potrebama korisnika i štićenog objekta kroz procenu rizika, temeljno
+                                    planiranje i implementiranje dogovorenih mera.</p>
                             </div>
 
                             <div className="row">
@@ -410,14 +410,10 @@ class Home extends Component {
                                         </div>
                                         <div className="ws-body">
                                             <h5>Fizička zaštita</h5>
-                                            <p className="ws-stronger-color">Fizičkim obezbeđenjem doprinosi se zaštiti
-                                                ljudi i imovine od oštećenja, uništenja, krađe i drugih oblika štetnog
-                                                delovanja.</p>
-                                            <br></br>
-                                            <p>Usluga fizičke zaštite je usluga obezbeđenja koja se pruža ličnim
-                                                prisustvom i neposrednom aktivnošću službenika obezbeđenja u određenom
-                                                prostoru i vremenu, kao i primenom mera i upotrebom sredstava
-                                                prinude.</p>
+                                            <p className="ws-stronger-color">je usluga obezbeđenja koja se pruža
+                                                prvenstveno ličnim prisustvom i neposrednom aktivnošdu službenika
+                                                obezbeđenja u određenom prostoru i vremenu, kao i primenom mera i
+                                                upotrebom sredstava prinude.</p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/fizicka-zastita">
@@ -436,11 +432,9 @@ class Home extends Component {
                                         </div>
                                         <div className="ws-body">
                                             <h5>Tehnička zaštita</h5>
-                                            {/*<p className="ws-stronger-color">Lorem Ipsum is simply dummy text of the*/}
-                                            {/*printing.</p>*/}
-                                            <p>Savremene tehnologije u službi vaše bezbednosti! Sofisticiranost metoda
-                                                rada, veštine Watchout Security kadrova i visoki standardi kvaliteta
-                                                omogućavaju nam da efikasno štitimo vaše najvrednije resurse.</p>
+                                            <p className="ws-stronger-color">je obezbeđenje lica i imovine koje se vrši
+                                                tehničkim sredstvima i uređajima, njihovim planiranjem, projektovanjem,
+                                                ugradnjom i održavanjem.</p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/daljinski-nadzor">
@@ -462,7 +456,7 @@ class Home extends Component {
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
                                         <div>
                                             <h2>Fizička<br/>lica</h2>
-                                            <p className="ws-txt-bold">Brinemo o bezbednosti vaše porodice i doma
+                                            <p className="ws-txt-bold ws-no-padding-left">Brinemo o bezbednosti vaše porodice i doma
                                                 24/7!</p>
                                         </div>
                                         <div className="ws-footer">
@@ -479,7 +473,7 @@ class Home extends Component {
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
                                             <h2>Pravna <br/> lica</h2>
-                                            <p className="ws-txt-bold">Pored toga što smanjuju bezbednosne rizike,
+                                            <p className="ws-txt-bold ws-no-padding-left">Pored toga što smanjuju bezbednosne rizike,
                                                 bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa.
                                                 Implementacijom bezbednosnih sistema poboljšava se celokupno poslovanje
                                                 privrednih subjekata. </p>
@@ -497,17 +491,17 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-alt ws-business-slider">
-                        <div className="ws-triangle-reverse-holder ws-triangle-light"></div>
-                        <div className="container">
+                    {/*<div className="ws-simple-style-cont ws-alt ws-business-slider">*/}
+                    {/*    <div className="ws-triangle-reverse-holder ws-triangle-light"></div>*/}
+                    {/*    <div className="container">*/}
 
-                            <SimpleSlider config={resenjaCarouselConfig} slidesToShow='1'/>
-                        </div>
+                    {/*        <SimpleSlider config={resenjaCarouselConfig} slidesToShow='1'/>*/}
+                    {/*    </div>*/}
 
-                    </div>
+                    {/*</div>*/}
 
 
-                    <div className="ws-simple-style-cont ws-complex-cards ws-triangle-holder ws-triangle-light">
+                    <div className="ws-simple-style-cont ws-complex-cards ws-triangle-light">
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE AKCIJE WATCHOUT SECURITY</h6>
@@ -526,7 +520,8 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ws-slider-clients">
                         <div className="container">
                             <div className="ws-clients">
-                                <SimpleSlider config={certificatesCarouselConfig} slidesToShow='5' dots='false' slidesToScroll='5'/>
+                                <SimpleSlider config={certificatesCarouselConfig} slidesToShow='5' dots='false'
+                                              slidesToScroll='5'/>
                             </div>
                         </div>
                     </div>
@@ -534,7 +529,7 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ">
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <h6>NAJNOVIJE VESTI / ZAKONI WATCHOUT SECURITY</h6>
+                                <h6>ZAKONSKI OSNOV ZA IMPLEMENTACIJU OBEZBEĐENJA</h6>
                                 <p>Danas su aktivnosti u implementaciji fizičko tehničke zaštite jasno definisane kroz
                                     Zakone i propise, zato Vam informišemo o svim promenama zakonske regulative u
                                     oblasti privatnog obezbeđenja.
@@ -557,7 +552,7 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o privatnom obezbeđenju
+                                                <div className="ws-text-holder">Zakon o privatnom obezbeđenju ...
                                                 </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
@@ -579,8 +574,8 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Pravilnik o načinu vršenja tehničke
-                                                    zaštite
+                                                <div className="ws-text-holder">Pravilnik o načinu vršenja tehničke zašt
+                                                    …
                                                 </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
@@ -589,7 +584,8 @@ class Home extends Component {
                                             <p>Na osnovu člana 33. stav 2. Zakona o privatnom obezbeđenju („Službeni
                                                 glasnik RS”, br. 104/13 i 42/15), Ministar unutrašnjih poslova donosi
                                                 PRAVILNIK o izmenama i dopunama Pravilnika o načinu vršenja poslova
-                                                tehničke zaštite i korišćenja tehničkih sredstava...</p>
+                                                tehničke zaštite i korišćenja tehničkih sredstava...
+                                            </p>
                                             <div className="ws-footer">
                                                 <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
                                                    target="_blank">Saznaj vise -</a>
@@ -605,6 +601,7 @@ class Home extends Component {
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
                                                 <div className="ws-text-holder">Standard SRPS A.L2.003 Procena rizika
+                                                    ...
                                                 </div>
                                                 <div className="ws-triangle"></div>
                                             </div>
@@ -626,7 +623,7 @@ class Home extends Component {
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o zaštiti od požara</div>
+                                                <div className="ws-text-holder">Zakon o zaštiti od požara ...</div>
                                                 <div className="ws-triangle"></div>
                                             </div>
                                         </div>
@@ -634,7 +631,9 @@ class Home extends Component {
                                             <p>Ovim zakonom uređuju se sistemi zaštite od požara, prava i obaveze
                                                 državnih organa, organa autonomne pokrajine i organa jedinica lokalne
                                                 samouprave, privrednih društava, drugih pravnih i fizičkih lica,
-                                                organizacija vatrogasne službe ...</p>
+                                                organizacija vatrogasne službe, nadzor nad sprovođenjem ovog zakona i
+                                                druga pitanja od značaja za sistem zaštite od požara.
+                                            </p>
                                             <div className="ws-footer">
                                                 <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
                                                    target="_blank">Saznaj vise -</a>
@@ -648,10 +647,11 @@ class Home extends Component {
                     <div className="ws-simple-style-cont ws-slider-clients">
                         <div className="container">
                             <div className="ws-slider-title">
-                                <h5>Zadovoljni korisnici</h5>
+                                <h5>Zadovoljni korisnici usluga</h5>
                             </div>
                             <div className="ws-clients">
-                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='3' dots='false' slidesToScroll='3'/>
+                                <SimpleSlider config={clientsCarouselConfig} slidesToShow='3' dots='false'
+                                              slidesToScroll='3'/>
                             </div>
                         </div>
                     </div>

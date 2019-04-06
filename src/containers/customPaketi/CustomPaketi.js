@@ -544,7 +544,7 @@ class CustomPaketi extends Component {
                                 </div>
 
 
-                                <div className="ws-card ws-contact-form">
+                                <div className="ws-card ws-contact-form" id="kontaktForma">
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-12">
                                             <div>
