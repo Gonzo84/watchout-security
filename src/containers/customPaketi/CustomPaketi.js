@@ -243,9 +243,7 @@ class CustomPaketi extends Component {
         let sender = new SmtpService();
         let body = this.getMailBody(this.state);
         sender.send({
-            Host: "smtp.gmail.com",
-            Username: "testmailwatchout@gmail.com",
-            Password: "password2019",
+            SecureToken : "32809f42-d78e-451d-aa15-beaa90f7c5aa",
             To: 'testmailwatchout@gmail.com',
             From: this.state.contactForm.mail,
             Subject: "Upit za custom pakete",

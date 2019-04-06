@@ -17,7 +17,7 @@ class ONama extends Component {
                         <span>Vladimir Jaćimović</span>, direktor i osnivač Watchout Security doo</h6>
                 </div>
 
-                <div className={[classes.ONama, 'ws-body'].join(' ')}>
+                <div className="ws-body">
 
                     <div className="ws-border-holder"></div>
                     <div className=" ws-simple-style-cont ws-politika-sistema">
@@ -56,9 +56,9 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-politika-sistema">
+                    <div className="ws-simple-style-cont ws-politika-sistema ws-triangle-holder">
                         <div className="container">
-                            <div className="ws-box">
+                            <div className="ws-box ws-alt">
                                 <p>Da li znate da je <span className="ws-txt-bold">teorija o hijerarhiji</span> potreba
                                     Abrahama
                                     Maslova jedna od najpoznatijih i najčešće citiranih u zapadnim zemljama? Prema
@@ -72,7 +72,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-politika-sistema">
+                    <div className="ws-simple-style-cont ws-politika-sistema ws-alt">
                         <div className="container">
                             <div className="ws-box">
                                 <p>Sofisticiranost tehnoloških rešenja koja u radu koristimo, kontinuirana edukacija i
@@ -88,7 +88,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-licence">
+                    <div className="ws-simple-style-cont ws-licence ws-triangle-holder ws-triangle-light">
                         <div className="container">
                             <div className="ws-box ws-alt">
                                 <h5>Sertifikati</h5>
@@ -122,9 +122,9 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-licence">
+                    <div className="ws-simple-style-cont ws-licence ws-triangle-holder">
                         <div className="container">
-                            <div className="ws-box ws-alt">
+                            <div className="ws-box">
                                 <h5>Licence </h5>
                                 <p><span className="ws-txt-bold">Watchout Security</span> poseduje sledeće licence
                                     izdate od strane Ministarstva unutrašnjih poslova:</p>
