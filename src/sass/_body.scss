@@ -113,6 +113,10 @@
   }
 }
 
+.ws-top-bottom-padding {
+  padding: 4rem 0;
+}
+
 
 // simple stiled cont
 .ws-simple-style-cont {
@@ -698,25 +702,30 @@
     background-color: $secondary-color;
     @extend %box-shadow-card;
     display: none;
+    max-width: 1440px;
 
     > div {
       width: 100% !important;
     }
 
     @media only screen and (min-width: $ws-breakpoint-sm) {
-      height: 360px
+      height: 380px
     }
 
     @media only screen and (min-width: $ws-breakpoint-md) {
-      height: 460px
+      height: 480px
     }
 
     @media only screen and (min-width: $ws-breakpoint-lg) {
-      height: 660px
+      height: 680px
     }
 
     @media only screen and (min-width: $ws-breakpoint-xl) {
       height: 780px
+    }
+
+    @media only screen and (min-width: $ws-breakpoint-xxl) {
+      height: 980px
     }
 
     img {
@@ -957,6 +966,7 @@
 
 .ws-contact-form {
   margin-top: 2rem;
+  padding-top: 8rem !important;
 
   @media only screen and (min-width: $ws-breakpoint-sm) {
     margin-top: 5rem;
@@ -997,5 +1007,20 @@
     height: 100%;
     color: #6d6e70;
     font-size: 1rem;
+  }
+}
+
+
+.ws-analitika-container {
+  .ws-txt {
+    background: white;
+    padding: 4rem;
+  }
+}
+
+.ws-analitika-img {
+  img {
+    width: 100% !important;
+    height: auto !important;
   }
 }

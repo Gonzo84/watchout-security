@@ -455,7 +455,7 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
                                         <div>
-                                            <h2>Fizička<br/>lica</h2>
+                                            <h4>Fizička<br/>lica</h4>
                                             <p className="ws-txt-bold ws-no-padding-left">Brinemo o bezbednosti vaše porodice i doma
                                                 24/7!</p>
                                         </div>
@@ -472,7 +472,7 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
-                                            <h2>Pravna <br/> lica</h2>
+                                            <h4>Pravna <br/> lica</h4>
                                             <p className="ws-txt-bold ws-no-padding-left">Pored toga što smanjuju bezbednosne rizike,
                                                 bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa.
                                                 Implementacijom bezbednosnih sistema poboljšava se celokupno poslovanje
@@ -505,7 +505,7 @@ class Home extends Component {
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE AKCIJE WATCHOUT SECURITY</h6>
-                                <p>U prilici smo da Vam ponudimo najpovoljnija i najefikasnija bezbednosna rešenja
+                                <p className="ws-top-bottom-padding">U prilici smo da Vam ponudimo najpovoljnija i najefikasnija bezbednosna rešenja
                                     primenom fizičko tehničke zaštite lica, imovine i poslovanja.
                                 </p>
                             </div>

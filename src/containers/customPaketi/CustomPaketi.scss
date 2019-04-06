@@ -15,6 +15,7 @@
 }
 
 .Form {
+  margin-top: 5rem;
   textarea, input {
     outline: none !important;
     -webkit-appearance: none !important;
@@ -72,9 +73,14 @@
 
 .TitleHolder {
   width: 100%;
-  margin: 10rem auto;
   text-align: center;
-  color: white;
+  color: #fff;
+  padding: 5vh;
+
+  h4 {
+    font-size: 3.4rem;
+    font-weight: bolder;
+  }
 }
 
 .ContactForm {

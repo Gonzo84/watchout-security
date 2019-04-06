@@ -19,7 +19,8 @@ class Analitika extends Component {
         window.scrollTo(0, 0);
 
         const contentConfig = [{
-            left: true,
+            left: false,
+            up: true,
             imageUrl: analitika1,
             title: 'People Counter',
             id: 'people',
@@ -27,6 +28,7 @@ class Analitika extends Component {
             content: `Video analitika za brojanje posetilaca koristi standardnu video nadzor opremu tj. IP kameru u kombinaciji sa firmware-om (programska aplikacija instalirana na IP kameru) čime je omogućueno korišćenje video nadzor tehnologije u svrhu dobijanja poslovnih podataka. Parametri poput dnevnog prosečnog broja posetilaca, ili mesečnog, ili broja poseta po određenim satima koriste menadžmentu da efikasnije upravlja raspoloživim resursima i prodajom. Informacije poput konverzione stope kao jednog od osnovnih marketing/prodajnih parametara dostupne su momentalno i to za analizu različitih vremenskih perioda. Naprednije aplikacije za brojanje posetilaca omogućuju dodatni nivo video analitike. Centralizovanim menadžmentom sistema korisnici mogu sa lakoćom voditi mrežu maloprodajnih/veleprodajnih objekata u smislu pametnijeg upravljanja raspoloživim resursima, pravilnijim rasporedom zaposlenih u objektina i optimizacijom operativnih troškova. Video analitički algoritmi namenjeni poput People Counter-a mogu se integrisati sa informacionim sistemom neke kompanije i pružati dodatne (meta) podatke u okviru sintetizovanih poslovnih izveštaja.`
         }, {
             left: false,
+            up: true,
             imageUrl: analitika2,
             title: 'Heat Maps',
             id: 'Heat',
@@ -35,7 +37,8 @@ class Analitika extends Component {
 Video analitika koja se vezuje za tzv. heat mape, ili za kinetičke mape, kompanijama može dati precizan uvid u kretanje i zadržavanje posetilaca ispred određenih lokala, ili trgovačkih pultova sa različitom robom, pa na osnovu ovih parametara menadžment može efikasnije upravljati svojim prodajnim prostorima i bolje pozicionirati određene grupe proizvoda, tokom specifične kampanje npr.
 `
         }, {
-            left: true,
+            left: false,
+            up: true,
             imageUrl: analitika3,
             title: 'Cross Line',
             id: 'Line',
@@ -43,6 +46,7 @@ Video analitika koja se vezuje za tzv. heat mape, ili za kinetičke mape, kompan
             content: `Video analitika cross line koristi mogućnost iscrtavanja virtualne linije u posmatranoj sceni video nadzor kamere, koja dalje omogućuje kreiranje pravila u smislu generisanja sistemskog alarma u slučajevima prelazaka objekata preko ove linije. Cross line video analitika koristi se u svrhu bezbednosti kada se želi osigurati neovlašćen pristup nekom objektu ili nekoj površini. Uz standardnu funkcionalnost vremenskog rasporeda, moguće je efikasno upravljati bezbednošću nekog objekta u toku radnog vremena, kao i van radnog vremena,… Sistem se jednostavno i brzo setuje, a nakon toga po automatizaciji radi i automatski obaveštava vlasnika objekta, ili dežurnog operatera o alarmnim situacijama, shodno unapred setovanim pravilima i vremenskom rasporedu primene pravila.`
         }, {
             left: false,
+            up: true,
             imageUrl: analitika4,
             title: 'ANPR',
             id: 'ANPR',
@@ -63,7 +67,8 @@ Video analitika koja se vezuje za tzv. heat mape, ili za kinetičke mape, kompan
 ·   	Brza identifikacija registarske tablice pomoću svih resursa računara;
 ·   	Veb interfejs za rad u mreži.`
         }, {
-            left: true,
+            left: false,
+            up: true,
             imageUrl: analitika5,
             title: 'Face Detection',
             id: 'Face',
@@ -125,55 +130,9 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
                         </div>
                     </div>
                     <div
-                        className="ws-simple-style-cont ws-overflow-img-container">
+                        className="ws-simple-style-cont ws-overflow-img-container ws-triangle-holder">
                         <div className="container">
-                            <div className="ws-box ws-alt ws-left-img" id="ANPR">
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="ws-img-cont">
-                                            <img src={analitika4} alt="alt"/>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <div className="ws-txt">
-                                            <h3>ANPR</h3>
-                                            <p>
-                                                ANPR - softver za automatsko prepoznavanje registarskih tablica najčešću
-                                                primenu ima u hotelima, stambenim udruženjima, parkiralištima,
-                                                industrijskim i logističkim područjima. Naš sistem je dizajniran da radi
-                                                u svim vremenskim uslovima, bez obzira u kom pravcu vozio automobil,
-                                                adekvatnost ili veoma dobro osvetljenje. Ako osoba kroz kameru može
-                                                prepoznati broj automobila - to će učiniti i naš sistem. Upotreba
-                                                drugih rešenja - daljinski upravljač za otvaranje vrata ili mobilni
-                                                telefon je svakako jeftin i praktičan, ali kada razgovarati telefonom i
-                                                pritiskati dolazak na barijeru, sigurnost, kontrolu i računovodstvo -
-                                                treba da izaberu različite tehnologije. Video analitika za automatsko
-                                                prepoznavanje registarskih tablica ima sledeće opcije:
-                                            </p>
-                                            <ul>
-                                                <li>Identifikacija registarske tablice vozila sa daljim skladištenjem
-                                                    slike;</li>
-                                                <li>Upravljanje korisnicima - pristup automobilom po datumu i vremenu;</li>
-                                                <li>Upravljanje parkom sa ograničenjem broja i ograničenjem zone;</li>
-                                                <li>Crna i bela lista vozila;</li>
-                                                <li>Automatska kontrola opreme prema postavljenim parametrima;</li>
-                                                <li>Tačnost prepoznavanja registarske tablice vozila je više od 99%. noć
-                                                    i dan;</li>
-                                                <li>Ispravno otkrivanje registarske tablice pri različitim brzinama
-                                                    vozila;</li>
-                                                <li>Univerzalni sistem se može povezati na bilo koju IP kameru;</li>
-                                                <li>Izveštaji - sposobnost rada sa različitim bazama podataka;</li>
-                                                <li>Mogućnost povezivanja neograničenog broja video kamera;</li>
-                                                <li>Upotreba LED panela;</li>
-                                                <li>Brza identifikacija registarske tablice pomoću svih resursa računara;</li>
-                                                <li>Veb interfejs za rad u mreži.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
+                            <LicaItem {...contentConfig[3]}/>
                         </div>
                     </div>
                     <div

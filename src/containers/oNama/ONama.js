@@ -13,8 +13,8 @@ class ONama extends Component {
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
                     <h4 className="ws-header-title ws-o-nama">O nama</h4>
                     <h6 className="ws-header-title">”Preventiva stvara kapital, zato je bezbednost investicija u bolju
-                        budućnost!”
-                        Vladimir Jaćimović, direktor i osnivač Watchout Security doo</h6>
+                        budućnost!”<br/>
+                        <span>Vladimir Jaćimović</span>, direktor i osnivač Watchout Security doo</h6>
                 </div>
 
                 <div className={[classes.ONama, 'ws-body'].join(' ')}>
@@ -142,7 +142,8 @@ class ONama extends Component {
                                     <li><span className="ws-color-dark">Licenca 20183</span> za montažu, puštanje u rad
                                         i održavanje sistema tehničke zaštite i obuke korisnika;
                                     </li>
-                                    <li><span className="ws-color-dark">Licenca 30161</span> za vršenje poslova projektovanja i nadzora nad izvođenjem sistema tehničke zaštite.
+                                    <li><span className="ws-color-dark">Licenca 30161</span> za vršenje poslova
+                                        projektovanja i nadzora nad izvođenjem sistema tehničke zaštite.
                                     </li>
                                 </ul>
                             </div>

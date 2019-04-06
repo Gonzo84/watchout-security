@@ -18,14 +18,14 @@ import h4 from "eslint-plugin-jsx-a11y/src/util/implicitRoles/h4";
 const MAP = {
     name: "my-map",
     areas: [
-        {shape: "circle", coords: [218, 89, 16]},
-        {shape: "circle", coords: [183, 481, 16]},
-        {shape: "circle", coords: [338, 329, 16]},
-        {shape: "circle", coords: [459, 693, 16]},
-        {shape: "circle", coords: [516, 456, 16]},
-        {shape: "circle", coords: [649, 265, 16]},
-        {shape: "circle", coords: [813, 542, 16]},
-        {shape: "circle", coords: [1075, 157, 16]}
+        {shape: "circle", coords: [280, 114, 20]},
+        {shape: "circle", coords: [235, 615, 20]},
+        {shape: "circle", coords: [434, 420, 20]},
+        {shape: "circle", coords: [587, 888, 20]},
+        {shape: "circle", coords: [663, 585, 20]},
+        {shape: "circle", coords: [831, 339, 20]},
+        {shape: "circle", coords: [1042, 693, 20]},
+        {shape: "circle", coords: [1377, 202, 20]}
     ]
 };
 

@@ -7,7 +7,7 @@
   @media only screen and (min-width: $ws-breakpoint-sm) {
     padding-bottom: $ws-spacing-large * 3;
   }
-  
+
   &.ws-gradient {
     background: linear-gradient(to right, $color-stop1, $color-stop2);
   }
@@ -147,7 +147,7 @@
       @media only screen and (min-width: $ws-breakpoint-xl) {
         min-height: 625px;
       }
-  
+
       @media only screen and (min-width: $ws-breakpoint-xxl) {
         min-height: $ws-slide-largest-height;
       }
@@ -209,11 +209,11 @@
   @media only screen and (min-width: $ws-breakpoint-xl) {
     justify-content: flex-end;
   }
-  
+
   @media only screen and (min-width: $ws-breakpoint-xl) {
     padding: 0 8.2rem 5rem 6rem;
   }
-  
+
   h1 {
     font-weight: bolder;
     font-size: 2.4rem;
@@ -230,9 +230,9 @@
       font-size: 8rem;
       line-height: 0.9em;
     }
-   
+
   }
-  
+
   h3 {
     font-size: 1.6rem;
     font-weight: normal;
@@ -255,7 +255,7 @@
   @media only screen and (min-width: $ws-breakpoint-lg) {
     padding: 2.4rem 8rem 2.4rem 2.4rem;
   }
-  
+
   .ws-slider-counter {
     border: 2px solid #fff;
     border-radius: 50%;
@@ -276,20 +276,20 @@
       height: 140px;
       width: 140px;
     }
-  
+
     @media only screen and (min-width: $ws-breakpoint-xl) {
       height: 160px;
       width: 160px;
     }
-    
+
     &:nth-child(1) {
       border-color: $ws-slider-conuter-color1;
-      
+
       p {
         color: $ws-slider-conuter-color1;
       }
     }
-  
+
     &:nth-child(2) {
       border-color: $ws-slider-conuter-color2;
       margin: 2rem 0;
@@ -297,20 +297,20 @@
       @media only screen and (min-width: $ws-breakpoint-md) {
         margin: 1rem 0;
       }
-  
+
       p {
         color: $ws-slider-conuter-color2;
       }
     }
-  
+
     &:nth-child(3) {
       border-color: $ws-slider-conuter-color3;
-  
+
       p {
         color: $ws-slider-conuter-color3;
       }
     }
-    
+
     h2 {
       font-weight: bold;
       color: #fff;
@@ -322,7 +322,7 @@
         font-size: 2.4rem;
       }
     }
-    
+
     p {
       font-size: 1.2rem;
       text-align: center;
@@ -341,17 +341,17 @@
       max-width: $ws-breakpoint-xxl;
     }
   }
-  
-  
-  
+
+
+
   .slick-slider {
     position: relative;
-    
+
     > div > div {
       @media only screen and (min-width: $ws-breakpoint-xl) {
         min-height: 625px;
       }
-    
+
       @media only screen and (min-width: $ws-breakpoint-xxl) {
             min-height: $ws-slide-largest-height;
       }
@@ -378,19 +378,19 @@
   li {
     border: 1px solid #fff;
     border-radius: 50%;
-    
+
     button {
       background-color: transparent;
       color: transparent;
-      
+
       &::before {
         display: none;
       }
     }
-    
+
     &.slick-active {
       position: relative;
-      
+
       &::before {
         content: '';
         display: block;
@@ -408,7 +408,7 @@
 
 .ws-header-no-slider {
   color: #fff;
-  
+
   div {
     display: flex;
     flex-direction: column;
@@ -420,7 +420,7 @@
       //min-height: 390px;
     }
   }
-  
+
   h4 {
     font-weight: bolder;
     font-size: 1.6rem;
@@ -428,16 +428,16 @@
     @media only screen and (min-width: $ws-breakpoint-sm) {
       font-size: 4.8rem;
     }
-    
+
     @media only screen and (min-width: $ws-breakpoint-md) {
       font-size: 6rem;
     }
   }
-  
+
   p {
     font-size: 1.2rem;
     padding: 1.6rem 5%;
-    
+
     @media only screen and (min-width: $ws-breakpoint-sm) {
       font-size: 1.6rem;
       padding: 1.6rem 10%;
