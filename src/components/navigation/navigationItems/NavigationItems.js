@@ -53,7 +53,7 @@ const navigationItems = (props) => (
 
         <NavigationItem link="/analitika" navClickedHandler={props.navClickedHandler}>ANALITIKA</NavigationItem>
 
-        <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>O VAMA</NavigationItem>
+        <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>SARADNJA</NavigationItem>
 
         <NavigationItem link="/o-nama" navClickedHandler={props.navClickedHandler}>O NAMA</NavigationItem>
     </ul>
