@@ -11,7 +11,7 @@ class Saradnja extends Component {
         return (
             <Aux>
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
-                    <h4 className="ws-header-title ws-o-nama">SARARADNJA</h4>
+                    <h4 className="ws-header-title ws-o-nama">SARADNJA</h4>
 
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>
