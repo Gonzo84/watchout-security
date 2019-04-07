@@ -93,7 +93,7 @@ const footer = (props) => {
                         <div className={'row ' + classes.wsSoc}>
                             <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"><i className="fab fa-facebook-f"></i></a>
                             <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg"  target="_blank"><i className="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/watchoutsecurity/"  target="_blank"><i className="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/watchout.security/?utm_source=ig_profile_share&igshid=1so2kvkqw4jr8&fbclid=IwAR3fcOjYeoozjmz8Idbylp8mKYFyckq7_f-WGTHRzB-hqxMdrpT1uhq45pA"  target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
 

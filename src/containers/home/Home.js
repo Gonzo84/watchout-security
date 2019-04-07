@@ -437,7 +437,7 @@ class Home extends Component {
                                                 ugradnjom i održavanjem.</p>
                                         </div>
                                         <div className="ws-footer">
-                                            <Link to="/daljinski-nadzor">
+                                            <Link to="/alarm-monitoring">
                                                 <button type="button" className="btn ws-btn ws-btn-dark">Pogledaj pakete
                                                     i cene
                                                 </button>
