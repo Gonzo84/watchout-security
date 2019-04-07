@@ -14,10 +14,10 @@ class ONama extends Component {
                     <h4 className="ws-header-title ws-o-nama">O nama</h4>
                     <h6 className="ws-header-title">”Preventiva stvara kapital, zato je bezbednost investicija u bolju
                         budućnost!”<br/>
-                        <span>Vladimir Jaćimović</span>, direktor i osnivač Watchout Security doo</h6>
+                        <span>Vladimir Jaćimović, direktor i osnivač Watchout Security doo</span></h6>
                 </div>
 
-                <div className="ws-body">
+                <div className={[classes.ONama, 'ws-body'].join(' ')}>
 
                     <div className="ws-border-holder"></div>
                     <div className=" ws-simple-style-cont ws-politika-sistema">
@@ -56,7 +56,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-politika-sistema ws-triangle-holder">
+                    <div className="ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box ws-alt">
                                 <p>Da li znate da je <span className="ws-txt-bold">teorija o hijerarhiji</span> potreba
@@ -72,7 +72,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-politika-sistema ws-alt">
+                    <div className="ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box">
                                 <p>Sofisticiranost tehnoloških rešenja koja u radu koristimo, kontinuirana edukacija i
@@ -88,7 +88,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-licence ws-triangle-holder ws-triangle-light">
+                    <div className="ws-simple-style-cont ws-licence">
                         <div className="container">
                             <div className="ws-box ws-alt">
                                 <h5>Sertifikati</h5>
@@ -122,7 +122,7 @@ class ONama extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-licence ws-triangle-holder">
+                    <div className="ws-simple-style-cont ws-licence">
                         <div className="container">
                             <div className="ws-box">
                                 <h5>Licence </h5>

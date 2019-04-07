@@ -546,7 +546,7 @@ class CustomPaketi extends Component {
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-12">
                                             <div>
-                                                <h4>KONTAKT FORMA</h4>
+                                                <h4>Kontakt forma</h4>
                                                 <p>Poštovani korisnici, popunite Vaše kontakt podatke i neki od naših
                                                     menadžera će Vas kontaktirati kako biste specificirali svoj
                                                     zahtev.</p>
