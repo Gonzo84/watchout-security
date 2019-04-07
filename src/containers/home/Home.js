@@ -651,7 +651,7 @@ class Home extends Component {
                             </div>
                             <div className="ws-clients">
                                 <SimpleSlider config={clientsCarouselConfig} slidesToShow='3' dots='false'
-                                              slidesToScroll='3'/>
+                                              slidesToScroll='2'/>
                             </div>
                         </div>
                     </div>
