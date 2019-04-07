@@ -514,7 +514,7 @@ class CustomPaketi extends Component {
                             <form ref={form => (this.formEl1 = form)} onSubmit={this.onFormSubmit}>
                                 <div className="ws-card">
                                     <div className="ws-centered-info-block ws-card-header">
-                                        <h6>Bezbednosna-Resenja - Custom-Paketi</h6>
+                                        <h6>Bezbednosna-Rešenja - Custom-Paketi</h6>
                                         <p>U cilju kreiranja paketa koji su 100% prilagođeni Vama i individualnim
                                             potrebama
                                             za bezbednosnim rešenjima, pripremili smo par pitanja na osnovu kojih ćemo
