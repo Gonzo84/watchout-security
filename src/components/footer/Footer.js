@@ -5,6 +5,7 @@ import classes from './Footer.scss';
 import Logo from '../logo/Logo';
 
 import companyLogo from '../../assets/images/logo/ws-logo-white.png';
+import OpstiUslovi from '../../assets/opsti uslovi Watchout Security doo.pdf'
 
 
 const footer = (props) => {
@@ -117,7 +118,7 @@ const footer = (props) => {
                 <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
 
                     <Logo companyLogo={companyLogo}/>
-                    2018 (c) Watchout Security <a href="#">Privacy Policy</a>
+                    2018 (c) Watchout Security <a href={OpstiUslovi} target='_blank'>Opšti uslovi poslovanja</a>
                 </div>
             </div>
         </footer>)
