@@ -339,7 +339,7 @@ class Home extends Component {
                             <p>{item.description}</p>
                         </div>
                         <div className="ws-footer">
-                            <Link to={item.nav}>Saznaj vise - </Link>
+                            <Link to={item.nav}>Saznaj više - </Link>
                         </div>
                     </div>
                 </div>

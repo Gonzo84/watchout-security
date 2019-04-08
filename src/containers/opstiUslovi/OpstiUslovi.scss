@@ -1,0 +1,16 @@
+.OpstiUsloviHeader {
+  background-color: #200D21 !important;
+  overflow: hidden;
+  width: 100%;
+
+  span {
+    font-weight: 300;
+  }
+}
+
+.OpstiUsloviHeader::after {
+  background-color: #200D21 !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}

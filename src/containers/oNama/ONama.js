@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
 import classes from './ONama.scss';
+import KodeksPonasanja from "../../assets/KOD 01-1 - Kodeks ponasanja WS.pdf";
+import IdentifikacionaKartica from "../../assets/ob-89-3-identifikaciona-kartica.pdf";
 
 class ONama extends Component {
 
@@ -11,7 +13,7 @@ class ONama extends Component {
         return (
             <Aux>
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
-                    <h4 className="ws-header-title ws-o-nama">O nama</h4>
+                    <h4 className="ws-header-title ws-o-nama">O kompaniji</h4>
                     <h6 className="ws-header-title">”Preventiva stvara kapital, zato je bezbednost investicija u bolju
                         budućnost!”<br/>
                         <span>Vladimir Jaćimović, direktor i osnivač Watchout Security doo</span></h6>
@@ -146,6 +148,18 @@ class ONama extends Component {
                                         projektovanja i nadzora nad izvođenjem sistema tehničke zaštite.
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="ws-simple-style-cont ws-licence">
+                        <div className="container">
+                            <div className="ws-box ws-alt">
+                                <div>
+                                    <a className="ws-color-dark" href={KodeksPonasanja} target='_blank'>Kodeks ponašanja</a></div>
+                                <br/>
+                                <div>
+                                    <a className="ws-color-dark" href={IdentifikacionaKartica} target='_blank'>Identifikaciona kartica</a>
+                                </div>
                             </div>
                         </div>
                     </div>

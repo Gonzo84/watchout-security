@@ -31,29 +31,21 @@ class FizickaZastita extends Component {
                                     tehničke podrazumeva i fizičku zaštitu.
                                 </p>
                             </div>
+                            <div className="container">
+                                <p>Fizičkim obezbeđenjem doprinosi se zaštiti ljudi i imovine od oštećenja, uništenja,
+                                    krađe
+                                    i drugih oblika štetnog delovanja.
+                                </p>
+                                <p>Usluga fizičke zaštite je usluga obezbeđenja koja se pruža ličnim prisustvom i
+                                    neposrednom aktivnošću službenika obezbeđenja u određenom prostoru i vremenu, kao i
+                                    primenom mera i upotrebom sredstava prinude.
+                                </p>
+                            </div>
                         </div>
-
                     </div>
 
                     <div className="ws-simple-style-cont ws-alt ws-first">
-                        <div className="container">
-                            <p>Fizičkim obezbeđenjem doprinosi se zaštiti ljudi i imovine od oštećenja, uništenja, krađe
-                                i drugih oblika štetnog delovanja.
-                            </p>
-                        </div>
-                    </div>
 
-
-                    <div className="ws-simple-style-cont ws-alt">
-                        <div className="container">
-                            <p>Usluga fizičke zaštite je usluga obezbeđenja koja se pruža ličnim prisustvom i
-                                neposrednom aktivnošću službenika obezbeđenja u određenom prostoru i vremenu, kao i
-                                primenom mera i upotrebom sredstava prinude.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Službenici Watchout Security-a prolaze obuku i polaganje iz sledećih oblasti:
                             </p>
@@ -67,16 +59,12 @@ class FizickaZastita extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont ws-alt ws-triangle-holder ws-triangle-light">
+
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Službenik obezbeđenja u stalnom je kontaktu sa Kontrolnim centrom, čime se osigurava
                                 pravovremenost reakcije u slučaju kriznih situacija
                             </p>
-                        </div>
-                    </div>
-
-                    <div className="ws-simple-style-cont">
-                        <div className="container">
                             <p>Poslovi koje mogu obavljaju službenici obezbeđenja se sledeći: službenik obezbeđenja za
                                 čuvanje objekta u izgradnji, službenik obezbeđenja za stacionarno čuvanje, službenik
                                 obezbeđenja za rad recepcionara, službenik obezbeđenja za kontrolu ulaza i izlaza u
@@ -86,7 +74,7 @@ class FizickaZastita extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p className="ws-stronger-color">GARANCIJE OBEŠTEĆENJA
                             </p>

@@ -696,6 +696,17 @@
   }
 }
 
+.ws-slider-clients .ws-clients-mobile img {
+  padding: 10px 50px !important;
+}
+
+@media only screen and (min-width: 576px) {
+  /* line 655, ../src/sass/_body.scss */
+  .ws-slider-clients .ws-clients-mobile img {
+    padding: 10px 0px !important;
+  }
+}
+
 /// building plan
 .ws-building-plan {
   .ws-plan {
@@ -1023,4 +1034,17 @@
     width: 100% !important;
     height: auto !important;
   }
+}
+
+.ws-text-centar {
+  text-align: justify;
+}
+
+.ws-text-centar h5 {
+  text-align: center;
+}
+
+.ws-text-centar h6 {
+  text-align: center;
+  margin: 2rem auto;
 }

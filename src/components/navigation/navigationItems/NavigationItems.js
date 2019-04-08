@@ -55,7 +55,13 @@ const navigationItems = (props) => (
 
         <NavigationItem link="/saradnja" navClickedHandler={props.navClickedHandler}>SARADNJA</NavigationItem>
 
-        <NavigationItem link="/o-nama" navClickedHandler={props.navClickedHandler}>O NAMA</NavigationItem>
+
+        <span className={classes.dropdown}>O NAMA<i className="fa fa-caret-down"></i>
+            <div className={classes.dropdownContent}>
+                <NavigationItem link="/o-nama" navClickedHandler={props.navClickedHandler}>O KOMPANIJI</NavigationItem>
+                <NavigationItem link="/opsti-uslovi" navClickedHandler={props.navClickedHandler}>OPŠTI USLOVI</NavigationItem>
+            </div>
+        </span>
     </ul>
 );
 

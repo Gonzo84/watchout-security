@@ -41,6 +41,7 @@ import InterventniTim from "./containers/usluge/interventniTim/InterventniTim";
 import PreventivniObilazakPatrole from "./containers/usluge/preventivniObilazakPatrole/PreventivniObilazakPatrole";
 import Saradnja from "./containers/saradnja/Saradnja";
 import Analitika from "./containers/analitika/Analitika";
+import OpstiUslovi from "./containers/opstiUslovi/OpstiUslovi";
 
 class App extends Component {
     render() {
@@ -50,6 +51,8 @@ class App extends Component {
                     <Route path="/" exact component={Home}/>
 
                     <Route path="/o-nama" component={ONama}/>
+
+                    <Route path="/opsti-uslovi" component={OpstiUslovi}/>
 
                     <Route path="/saradnja" component={Saradnja}/>
 
