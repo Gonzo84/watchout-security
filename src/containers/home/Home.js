@@ -455,8 +455,9 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
                                         <div>
-                                            <h4>Fizička<br/>lica</h4>
-                                            <p className="ws-txt-bold ws-no-padding-left">Brinemo o bezbednosti vaše porodice i doma
+                                            <h4><b>Fizička<br/>lica</b></h4>
+                                            <p className="ws-txt-bold ws-no-padding-left">Brinemo o bezbednosti vaše
+                                                porodice i doma
                                                 24/7!</p>
                                         </div>
                                         <div className="ws-footer">
@@ -472,8 +473,9 @@ class Home extends Component {
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
                                         <div>
-                                            <h4>Pravna <br/> lica</h4>
-                                            <p className="ws-txt-bold ws-no-padding-left">Pored toga što smanjuju bezbednosne rizike,
+                                            <h4><b>Pravna <br/> lica</b></h4>
+                                            <p className="ws-txt-bold ws-no-padding-left">Pored toga što smanjuju
+                                                bezbednosne rizike,
                                                 bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa.
                                                 Implementacijom bezbednosnih sistema poboljšava se celokupno poslovanje
                                                 privrednih subjekata. </p>
@@ -505,7 +507,8 @@ class Home extends Component {
                         <div className="container">
                             <div className="ws-centered-info-block">
                                 <h6>NAJNOVIJE AKCIJE WATCHOUT SECURITY</h6>
-                                <p className="ws-top-bottom-padding">U prilici smo da Vam ponudimo najpovoljnija i najefikasnija bezbednosna rešenja
+                                <p className="ws-top-bottom-padding">U prilici smo da Vam ponudimo najpovoljnija i
+                                    najefikasnija bezbednosna rešenja
                                     primenom fizičko tehničke zaštite lica, imovine i poslovanja.
                                 </p>
                             </div>
@@ -564,7 +567,7 @@ class Home extends Component {
                                                 ostvarivanje nadzora nad njihovim radom.</p>
                                             <div className="ws-footer">
                                                 <a href="http://arhiva.mup.gov.rs/cms/resursi.nsf/Zakon-o-privatnom-obezbedjenju-lat.pdf"
-                                                   target="_blank">Saznaj vise -</a>
+                                                   target="_blank">Saznaj više -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -588,7 +591,7 @@ class Home extends Component {
                                             </p>
                                             <div className="ws-footer">
                                                 <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
-                                                   target="_blank">Saznaj vise -</a>
+                                                   target="_blank">Saznaj više -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -612,7 +615,7 @@ class Home extends Component {
                                                 usluge obezbeđivanja lica, imovine i kontinuiteta poslovanja...</p>
                                             <div className="ws-footer">
                                                 <Link to="/procena-rizika">
-                                                    Saznaj vise -
+                                                    Saznaj više -
                                                 </Link>
                                             </div>
                                         </div>
@@ -636,7 +639,7 @@ class Home extends Component {
                                             </p>
                                             <div className="ws-footer">
                                                 <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
-                                                   target="_blank">Saznaj vise -</a>
+                                                   target="_blank">Saznaj više -</a>
                                             </div>
                                         </div>
                                     </div>
@@ -649,7 +652,7 @@ class Home extends Component {
                             <div className="ws-slider-title">
                                 <h5>Zadovoljni korisnici usluga</h5>
                             </div>
-                            <div className="ws-clients">
+                            <div className="ws-clients ws-clients-mobile">
                                 <SimpleSlider config={clientsCarouselConfig} slidesToShow='3' dots='false'
                                               slidesToScroll='2'/>
                             </div>
