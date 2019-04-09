@@ -80,6 +80,15 @@
   h4 {
     font-size: 3.4rem;
     font-weight: bolder;
+    text-shadow: 0 0 1px #505250;
+  }
+}
+
+@media (min-width: 500px) {
+  .Header {
+    //height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
