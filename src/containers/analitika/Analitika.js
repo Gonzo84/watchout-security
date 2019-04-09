@@ -89,23 +89,26 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>
                         <div className=" ws-box">
-                            <p><span className="ws-txt-bold">Video analitika</span>
+                            <p>Video anlitika je sve zastupljeniji poslovni alat koji ima širok sprektar primene – od
+                                bezbednosnih,
+                                sigurnosnih, kontrolnih, ali i poslovnih video analitičkih softvera za evaluaciju i
+                                upravljanje poslovnim
+                                procesima. Najčešće se primenjuje u maloprodajnim i veleprodajnim prostorima,
+                                proizvodnim pogonima,
+                                industrijskim postrojenjima, bankama i sl... Korišćenje video analitike prvobitno je
+                                rasprostranjeno u
+                                bezbednosne i sigurnosne svrhe. Kasniji razvoj video analitike i video nadzor
+                                analitičkih algoritama, svoju
+                                široku primenu našao je i u poslovnom svetu. U poslovnom svetu, kada je video nadzor u
+                                pitanju, su Data
+                                informacije mnogo vrednije od Piksel vrste informacije, obzirom na integrisane BI
+                                (business intelligence)
+                                funkcionalnosti koje video analitika nekom poslovanju može da pruži. Analiza poslovnih
+                                parametara i
+                                sintetizovan pregled istih daje poslovnom okruženju mogućnost da bolje upravlja svojim
+                                resursima, kao i
+                                da uživo koriguje određene poslovne parametre radi unapređenja poslovanja.
                             </p>
-                            <ul className="ws-subtitle-assertive">
-                                <li>People Counter</li>
-                            </ul>
-                            <ul className="ws-subtitle-assertive">
-                                <li>Heat Maps</li>
-                            </ul>
-                            <ul className="ws-subtitle-assertive">
-                                <li>Cross Line</li>
-                            </ul>
-                            <ul className="ws-subtitle-assertive">
-                                <li>ANRP</li>
-                            </ul>
-                            <ul className="ws-subtitle-assertive">
-                                <li>Face Detection</li>
-                            </ul>
 
                         </div>
                     </div>
