@@ -15,6 +15,57 @@ import classes from './CustomPaketi.scss';
 import gradjevinskiPlanImg from '../../assets/images/customPaketi/bluprint.png';
 import h4 from "eslint-plugin-jsx-a11y/src/util/implicitRoles/h4";
 
+const xxlResolution = [
+    {shape: "circle", coords: [280, 114, 20]},
+    {shape: "circle", coords: [235, 615, 20]},
+    {shape: "circle", coords: [434, 420, 20]},
+    {shape: "circle", coords: [587, 888, 20]},
+    {shape: "circle", coords: [663, 585, 20]},
+    {shape: "circle", coords: [831, 339, 20]},
+    {shape: "circle", coords: [1042, 693, 20]},
+    {shape: "circle", coords: [1377, 202, 20]}
+];
+const xlResolution = [
+    {shape: "circle", coords: [220, 90, 16]},
+    {shape: "circle", coords: [185, 485, 16]},
+    {shape: "circle", coords: [342, 330, 16]},
+    {shape: "circle", coords: [463, 700, 16]},
+    {shape: "circle", coords: [522, 460, 16]},
+    {shape: "circle", coords: [654, 268, 16]},
+    {shape: "circle", coords: [820, 545, 16]},
+    {shape: "circle", coords: [1083, 159, 16]}
+];
+const lgResolution = [
+    {shape: "circle", coords: [185, 75, 16]},
+    {shape: "circle", coords: [155, 407, 16]},
+    {shape: "circle", coords: [285, 275, 16]},
+    {shape: "circle", coords: [390, 585, 16]},
+    {shape: "circle", coords: [435, 385, 16]},
+    {shape: "circle", coords: [550, 223, 16]},
+    {shape: "circle", coords: [685, 455, 16]},
+    {shape: "circle", coords: [908, 135, 16]}
+];
+const mdResolution = [
+    {shape: "circle", coords: [137, 55, 12]},
+    {shape: "circle", coords: [115, 300, 12]},
+    {shape: "circle", coords: [212, 205, 12]},
+    {shape: "circle", coords: [287, 435, 12]},
+    {shape: "circle", coords: [323, 285, 12]},
+    {shape: "circle", coords: [408, 166, 12]},
+    {shape: "circle", coords: [510, 340, 12]},
+    {shape: "circle", coords: [673, 95, 12]}
+];
+const smResolution = [
+    {shape: "circle", coords: [102, 45, 10]},
+    {shape: "circle", coords: [85, 225, 10]},
+    {shape: "circle", coords: [155, 150, 10]},
+    {shape: "circle", coords: [215, 320, 10]},
+    {shape: "circle", coords: [238, 210, 10]},
+    {shape: "circle", coords: [300, 120, 10]},
+    {shape: "circle", coords: [380, 250, 10]},
+    {shape: "circle", coords: [495, 75, 10]}
+];
+
 const MAP = {
     name: "my-map",
     areas: [
@@ -138,6 +189,37 @@ const initialState = {
 };
 
 class CustomPaketi extends Component {
+    constructor(props) {
+        super(props);
+        this.resize = this.resize.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.resize);
+        this.resize();
+    }
+
+
+    resize() {
+        let resolution = window.innerWidth;
+        if (resolution > 1440) {
+            MAP.areas = xxlResolution;
+        } else if (resolution > 1200) {
+            MAP.areas = xlResolution;
+        } else if (resolution > 992) {
+            MAP.areas = lgResolution;
+        } else if (resolution > 768) {
+            MAP.areas = mdResolution;
+        } else {
+            MAP.areas = smResolution;
+        }
+        this.setState({state: this.state});
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.resize);
+    }
+
     state = {
         formValid: false,
         prvaGrupa: {
@@ -243,7 +325,7 @@ class CustomPaketi extends Component {
         let sender = new SmtpService();
         let body = this.getMailBody(this.state);
         sender.send({
-            SecureToken : "32809f42-d78e-451d-aa15-beaa90f7c5aa",
+            SecureToken: "32809f42-d78e-451d-aa15-beaa90f7c5aa",
             To: 'testmailwatchout@gmail.com',
             From: this.state.contactForm.mail,
             Subject: "Upit za custom pakete",
@@ -514,7 +596,7 @@ class CustomPaketi extends Component {
                             <form ref={form => (this.formEl1 = form)} onSubmit={this.onFormSubmit}>
                                 <div className="ws-card">
                                     <div className="ws-centered-info-block ws-card-header">
-                                        <h6>Bezbednosna-Rešenja - Custom-Paketi</h6>
+                                        <h6>Bezbednosna rešenja - Custom paketi</h6>
                                         <p>U cilju kreiranja paketa koji su 100% prilagođeni Vama i individualnim
                                             potrebama
                                             za bezbednosnim rešenjima, pripremili smo par pitanja na osnovu kojih ćemo
