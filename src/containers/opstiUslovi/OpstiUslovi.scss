@@ -2,6 +2,7 @@
   background-color: #200D21 !important;
   overflow: hidden;
   width: 100%;
+  height: 700px;
 
   span {
     font-weight: 300;
@@ -13,4 +14,18 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .OpstiUsloviHeader {
+    height: 700px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .OpstiUsloviHeader {
+    height: 300px;
+  }
 }

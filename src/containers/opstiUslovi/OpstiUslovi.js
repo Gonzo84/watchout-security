@@ -10,7 +10,7 @@ class OpstiUslovi extends Component {
         window.scrollTo(0, 0);
         return (
             <Aux>
-                <div className={[classes.OpstiUsloviHeader, 'ws-header'].join(' ')}>
+                <div className={['ws-header', classes.OpstiUsloviHeader].join(' ')}>
                     <h4 className="ws-header-title ws-o-nama">Opšti uslovi poslovanja</h4>
                 </div>
 
