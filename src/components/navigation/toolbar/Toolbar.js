@@ -28,12 +28,14 @@ class toolbar extends Component {
         return (
             <header className={[classes.Toolbar, this.state.toolbarClass].join(' ')}>
                 <DrawerToggle clicked={this.props.drawerToggleClicked}/>
-                <div className={classes.Logo}>
-                    <Logo companyLogo={companyLogo}/>
+                <div className={[classes.ToolbarContainer]}>
+                    <div className={classes.Logo}>
+                        <Logo companyLogo={companyLogo}/>
+                    </div>
+                    <nav className={classes.DesktopOnly}>
+                        <NavigationItems/>
+                    </nav>
                 </div>
-                <nav className={classes.DesktopOnly}>
-                    <NavigationItems/>
-                </nav>
             </header>
         )
     }
