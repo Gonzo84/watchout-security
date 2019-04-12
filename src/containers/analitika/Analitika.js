@@ -89,7 +89,7 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>
                         <div className=" ws-box">
-                            <p>Video anlitika je sve zastupljeniji poslovni alat koji ima širok sprektar primene – od
+                            <p>Video analitika je sve zastupljeniji poslovni alat koji ima širok sprektar primene – od
                                 bezbednosnih,
                                 sigurnosnih, kontrolnih, ali i poslovnih video analitičkih softvera za evaluaciju i
                                 upravljanje poslovnim
