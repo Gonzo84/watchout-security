@@ -7,6 +7,10 @@
   span {
     font-weight: 300;
   }
+
+  h4 {
+    margin-bottom: 22px;
+  }
 }
 
 .OpstiUsloviHeader::after {
@@ -17,9 +21,13 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .OpstiUsloviHeader {
-    height: 670px;
+    height: 700px;
+
+    h4 {
+      margin-bottom: 53px;
+    }
   }
 }
 
@@ -27,5 +35,9 @@
 @media (min-width: 1200px) {
   .OpstiUsloviHeader {
     height: 700px;
+
+    h4 {
+      margin-bottom: 22px;
+    }
   }
 }

@@ -13,6 +13,10 @@
   span {
     font-weight: 300;
   }
+
+  h4 {
+    margin-bottom: 22px;
+  }
 }
 
 .ONamaHeader::after {
@@ -23,9 +27,13 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .ONamaHeader {
-    height: 670px;
+    height: 700px;
+
+    h4 {
+      margin-bottom: 53px;
+    }
   }
 }
 
@@ -33,5 +41,9 @@
 @media (min-width: 1200px) {
   .ONamaHeader {
     height: 700px;
+
+    h4 {
+      margin-bottom: 22px;
+    }
   }
 }
