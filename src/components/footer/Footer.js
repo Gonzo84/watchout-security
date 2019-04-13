@@ -1,11 +1,12 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import {HashLink as Link} from 'react-router-hash-link';
 
 import classes from './Footer.scss';
 import Logo from '../logo/Logo';
 
 import companyLogo from '../../assets/images/logo/ws-logo-white.png';
-import OpstiUslovi from '../../assets/opsti uslovi Watchout Security doo.pdf'
+import OpstiUslovi from '../../assets/opsti uslovi Watchout Security doo.pdf';
+import MapWithAMarker from "./map/map";
 
 
 const footer = (props) => {
@@ -90,34 +91,42 @@ const footer = (props) => {
             <div className="container">
                 <div className="row">
 
-                    <div className="col-md-12 col-lg-4">
+                    <div className="col-md-12 col-lg-3">
+                        <div className={'row ' + classes.logo}>
+                            <Logo companyLogo={companyLogo}/>
+                        </div>
+                        <div className={'row ' + classes.wsInfoBlock}>
+
+                            Spasenije Cane Babović 5<br/>
+                            34000 Kragujevac<br/>
+                        </div>
+                        <div className={'row ' + classes.wsInfoBlock}>
+                            Call Centar: 0800 011 013<br/>
+                            email: info@ws.co.rs
+                        </div>
                         <div className={'row ' + classes.wsSoc}>
-                            <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                            <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg"  target="_blank"><i className="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/watchout.security/?utm_source=ig_profile_share&igshid=1so2kvkqw4jr8&fbclid=IwAR3fcOjYeoozjmz8Idbylp8mKYFyckq7_f-WGTHRzB-hqxMdrpT1uhq45pA"  target="_blank"><i className="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"> <span
+                                className={classes.Facebook}></span></a>
+                            <a href="https://www.youtube.com/channel/UCITYjHxEjRtP-NFZnEGy9Fg" target="_blank"><span
+                                className={classes.Youtube}></span></a>
+                            <a href="https://www.instagram.com/watchout.security/?utm_source=ig_profile_share&igshid=1so2kvkqw4jr8&fbclid=IwAR3fcOjYeoozjmz8Idbylp8mKYFyckq7_f-WGTHRzB-hqxMdrpT1uhq45pA"
+                               target="_blank"><span className={classes.Instagram}></span></a>
                         </div>
                     </div>
 
 
-                    <div className="col-md-12 col-lg-4">
-                        <div className={'row ' + classes.wsInfoBlock}>
-
-                                Spasenije Cane Babović 5<br/>
-                                34000 Kragujevac<br/>
-                        </div>
-                    </div>
-
-
-                    <div className="col-md-12 col-lg-4">
-                        <div className={'row ' + classes.wsInfoBlock}>
-                                Call Centar: 0800 011 013<br/>
-                                email: info@ws.co.rs
+                    <div className="col-md-12 col-lg-9">
+                        <div className="row">
+                            <MapWithAMarker
+                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg&v=3.exp&libraries=geometry,drawing,places"
+                                loadingElement={<div style={{height: `270px`, width: '100%'}}/>}
+                                containerElement={<div style={{height: `270px`, width: '100%'}}/>}
+                                mapElement={<div style={{height: `270px`}}/>}
+                            />
                         </div>
                     </div>
                 </div>
                 <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
-
-                    <Logo companyLogo={companyLogo}/>
                     2018 (c) Watchout Security <a href={OpstiUslovi} target='_blank'>Opšti uslovi poslovanja</a>
                 </div>
             </div>

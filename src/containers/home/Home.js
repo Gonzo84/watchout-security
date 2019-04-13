@@ -551,7 +551,7 @@ class Home extends Component {
                         <div className="container">
                             <div className="row ">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
-                                    <div className="ws-card ws-on-hover">
+                                    <div className="ws-card ws-on-hover ws-zakoni-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -573,7 +573,7 @@ class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
-                                    <div className="ws-card ws-on-hover">
+                                    <div className="ws-card ws-on-hover ws-zakoni-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -599,7 +599,7 @@ class Home extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
-                                    <div className="ws-card ws-on-hover">
+                                    <div className="ws-card ws-on-hover ws-zakoni-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
@@ -622,7 +622,7 @@ class Home extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
-                                    <div className="ws-card ws-on-hover">
+                                    <div className="ws-card ws-on-hover ws-zakoni-card">
                                         <div className="ws-card-header">
                                             <div className="ws-title">
                                                 <div className="ws-notch"></div>
