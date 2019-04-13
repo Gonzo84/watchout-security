@@ -50,8 +50,8 @@ class Saradnja extends Component {
                                     Zapošljavamo stručne kadrove u oblasti, fizičkog i tehničkog obezbeđenja u zaštiti
                                     lica, imovine i poslovanja, procene rizika.</p>
                                 <br/>
-                                <p>Pošaljite nam vašu radnu biografiju na <span
-                                    className={[classes.Assertive]}>hr.watchout@gmail.com</span> i kolege iz HR sektora
+                                <p>Pošaljite nam vašu radnu biografiju na <a href="mailto:hr.watchout@gmail.com?Subject=Radna%20biografija" target="_top"><span
+                                    className={[classes.Assertive]}>hr.watchout@gmail.com</span></a> i kolege iz HR sektora
                                     će vas kontaktirati u najkraćem roku.</p>
                                 <br/>
                                 <h5 className="ws-txt-bold">Kakvi ljudi su potrebni WS-u?</h5>
@@ -198,8 +198,8 @@ class Saradnja extends Component {
                                     </li>
                                 </ul>
 
-                                <p>Pozivamo Vas, da nas kontaktirate na <span
-                                    className={[classes.Assertive]}>fransiza@ws.co.rs</span> ili na telefonske
+                                <p>Pozivamo Vas, da nas kontaktirate na <a href="mailto:fransiza@ws.co.rs?Subject=Fransiza" target="_top"><span
+                                    className={[classes.Assertive]}>fransiza@ws.co.rs</span></a> ili na telefonske
                                     brojeve <span className={[classes.Assertive]}>+381
                                     69 558 58 01</span> i <span
                                         className={[classes.Assertive]}>+381 69 558 58 02</span> (Vladimir i Milutin
