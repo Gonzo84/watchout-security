@@ -118,7 +118,7 @@ const footer = (props) => {
                     <div className="col-md-12 col-lg-9">
                         <div className="row">
                             <MapWithAMarker
-                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg&v=3.exp&libraries=geometry,drawing,places"
+                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtWhoHsIGxcXeUIEZ25-14M8ohWkjJS2Y"
                                 loadingElement={<div style={{height: `270px`, width: '100%'}}/>}
                                 containerElement={<div style={{height: `270px`, width: '100%'}}/>}
                                 mapElement={<div style={{height: `270px`}}/>}
