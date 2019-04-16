@@ -11,7 +11,7 @@ class OpstiUslovi extends Component {
         return (
             <Aux>
                 <div className={['ws-header', classes.OpstiUsloviHeader].join(' ')}>
-                    <h4 className="ws-header-title ws-o-nama">Opšti uslovi poslovanja</h4>
+                    <h4 className="ws-header-title ws-o-nama">OPŠTI USLOV POSLOVANJA</h4>
                 </div>
 
                 <div className="ws-body">

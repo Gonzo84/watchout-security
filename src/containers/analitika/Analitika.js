@@ -84,7 +84,7 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
             <Aux>
 
                 <div className="ws-header">
-                    <h4 className="ws-header-title ws-o-nama">Video analitika</h4>
+                    <h4 className="ws-header-title ws-o-nama">VIDEO ANALITIKA</h4>
 
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>

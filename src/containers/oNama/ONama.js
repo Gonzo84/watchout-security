@@ -13,7 +13,7 @@ class ONama extends Component {
         return (
             <Aux>
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
-                    <h4 className="ws-header-title ws-o-nama">O kompaniji
+                    <h4 className="ws-header-title ws-o-nama">O KOMPANIJI
 
                         <h6 className="ws-header-title">”Preventiva stvara kapital, zato je bezbednost investicija u
                             bolju
