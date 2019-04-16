@@ -1,37 +1,35 @@
 @import "../../sass/variables";
 
 .Assertive {
-  color: #f3782e;
-  font-weight: bold;
+	color: #f3782e;
+	font-weight: bold;
 }
 
 .Akcije {
-  min-height: 550px;
+	min-height: 550px;
 }
 
 .HeaderVideo {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 .HeaderVideo > div {
-  left: 0;
-  position: absolute;
-  top: 10%;
-  width: 100vw;
-
-
-  @media only screen and (max-width: $ws-breakpoint-sm - 1) {
-    top: 30%;
-  }
+	left: 0;
+	position: absolute;
+	top: 10%;
+	width: 100vw;
+	
+	@media only screen and (max-width: $ws-breakpoint-sm - 1) {
+		top: 50%;
+	}
 }
 
 .HeaderVideo > video {
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  object-fit: cover;
-  max-height: 100vh;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	object-fit: cover;
 }
