@@ -15,10 +15,7 @@ class ONama extends Component {
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
                     <h4 className="ws-header-title ws-o-nama">O KOMPANIJI
 
-                        <h6 className="ws-header-title">”Preventiva stvara kapital, zato je bezbednost investicija u
-                            bolju
-                            budućnost!”<br/>
-                            <span>Vladimir Jaćimović, direktor i osnivač Watchout Security doo</span></h6></h4>
+                    </h4>
                 </div>
 
                 <div className={[classes.ONama, 'ws-body'].join(' ')}>
@@ -27,6 +24,11 @@ class ONama extends Component {
                     <div className=" ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box">
+                                <h6 className={[classes.Citat].join(' ')}>”Preventiva stvara kapital, zato je bezbednost
+                                    investicija u
+                                    bolju
+                                    budućnost!”<br/>
+                                    <span>Vladimir Jaćimović, direktor i osnivač Watchout Security doo</span></h6>
                                 <p><span className="ws-txt-bold">Watchout Security doo</span> osnovan je 2008. godine u
                                     Kragujevcu sa fokusom na pružanje usluga fizičko-tehničkog obezbeđenja pravnim i
                                     fizičkim licima.</p>
