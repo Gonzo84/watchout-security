@@ -15,8 +15,7 @@ class OpstiUslovi extends Component {
                 </div>
 
                 <div className="ws-body">
-
-                    <div className="ws-border-holder"></div>
+                    <div className={classes.OpstiUsloviTriangleWrap}></div>
                     <div className=" ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box ws-text-centar">

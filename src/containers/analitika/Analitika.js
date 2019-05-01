@@ -121,19 +121,19 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
                             <LicaItem {...contentConfig[0]}/>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-alt ws-overflow-img-container">
+                    <div className="ws-simple-style-cont ws-alt ws-overflow-img-container ws-triangle-holder ws-triangle-light">
                         <div className="container">
                             <LicaItem {...contentConfig[1]}/>
                         </div>
                     </div>
                     <div
-                        className="ws-simple-style-cont  ws-overflow-img-container ws-triangle-holder ws-triangle-light">
+                        className="ws-simple-style-cont  ws-overflow-img-container ws-triangle-holder">
                         <div className="container">
                             <LicaItem {...contentConfig[2]}/>
                         </div>
                     </div>
                     <div
-                        className="ws-simple-style-cont ws-overflow-img-container ws-triangle-holder">
+                        className="ws-simple-style-cont ws-overflow-img-container ws-triangle-holder ws-triangle-light">
                         <div className="container">
                             <LicaItem {...contentConfig[3]}/>
                         </div>

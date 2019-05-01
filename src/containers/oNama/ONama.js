@@ -13,14 +13,11 @@ class ONama extends Component {
         return (
             <Aux>
                 <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
-                    <h4 className="ws-header-title ws-o-nama">O KOMPANIJI
-
-                    </h4>
+                    <h4 className="ws-header-title ws-o-nama">O KOMPANIJI</h4>
                 </div>
 
                 <div className={[classes.ONama, 'ws-body'].join(' ')}>
-
-                    <div className="ws-border-holder"></div>
+                    <div className={classes.ONamaSkewWrap}></div>
                     <div className=" ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box">

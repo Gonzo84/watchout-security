@@ -1,33 +1,10 @@
 .HeaderItem {
-  height: 30vh;
+  height: calc(100vh - 10%);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.HeadersRow{
+.HeadersRow {
   height: auto;
 }
 
-@media only screen and (min-width: 1440px) {
-  .HeaderItem {
-    height: 820px !important;
-  }
-}
-
-@media only screen and (min-width: 1200px )and (max-width: 1439px) {
-  .HeaderItem {
-    height: 660px !important;
-  }
-}
-
-@media only screen and (min-width: 992px )and (max-width: 1199px) {
-  .HeaderItem {
-    height: 520px !important;
-  }
-}
-
-@media only screen and (min-width: 768px )and (max-width: 991px) {
-  .HeaderItem {
-    height: 390px !important;
-  }
-}
