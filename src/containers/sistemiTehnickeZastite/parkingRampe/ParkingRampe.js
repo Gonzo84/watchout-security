@@ -20,13 +20,13 @@ class ParkingRampe extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Sistem tehničke zaštite koji unapređuje nivo bezbednosti, a ujedno predstavlja i
                                     vizit kartu objekta jesu parking rampe. Prvo što posetilac primeti čak i pre samog
                                     objekta je upravo rampa za parking. Rampa je efikasno sredstvo za sprečavanje

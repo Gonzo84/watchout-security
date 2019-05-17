@@ -7,11 +7,11 @@ const LicaItem = (props) => {
             <div className="row">
                 <div className="col-lg-6">
                     <div className="ws-txt">
-                        <h3>{props.title}</h3>
+                        <h4>{props.title}</h4>
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p class="ws-lica-content ws-lica-content-font">
+                        <p class={`ws-lica-content ws-lica-content-font ${props.id}`}>
                             {props.content}
                         </p>
                     </div>
@@ -33,11 +33,11 @@ const LicaItem = (props) => {
                 </div>
                 <div className="col-lg-12">
                     <div className="ws-txt">
-                        <h3>{props.title}</h3>
+                        <h4>{props.title}</h4>
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p class="ws-lica-content ws-lica-content-font">
+                        <p className={`ws-lica-content ws-lica-content-font ${props.id}`}>
                             {props.content}
                         </p>
                     </div>
@@ -54,11 +54,11 @@ const LicaItem = (props) => {
                 </div>
                 <div className="col-lg-6">
                     <div className="ws-txt">
-                        <h3>{props.title}</h3>
+                        <h4>{props.title}</h4>
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p class="ws-lica-content ws-lica-content-font">
+                        <p className={`ws-lica-content ws-lica-content-font ${props.id}`}>
                             {props.content}
                         </p>
                     </div>

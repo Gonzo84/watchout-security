@@ -20,13 +20,13 @@ class AlarmniSistemiZaVozila extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Budući da su se serijski, fabrički i konvencionalni sistemi zaštite vozila u praksi
                                     pokazali kao nepouzdani, javila se potreba za individualnim sistemom zaštite u
                                     zavisnosti od tipa i modela automobila. Dovozeći novo vozilo kući, mnogi ne

@@ -20,13 +20,13 @@ class ProtivprovalniIProtivprepadniSistemi extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <h6>PROTIVPROVALNI I PROTIVPREPADNI SISTEMI</h6>
                                 <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.

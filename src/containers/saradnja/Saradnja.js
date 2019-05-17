@@ -16,7 +16,7 @@ class Saradnja extends Component {
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>
                         <div className=" ws-box ws-alt">
-                            <p><span>Mi smo pouzdani partneri na putu ka uspehu, bilo da je reč o unapređenju Vaše karijere, partnersvu sa nama ili franšiznom modelu saradnje. U svakom obliku saradnje ćete zajedno sa nama da napredujete, učite, usavršavate Vaše veštine i brzo prilagođavate novonastalim promenama na tržištu. Pogledajte dostupne opcije saradnje sa našim timom i kontaktirajte nas već danas za dodatne informacije.</span>
+                            <p><span>Mi smo pouzdani partneri na putu ka uspehu, bilo da je reč o unapređenju Vaše karijere, partnerstvu sa nama ili franšiznom modelu saradnje. U svakom obliku saradnje ćete zajedno sa nama da napredujete, učite, usavršavate Vaše veštine i brzo prilagođavate novonastalim promenama na tržištu. Pogledajte dostupne opcije saradnje sa našim timom i kontaktirajte nas već danas za dodatne informacije.</span>
                             </p>
                             {/*<ul className="ws-subtitle-assertive">*/}
                             {/*    <li>POSTANITE DEO TIMA</li>*/}
@@ -62,7 +62,7 @@ class Saradnja extends Component {
                                 <h6 className="ws-txt-bold">Obavljajući poslove iz nadležnosti privatnog
                                     obezbeđenja,
                                     zaposleni se susreću sa zadacima koji iziskuju posebne kvalitete i osobine
-                                    neohpodne
+                                    neophodne
                                     da se uspešno odgovori visokim zahtevima ovog posla.</h6>
 
                                 <ul className="ws-licence-list">

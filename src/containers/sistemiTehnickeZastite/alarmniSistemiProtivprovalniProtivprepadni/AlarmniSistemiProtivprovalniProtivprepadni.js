@@ -20,13 +20,13 @@ class AlarmniSistemiProtivprovalniProtivprepadni extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Beskompromisna bezbednost objekata, ljudi i imovine osnovni je preduslov za uspeh u
                                     poslovanju. S druge strane, savremeni način života često dovodi do stresnih
                                     situacija, pa se osećaj apsolutne sigurnosi u spostvenom domu logično javlja kao

@@ -20,13 +20,13 @@ class IntegrisaniSistemiObezbedjenja extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>I.S.O. je Integrisani Sistem Obezbeđenja za obezbeđenje imovine u specifičnim
                                     uslovima i objedinjuje funkcije alarmnog sistema, sistema video obezbeđenja i
                                     sistema za evidenciju prisutnosti nad udaljenim objektima i postrojenjima.

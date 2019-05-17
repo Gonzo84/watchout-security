@@ -20,13 +20,13 @@ class KontrolaSluzbenikaObezbedjenja extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>U cilju kontinuiranog unapređenja bezbednosnih procedura, potrebno je pratiti
                                     realizaciju plana obilazaka službenika fizičkog obezbeđenja. Ovim tipom kontrole
                                     stiče se uvid u opravdanost investicije u fizičko obezbeđenje i uspostavlja se

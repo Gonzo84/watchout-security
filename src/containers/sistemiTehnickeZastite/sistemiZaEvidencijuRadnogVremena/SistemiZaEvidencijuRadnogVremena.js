@@ -21,13 +21,13 @@ class SistemiZaEvidencijuRadnogVremena extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Evidencija radnog vremena, kontrola kretanja kroz objekat i dozvola pristupa
                                     autorizovanim kadrovima u restriktivne prostorije, tri su važna segmenta u
                                     funkcionisanju savremene organizacije.

@@ -20,7 +20,7 @@ class OpstiUslovi extends Component {
                         <div className="container">
                             <div className="ws-box ws-text-centar">
 
-                                <h5><span className="ws-txt-bold">Opsti uslovi pružanja i korišćenja usluga Watchout Security doo</span>
+                                <h5><span className="ws-txt-bold">Opšti uslovi pružanja i korišćenja usluga Watchout Security doo</span>
                                 </h5>
 
                                 <h6><span className="ws-txt-bold"><span className="ws-font-color-assertive">1.</span> Predmet i primena</span></h6>
@@ -345,7 +345,7 @@ class OpstiUslovi extends Component {
                                     pridržava
                                     prihvaćenih obaveza u Ugovoru.
                                 </p>
-                                <h6><span className="ws-txt-bold"><span className="ws-font-color-assertive">9.</span> Raskid I istek ugovora</span></h6>
+                                <h6><span className="ws-txt-bold"><span className="ws-font-color-assertive">9.</span> Raskid i istek ugovora</span></h6>
                                 <p><span className="ws-font-color-assertive">9.1.</span> U slučaju da Ugovor na zvaničan zahtev Korisnika bude raskinut pre isteka roka
                                     trajanja, Korisnik je u obavezi da plati preostalu vrednost usluge za ugovoreni
                                     period. U tom slučaju se Davalac u obavezi je da besplatno izvrši deaktivacije
@@ -367,7 +367,7 @@ class OpstiUslovi extends Component {
                                     strana 7 (sedam) dana nakon obaveštavanja pismenim putem preporučenom pošiljkom sa
                                     povratnicom.
                                 </p>
-                                <h6><span className="ws-txt-bold"><span className="ws-font-color-assertive">10.</span> Upotreba podataka I prenos prava</span></h6>
+                                <h6><span className="ws-txt-bold"><span className="ws-font-color-assertive">10.</span> Upotreba podataka i prenos prava</span></h6>
                                 <p>Potpisivanjem Ugovora Korisnik je saglasan da Watchout security ima pravo da podatke
                                     o Korisniku koji se odnose na adresu, brojeve telefona, faks, e-mail adrese i ostale
                                     podatke za uspostavljanje kontakta, a koje je Korisnik prezentovao Watchout

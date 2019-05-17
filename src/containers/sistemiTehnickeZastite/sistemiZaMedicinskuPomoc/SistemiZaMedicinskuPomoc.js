@@ -20,13 +20,13 @@ class SistemiZaMedicinskuPomoc extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Da li ste znali da 50% starijih od 60 godina nakon pada ne mogu da ustanu sami već im
                                     je potrebna nečija pomoć?
                                 </p>

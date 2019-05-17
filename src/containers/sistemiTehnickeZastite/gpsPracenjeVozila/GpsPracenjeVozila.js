@@ -20,13 +20,13 @@ class GpsPracenjeVozila extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>Poslovanje Vaše organizacije podrazumeva čestu upotrebu motornih vozila? Želite da
                                     smanjite operativne troškove, poboljšate efikasnost vozača, komercijalista i kadrova
                                     na terenu, pružie klijentima bolju uslugu i uz to poboljšate pregovaračku moć?

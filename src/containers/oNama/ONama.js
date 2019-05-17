@@ -12,16 +12,17 @@ class ONama extends Component {
         window.scrollTo(0, 0);
         return (
             <Aux>
-                <div className={[classes.ONamaHeader, 'ws-header'].join(' ')}>
+                <div className={[classes.ONamaHeader, 'ws-header ws-page-onama'].join(' ')}>
                     <h4 className="ws-header-title ws-o-nama">O KOMPANIJI</h4>
                 </div>
 
-                <div className={[classes.ONama, 'ws-body'].join(' ')}>
+                <div className={[classes.ONama, 'ws-body ws-page-onama'].join(' ')}>
                     <div className={classes.ONamaSkewWrap}></div>
                     <div className=" ws-simple-style-cont ws-politika-sistema">
                         <div className="container">
                             <div className="ws-box">
-                                <h6 className={[classes.Citat].join(' ')}>”Preventiva stvara kapital, zato je bezbednost
+                                <h6 className={[classes.Citat, 'ws-citat'].join(' ')}>”Preventiva stvara kapital, zato
+                                    je bezbednost
                                     investicija u
                                     bolju
                                     budućnost!”<br/>
@@ -29,33 +30,36 @@ class ONama extends Component {
                                 <p><span className="ws-txt-bold">Watchout Security doo</span> osnovan je 2008. godine u
                                     Kragujevcu sa fokusom na pružanje usluga fizičko-tehničkog obezbeđenja pravnim i
                                     fizičkim licima.</p>
-                                <p>Kompletno poslovanje Watchout Security-a zasniva se na četiri postulata:
 
-                                </p>
-                                <ul className="ws-subtitle-assertive">
-                                    <li>Kvalitet</li>
-                                </ul>
-                                <p>Jer je brzina prilagođavanja promenama ključ uspeha
-                                </p>
+                                <p>Kompletno poslovanje Watchout Security-a zasniva se na četiri postulata:</p>
 
-                                <ul className="ws-subtitle-assertive">
-                                    <li>Poverenje</li>
-                                </ul>
-                                <p>Jer bez njega nema uspeha na bilo kojem životnom polju.
-                                </p>
+                                <div class="ws-onama-postulati">
+                                    <ul className="ws-subtitle-assertive">
+                                        <li>Kvalitet</li>
+                                    </ul>
+                                    <p>Jer je brzina prilagođavanja promenama ključ uspeha
+                                    </p>
 
-                                <ul className="ws-subtitle-assertive">
-                                    <li>Preventiva</li>
-                                </ul>
-                                <p>Jer je upravo ona najbolji pristup rešavanju problema - temeljno, spremno i u pravi
-                                    čas.
-                                </p>
+                                    <ul className="ws-subtitle-assertive">
+                                        <li>Poverenje</li>
+                                    </ul>
+                                    <p>Jer bez njega nema uspeha na bilo kojem životnom polju.
+                                    </p>
 
-                                <ul className="ws-subtitle-assertive">
-                                    <li>Pouzdanost</li>
-                                </ul>
-                                <p>Jer nam je stalo da stvorimo bezbedniju budućnost.
-                                </p>
+                                    <ul className="ws-subtitle-assertive">
+                                        <li>Preventiva</li>
+                                    </ul>
+                                    <p>Jer je upravo ona najbolji pristup rešavanju problema - temeljno, spremno i u
+                                        pravi
+                                        čas.
+                                    </p>
+
+                                    <ul className="ws-subtitle-assertive">
+                                        <li>Pouzdanost</li>
+                                    </ul>
+                                    <p>Jer nam je stalo da stvorimo bezbedniju budućnost.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,8 +84,7 @@ class ONama extends Component {
                             <div className="ws-box">
                                 <p>Sofisticiranost tehnoloških rešenja koja u radu koristimo, kontinuirana edukacija i
                                     razvoj kadrova, praćenje inovacija i prilagođavanje tehničko-tehnološkom progresu i
-                                    poslovanje u skladu sa dobrom poslovnom praksom u Republici Srbiji učinili su da
-                                    <span className="ws-txt-bold">Watchout Security</span> postane lider u oblasti
+                                    poslovanje u skladu sa dobrom poslovnom praksom u Republici Srbiji učinili su da <span className="ws-txt-bold"> Watchout Security</span> postane lider u oblasti
                                     fizičko-tehničkog obezbeđenja u zemlji i
                                     regionu.
                                 </p>
@@ -93,32 +96,32 @@ class ONama extends Component {
                     </div>
                     <div className="ws-simple-style-cont ws-licence">
                         <div className="container">
-                            <div className="ws-box ws-alt">
+                            <div className="ws-box ws-alt ws-sertificati">
                                 <h5>Sertifikati</h5>
                                 <p>Kompanija <span className="ws-txt-bold">Watchout Security</span> dostigla je
                                     međunarodno priznate standarde u oblasti
                                     fizičko-tehničkog obezbeđenja i upravljanja procesom rada:</p>
                                 <ul className="ws-licence-list">
-                                    <li><span className="ws-color-dark">SRPS OHSAS 18001:2008</span> Sistem upravljanja
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS OHSAS 18001:2008</span> Sistem upravljanja
                                         zaštitom zdravlja i bezbednošću na radu
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS ISO 27001:2014</span> Sistem upravljanja
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS ISO 27001:2014</span> Sistem upravljanja
                                         bezbednošću informacija
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS ISO 14001:2015</span> Sistemi menadžmenta
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS ISO 14001:2015</span> Sistemi menadžmenta
                                         zaštite životne sredine
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS ISO 9001:2015</span> Sistem upravljanja
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS ISO 9001:2015</span> Sistem upravljanja
                                         kvalitetom
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS ISO 2000-1:2014</span> Sistem upravljanja
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS ISO 2000-1:2014</span> Sistem upravljanja
                                         uslugama - Informacione tehnologije
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS A.L2.002:2015</span> Fizička zaštita
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS A.L2.002:2015</span> Fizička zaštita
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS A.L2.002:2015</span> Tehička zaštita
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS A.L2.002:2015</span> Tehička zaštita
                                     </li>
-                                    <li><span className="ws-color-dark">SRPS A.L2.002:2015</span> Menadžment iz
+                                    <li><span className="ws-color-dark ws-font-color-assertive">SRPS A.L2.002:2015</span> Menadžment iz
                                         kontrolnog centra
                                     </li>
                                 </ul>
@@ -127,25 +130,25 @@ class ONama extends Component {
                     </div>
                     <div className="ws-simple-style-cont ws-licence">
                         <div className="container">
-                            <div className="ws-box">
+                            <div className="ws-box ws-sertificati">
                                 <h5>Licence </h5>
                                 <p><span className="ws-txt-bold">Watchout Security</span> poseduje sledeće licence
                                     izdate od strane Ministarstva unutrašnjih poslova:</p>
                                 <ul className="ws-licence-list">
-                                    <li><span className="ws-color-dark">Licenca 20433</span> za fizičko-tehničku zaštitu
+                                    <li><span className="ws-color-dark ws-font-color-assertive">Licenca 20433</span> za fizičko-tehničku zaštitu
                                         lica i imovine i održavanje reda na sportskim priredbama, javnim skupovima i
                                         drugim mestima okupljanja građana;
                                     </li>
-                                    <li><span className="ws-color-dark">Licenca 20181</span> za planiranje sistema
+                                    <li><span className="ws-color-dark ws-font-color-assertive">Licenca 20181</span> za planiranje sistema
                                         tehničke zaštite;
                                     </li>
-                                    <li><span className="ws-color-dark">Licenca 20182</span> za procenu rizika u zaštiti
+                                    <li><span className="ws-color-dark ws-font-color-assertive">Licenca 20182</span> za procenu rizika u zaštiti
                                         lica, imovine i poslovanja;
                                     </li>
-                                    <li><span className="ws-color-dark">Licenca 20183</span> za montažu, puštanje u rad
+                                    <li><span className="ws-color-dark ws-font-color-assertive">Licenca 20183</span> za montažu, puštanje u rad
                                         i održavanje sistema tehničke zaštite i obuke korisnika;
                                     </li>
-                                    <li><span className="ws-color-dark">Licenca 30161</span> za vršenje poslova
+                                    <li><span className="ws-color-dark ws-font-color-assertive">Licenca 30161</span> za vršenje poslova
                                         projektovanja i nadzora nad izvođenjem sistema tehničke zaštite.
                                     </li>
                                 </ul>
@@ -154,13 +157,13 @@ class ONama extends Component {
                     </div>
                     <div className="ws-simple-style-cont ws-licence">
                         <div className="container">
-                            <div className="ws-box ws-alt">
+                            <div className="ws-box ws-alt ws-sertificati">
                                 <div>
-                                    <a className="ws-color-dark" href={KodeksPonasanja} target='_blank'>Kodeks
+                                    <a className="ws-color-dark ws-font-color-assertive" href={KodeksPonasanja} target='_blank'>Kodeks
                                         ponašanja</a></div>
                                 <br/>
                                 <div>
-                                    <a className="ws-color-dark" href={IdentifikacionaKartica} target='_blank'>Identifikaciona
+                                    <a className="ws-color-dark ws-font-color-assertive" href={IdentifikacionaKartica} target='_blank'>Identifikaciona
                                         kartica</a>
                                 </div>
                             </div>

@@ -20,13 +20,13 @@ class SistemiVideoObezbedjenja extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-subheader">
                     <div className="ws-border-holder"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
-                            <div className="ws-centered-info-block">
+                            <div className="ws-centered-info-block ws-page-subheader-text">
                                 <p>U savremenim uslovima poslovanja koje karakterišu brojni rizici, kao jedna od mogućih
                                     kriznih situacija izdvajaju se provale i krađe. Posledice nastale u tom slučaju u
                                     značajnoj meri mogu narušiti stabilnost poslovanja organizacije. Shodno tome, javlja

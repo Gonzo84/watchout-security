@@ -20,7 +20,7 @@ class FizickaZastita extends Component {
             <Aux>
                 <Header {...headerConfig}/>
 
-                <div className="ws-body">
+                <div className="ws-body ws-page-fizickazastita">
                     <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
