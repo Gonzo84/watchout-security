@@ -83,7 +83,7 @@ class GpsPracenjeVozila extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p className="ws-stronger-color">Osiguravajuće kompanije:
                             </p>
@@ -94,7 +94,7 @@ class GpsPracenjeVozila extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-triangle-holder">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p className="ws-stronger-color">Pratite vreme zaustavljanja:
                             </p>

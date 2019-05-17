@@ -1,142 +1,152 @@
 @import "../../sass/variables";
 
 .footer {
-  background-color: $base-color;
-  color: $ws-color-white-lighter;
-  font-size: 1.4rem;
-  padding: ($ws-spacing-large * 4) 0 ($ws-spacing-large * 2);
-
-  a {
+    background-color: $base-color;
     color: $ws-color-white-lighter;
-  }
-
-  h6 {
-    color: $ws-color-white-light;
-    padding-bottom: $ws-spacing;
-  }
-
-  ul {
-    display: block !important;
-  }
-
-
-  .logo {
-    height: auto;
-    width: 50%;
-    padding-bottom: 1.6rem;
-    margin: 0 auto;
-
-    img {
-      height: auto;
-      width: 100%;
-    }
-  }
-
-  .wsInfoBlock {
-    padding: $ws-spacing-large;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .navLink {
-    padding: 0;
-  }
-
-  .wsTitle {
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: #ffffff;
-  }
-
-  .wsSoc {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: $ws-spacing-large;
-    text-align: center;
+    font-size: 1.4rem;
+    padding: ($ws-spacing-large * 4) 0 ($ws-spacing-large * 2);
+    text-transform: uppercase;
 
     a {
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      height: $ws-spacing-large * 2;
-      justify-content: center;
-      width: $ws-spacing-large * 2;
-
-      &:nth-child(2) {
-        margin: 0 $ws-spacing-large;
-      }
+        color: $ws-color-white-lighter;
     }
-  }
 
-  .wsCopyrights {
-    text-align: center;
-    padding-top: 2rem;
-
-    a {
-      color: $ws-assertive-color;
+    h6 {
+        color: $ws-color-white-light;
+        padding-bottom: $ws-spacing;
     }
-  }
+
+    ul {
+        display: block !important;
+    }
+
+    .logo {
+        height: auto;
+        width: 50%;
+        padding-bottom: 1.6rem;
+        margin: 0 auto;
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    .wsInfoBlock {
+        padding: $ws-spacing-large;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        &:last-child {
+            display: block;
+        }
+    }
+
+    .navLink {
+        padding: 0;
+    }
+
+    .wsTitle {
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .wsSoc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: $ws-spacing-large;
+        text-align: center;
+
+        a {
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            height: 5.2rem;
+            justify-content: center;
+            width: $ws-spacing-large * 2;
+
+            &:nth-child(2) {
+                margin: 0 $ws-spacing-large;
+            }
+        }
+    }
+
+    .wsCopyrights {
+        text-align: center;
+        padding-top: 2rem;
+
+        a {
+            color: $ws-assertive-color;
+        }
+    }
 }
 
+
 @media (min-width: 768px) {
-  .footer {
-    .logo {
-      height: auto;
-      width: 100%;
-      margin-left: 0;
+    .footer {
+        .logo {
+            height: auto;
+            width: 100%;
 
-      img {
-        height: auto;
-        width: 100%;
-      }
-    }
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
 
-    .wsInfoBlock, .wsSoc {
-      justify-content: flex-start;
+        .wsInfoBlock, .wsSoc {
+            text-align: center;
+            justify-content: center;
+        }
     }
-  }
+}
+
+.Facebook, .Youtube, .Instagram {
+    height: 40px !important;
+    width: 40px !important;
 }
 
 .Facebook {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background-image: url("../../assets/images/components/footer/fb.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url("../../assets/images/components/footer/fb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
 
-  &:hover {
-    background-image: url("../../assets/images/components/footer/fb-active.png");
-  }
+    &:hover {
+        background-image: url("../../assets/images/components/footer/fb-active.png");
+    }
 }
 
 .Youtube {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background-image: url("../../assets/images/components/footer/yt.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url("../../assets/images/components/footer/yt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
 
-  &:hover {
-    background-image: url("../../assets/images/components/footer/yt-active.png");
-  }
+    &:hover {
+        background-image: url("../../assets/images/components/footer/yt-active.png");
+    }
 }
 
 .Instagram {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  background-image: url("../../assets/images/components/footer/ig.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url("../../assets/images/components/footer/ig.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
 
-  &:hover {
-    background-image: url("../../assets/images/components/footer/ig-active.png");
-  }
+    &:hover {
+        background-image: url("../../assets/images/components/footer/ig-active.png");
+    }
 }

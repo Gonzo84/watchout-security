@@ -1,5 +1,13 @@
 @import '../../sass/variables';
 
+.OpstiUslovi {
+
+	p {
+		font-size: 1.2em !important;
+	}
+
+}
+
 .OpstiUsloviHeader {
 	overflow: hidden;
 	width: 100%;
@@ -14,7 +22,11 @@
 	position: absolute;
 	padding-top: 6rem;
 	margin-top: -1px;
-	
+
+	p {
+		font-size: 1.2em !important;
+	}
+
 	+ div {
 		padding-top: 0;
 	}

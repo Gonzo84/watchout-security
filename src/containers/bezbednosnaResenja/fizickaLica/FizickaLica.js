@@ -94,7 +94,7 @@ Kontaktirajte nas za više informacija već danas!`
                                     <div className="ws-package-header">
                                         STANOVI
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Održavanje sistema</li>
                                             <li>Alarm monitoring</li>
@@ -116,7 +116,7 @@ Kontaktirajte nas za više informacija već danas!`
                                     <div className="ws-package-header">
                                         KUĆE I VIKENDICE
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Planiranje i projektovanje sistema tehničke zaštite</li>
                                             <li>Montaža, programiranje i obuka za stz</li>
@@ -146,7 +146,7 @@ Kontaktirajte nas za više informacija već danas!`
                                     <div className="ws-package-header">
                                         STAMBENE ZGRADE
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Planiranje i projektovanje sistema tehničke zaštite</li>
                                             <li>Montaža, programiranje i obuka za stz</li>

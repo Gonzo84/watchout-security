@@ -21,13 +21,13 @@ class MontazaPovezivanjeProgramiranjeIObuka extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Da bi sistemi tehničke zaštite u potpunosti odgovorili na potrebe organizacije,
+                                <p class="ws-txt-bold">Da bi sistemi tehničke zaštite u potpunosti odgovorili na potrebe organizacije,
                                     minimizirali ili otklonili rizike i doprineli realizaciji ciljeva poslovanja,
                                     neophodno je poverenje u znanje, stručnost i veštine kadrova koji realizuju
                                     projekat.

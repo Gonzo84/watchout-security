@@ -1,450 +1,447 @@
 .ws-header {
-  background-color: $base-color;
-  overflow: hidden;
-  //padding-bottom: $ws-spacing-large * 3;
-  position: relative;
-
-  @media only screen and (min-width: $ws-breakpoint-sm) {
-    padding-bottom: $ws-spacing-large * 3;
-  }
-
-  &.ws-gradient {
-    background: linear-gradient(to right, $color-stop1, $color-stop2);
-  }
-
-  &::after {
-    border-color: transparent #fff transparent transparent;
-    border-style: solid;
-    border-width: 35vh 100vw 0 0;
-    bottom: 0;
-    content: " ";
-    display: block;
-    left: 0;
-    position: absolute;
-    width: 100%;
-  }
-
-  .ws-hamburger {
-    padding: $ws-spacing-large;
-
-    &.hidden {
-      .btn {
-        display: none;
-      }
-    }
+    background-color: $base-color;
+    overflow: hidden;
+    //padding-bottom: $ws-spacing-large * 3;
+    position: relative;
 
     @media only screen and (min-width: $ws-breakpoint-sm) {
-      display: none;
+        padding-bottom: $ws-spacing-large * 3;
     }
 
-    .btn {
-      background-color: transparent;
-      border: 0;
-      color: #fff;
-
-    }
-  }
-
-  .ws-navigation {
-
-    &.hidden {
-      @media only screen and (max-width: $ws-breakpoint-sm - 1) {
-        transform: translateX(-405px);
-      }
+    &.ws-gradient {
+        background: linear-gradient(to right, $color-stop1, $color-stop2);
     }
 
-    @media only screen and (max-width: $ws-breakpoint-sm - 1) {
-      position: fixed;
-      top: 0;
-      height: 100%;
-      width: 80%;
-      background-color: #fff;
-      z-index: 99999;
-      padding-bottom: $ws-spacing-large * 8;
-
-      transform: translateX(0);
-
-      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
-
-      -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
-      transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
-    }
-
-    @media only screen and (min-width: 576px) {
-      padding-bottom: $ws-spacing-large * 4;
-      position: relative;
-    }
-
-    .container {
-      position: relative;
-    }
-
-    .nav {
-      @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+    &::after {
+        border-color: transparent #fff transparent transparent;
+        border-style: solid;
+        border-width: 35vh 100vw 0 0;
+        bottom: 0;
+        content: " ";
         display: block;
-      }
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
 
-      @media only screen and (min-width: $ws-breakpoint-sm) {
-        position: relative;
-        padding: $ws-spacing-large 0;
-      }
+    .ws-hamburger {
+        padding: $ws-spacing-large;
 
-      a {
-        color: $base-color;
-        font-size: 1.4rem;
-        text-transform: uppercase;
-
-        @media only screen and (min-width: $ws-breakpoint-sm) {
-          color: #fff;
+        &.hidden {
+            .btn {
+                display: none;
+            }
         }
-      }
 
-      .ws-logo {
         @media only screen and (min-width: $ws-breakpoint-sm) {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: $ws-spacing-large * 4;
-          width: 200px;
+            display: none;
+        }
+
+        .btn {
+            background-color: transparent;
+            border: 0;
+            color: #fff;
+
+        }
+    }
+
+    .ws-navigation {
+
+        &.hidden {
+            @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+                transform: translateX(-405px);
+            }
+        }
+
+        @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 80%;
+            background-color: #fff;
+            z-index: 99999;
+            padding-bottom: $ws-spacing-large * 8;
+
+            transform: translateX(0);
+
+            -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 1.25), 0 10px 10px rgba(0, 0, 0, 1.22);
+
+            -webkit-transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+            transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+        }
+
+        @media only screen and (min-width: 576px) {
+            padding-bottom: $ws-spacing-large * 4;
+            position: relative;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .nav {
+            @media only screen and (max-width: $ws-breakpoint-sm - 1) {
+                display: block;
+            }
+
+            @media only screen and (min-width: $ws-breakpoint-sm) {
+                position: relative;
+                padding: $ws-spacing-large 0;
+            }
+
+            a {
+                color: $base-color;
+                font-size: 1.4rem;
+                text-transform: uppercase;
+
+                @media only screen and (min-width: $ws-breakpoint-sm) {
+                    color: #fff;
+                }
+            }
+
+            .ws-logo {
+                @media only screen and (min-width: $ws-breakpoint-sm) {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: $ws-spacing-large * 4;
+                    width: 200px;
+                }
+
+                img {
+                    @media only screen and (min-width: $ws-breakpoint-sm - 1) {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .ws-slider-cont {
+        padding-top: 20%; // 56.25%;
+        position: relative;
+        overflow: hidden;
+
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+            padding-top: 7%;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-md) {
+            padding-top: 7%;
+        }
+
+        > div {
+            //min-height: 300px;
+
+            @media only screen and (min-width: $ws-breakpoint-md) {
+
+            }
+
+            @media only screen and (min-width: $ws-breakpoint-lg) {
+                //min-height: 390px;
+            }
+
+            @media only screen and (min-width: $ws-breakpoint-xl) {
+                min-height: 625px;
+            }
+
+            @media only screen and (min-width: $ws-breakpoint-xxl) {
+                min-height: $ws-slide-largest-height;
+            }
         }
 
         img {
-          @media only screen and (min-width: $ws-breakpoint-sm - 1) {
             height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
             width: 100%;
-          }
         }
-      }
-    }
-  }
-
-
-  .ws-slider-cont {
-    padding-top: 20%;// 56.25%;
-    position: relative;
-    overflow: hidden;
-
-    @media only screen and (min-width: $ws-breakpoint-sm) {
-      padding-top: 7%;
     }
 
-    @media only screen and (min-width: $ws-breakpoint-md) {
-      padding-top: 7%;
-    }
-
-    > div {
-      //min-height: 300px;
-
-      @media only screen and (min-width: $ws-breakpoint-md) {
-
-      }
-
-      @media only screen and (min-width: $ws-breakpoint-lg) {
-        //min-height: 390px;
-      }
-
-      @media only screen and (min-width: $ws-breakpoint-xl) {
-        min-height: 625px;
-      }
-
-      @media only screen and (min-width: $ws-breakpoint-xxl) {
-        min-height: $ws-slide-largest-height;
-      }
-    }
-
-    img {
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
-  }
-
-  .ws-header-title {
-    color: #fff;
-    font-weight: bolder;
-    text-align: center;
-    padding: 3.2rem 0 6.4rem;
-  }
-
-  .ws-box {
-    padding: 6.4rem;// 3.2rem 6.4rem 6.4rem;
-    position: relative;
-    z-index: 1;
-
-    .ws-txt {
-      h5 {
-        color: $ws-color-dark;
+    .ws-header-title {
+        color: #fff;
         font-weight: bolder;
-        padding-bottom: $ws-spacing;
-      }
+        text-align: center;
+        padding: 3.2rem 0 6.4rem;
+    }
 
-      div {
-        padding-top: $ws-spacing-large;
+    .ws-box {
+        padding: 6.4rem; // 3.2rem 6.4rem 6.4rem;
+        position: relative;
+        z-index: 1;
 
-        p {
-          margin-bottom: 0;
+        .ws-txt {
+            h5 {
+                color: $ws-color-dark;
+                font-weight: bolder;
+                padding-bottom: $ws-spacing;
+            }
+
+            div {
+                padding-top: $ws-spacing-large;
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
         }
-      }
-    }
 
-    .ws-stamp {
-      img {
-        width: 180px;
-        height: auto;
-      }
+        .ws-stamp {
+            img {
+                width: 180px;
+                height: auto;
+            }
+        }
     }
-  }
 }
 
 .ws-slider-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  padding: 0 6rem 4.8rem;
-
-  @media only screen and (min-width: $ws-breakpoint-xl) {
-    justify-content: flex-end;
-  }
-
-  @media only screen and (min-width: $ws-breakpoint-xl) {
-    padding: 0 8.2rem 5rem 6rem;
-  }
-
-  h1 {
-    font-weight: bolder;
-    font-size: 2.4rem;
-
-    @media only screen and (min-width: $ws-breakpoint-md) {
-      font-size: 4.8rem;
-    }
-
-    @media only screen and (min-width: $ws-breakpoint-lg) {
-      font-size: 6rem;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 0 !important;
 
     @media only screen and (min-width: $ws-breakpoint-xl) {
-      font-size: 8rem;
-      line-height: 0.9em;
+        justify-content: flex-end;
     }
 
-  }
 
-  h3 {
-    font-size: 1.6rem;
-    font-weight: normal;
-    padding-top: 2.4rem;
-  }
+    h1 {
+        font-weight: bolder;
+        font-size: 2.4rem;
+
+
+        @media only screen and (min-width: $ws-breakpoint-md) {
+            font-size: 4.8rem;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-lg) {
+            font-size: 6rem;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-xl) {
+            font-size: 18rem;
+            line-height: 0.9em;
+        }
+
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        font-weight: normal;
+        padding-top: 2.4rem;
+    }
 }
 
 .ws-slide-counters {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-
-  @media only screen and (min-width: $ws-breakpoint-md) {
-    //justify-content: space-between;
-    flex-direction: column;
-    padding: 0.4rem 8rem 0.4rem 2.4rem;
-  }
-
-  @media only screen and (min-width: $ws-breakpoint-lg) {
-    padding: 2.4rem 8rem 2.4rem 2.4rem;
-  }
-
-  .ws-slider-counter {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    flex-direction: column;
-    justify-content: center;
-    height: 140px;
-    width: 140px;
-    align-self: flex-end;
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
 
     @media only screen and (min-width: $ws-breakpoint-md) {
-      height: 120px;
-      width: 120px;
-      display: flex;
+        //justify-content: space-between;
+        flex-direction: column;
+        padding: 0.4rem 8rem 0.4rem 2.4rem;
     }
 
     @media only screen and (min-width: $ws-breakpoint-lg) {
-      height: 140px;
-      width: 140px;
+        padding: 2.4rem 8rem 2.4rem 2.4rem;
     }
 
-    @media only screen and (min-width: $ws-breakpoint-xl) {
-      height: 160px;
-      width: 160px;
+    .ws-slider-counter {
+        border: 2px solid #fff;
+        border-radius: 50%;
+        flex-direction: column;
+        justify-content: center;
+        height: 140px;
+        width: 140px;
+        align-self: flex-end;
+        display: none;
+        background: rgba(27, 32, 33, 0.4);
+
+        @media only screen and (min-width: $ws-breakpoint-md) {
+            height: 120px;
+            width: 120px;
+            display: flex;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-lg) {
+            height: 140px;
+            width: 140px;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-xl) {
+            height: 160px;
+            width: 160px;
+        }
+
+        &:nth-child(1) {
+            border-color: $ws-slider-conuter-color1;
+
+            p {
+                color: $ws-slider-conuter-color1;
+            }
+        }
+
+        &:nth-child(2) {
+            border-color: $ws-slider-conuter-color2;
+            margin: 2rem 0;
+
+            @media only screen and (min-width: $ws-breakpoint-md) {
+                margin: 1rem 0;
+            }
+
+            p {
+                color: $ws-slider-conuter-color2;
+            }
+        }
+
+        &:nth-child(3) {
+            border-color: $ws-slider-conuter-color3;
+
+            p {
+                color: $ws-slider-conuter-color3;
+            }
+        }
+
+        h2 {
+            font-weight: bold;
+            color: #fff;
+            font-size: 3.4rem;
+            text-align: center;
+            padding-top: 2.4rem;
+
+            @media only screen and (min-width: $ws-breakpoint-md) {
+                font-size: 2.4rem;
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: lighter;
+
+            @media only screen and (min-width: $ws-breakpoint-md) {
+                font-size: 1rem;
+            }
+        }
     }
-
-    &:nth-child(1) {
-      border-color: $ws-slider-conuter-color1;
-
-      p {
-        color: $ws-slider-conuter-color1;
-      }
-    }
-
-    &:nth-child(2) {
-      border-color: $ws-slider-conuter-color2;
-      margin: 2rem 0;
-
-      @media only screen and (min-width: $ws-breakpoint-md) {
-        margin: 1rem 0;
-      }
-
-      p {
-        color: $ws-slider-conuter-color2;
-      }
-    }
-
-    &:nth-child(3) {
-      border-color: $ws-slider-conuter-color3;
-
-      p {
-        color: $ws-slider-conuter-color3;
-      }
-    }
-
-    h2 {
-      font-weight: bold;
-      color: #fff;
-      font-size: 3.4rem;
-      text-align: center;
-      padding-top: 2.4rem;
-
-      @media only screen and (min-width: $ws-breakpoint-md) {
-        font-size: 2.4rem;
-      }
-    }
-
-    p {
-      font-size: 1.2rem;
-      text-align: center;
-      font-weight: lighter;
-
-      @media only screen and (min-width: $ws-breakpoint-md) {
-        font-size: 1rem;
-      }
-    }
-  }
 }
 
 .ws-header {
-  .container {
-    @media only screen and (min-width: $ws-breakpoint-xxl) {
-      max-width: $ws-breakpoint-xxl;
+    .container {
+        @media only screen and (min-width: $ws-breakpoint-xxl) {
+            max-width: $ws-breakpoint-xxl;
+        }
     }
-  }
 
 
+    .slick-slider {
+        position: relative;
 
-  .slick-slider {
-    position: relative;
+        > div > div {
+            @media only screen and (min-width: $ws-breakpoint-xl) {
+                min-height: 625px;
+            }
 
-    > div > div {
-      @media only screen and (min-width: $ws-breakpoint-xl) {
-        min-height: 625px;
-      }
-
-      @media only screen and (min-width: $ws-breakpoint-xxl) {
-            min-height: $ws-slide-largest-height;
-      }
+            @media only screen and (min-width: $ws-breakpoint-xxl) {
+                min-height: $ws-slide-largest-height;
+            }
+        }
     }
-  }
 }
-
 
 
 .slick-dots {
-  position: absolute;
-  bottom: 2rem;
-  left: 0;
-  display: flex !important;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 0 3.8rem;
-
-  @media only screen and (min-width: $ws-breakpoint-xl) {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
     padding: 0 3.8rem;
-    bottom: 9rem;
-  }
 
-  li {
-    border: 1px solid #fff;
-    border-radius: 50%;
-
-    button {
-      background-color: transparent;
-      color: transparent;
-
-      &::before {
-        display: none;
-      }
+    @media only screen and (min-width: $ws-breakpoint-xl) {
+        padding: 0 3.8rem;
+        bottom: 9rem;
     }
 
-    &.slick-active {
-      position: relative;
-
-      &::before {
-        content: '';
-        display: block;
-        width: 12px;
-        height: 12px;
-        background-color: #fff;
-        position: absolute;
+    li {
+        border: 1px solid #fff;
         border-radius: 50%;
-        top: 3px;
-        left: 3px;
-      }
+
+        button {
+            background-color: transparent;
+            color: transparent;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        &.slick-active {
+            position: relative;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 12px;
+                height: 12px;
+                background-color: #fff;
+                position: absolute;
+                border-radius: 50%;
+                top: 3px;
+                left: 3px;
+            }
+        }
     }
-  }
 }
 
 .ws-header-no-slider {
-  color: #fff;
+    color: #fff;
 
-  div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 1.6rem;
+    div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1.6rem;
 
-    @media only screen and (min-width: $ws-breakpoint-sm) {
-      justify-content: center;
-      //min-height: 390px;
-    }
-  }
-
-  h4 {
-    font-weight: bolder;
-    font-size: 1.6rem;
-
-    @media only screen and (min-width: $ws-breakpoint-sm) {
-      font-size: 4.8rem;
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+            justify-content: center;
+            //min-height: 390px;
+        }
     }
 
-    @media only screen and (min-width: $ws-breakpoint-md) {
-      font-size: 6rem;
-    }
-  }
+    h4 {
+        font-weight: bolder;
+        font-size: 1.6rem;
 
-  p {
-    font-size: 1.2rem;
-    padding: 1.6rem 5%;
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+            font-size: 4.8rem;
+        }
 
-    @media only screen and (min-width: $ws-breakpoint-sm) {
-      font-size: 1.6rem;
-      padding: 1.6rem 10%;
+        @media only screen and (min-width: $ws-breakpoint-md) {
+            font-size: 6rem;
+        }
     }
 
-    @media only screen and (min-width: $ws-breakpoint-md) {
-      padding: 1.6rem 25%;
+    p {
+        font-size: 1.2rem;
+        padding: 1.6rem 5%;
+
+        @media only screen and (min-width: $ws-breakpoint-sm) {
+            font-size: 1.6rem;
+            padding: 1.6rem 10%;
+        }
+
+        @media only screen and (min-width: $ws-breakpoint-md) {
+            padding: 1.6rem 25%;
+        }
     }
-  }
 }

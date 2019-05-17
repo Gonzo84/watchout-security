@@ -11,7 +11,7 @@ const LicaItem = (props) => {
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p>
+                        <p class="ws-lica-content ws-lica-content-font">
                             {props.content}
                         </p>
                     </div>
@@ -37,7 +37,7 @@ const LicaItem = (props) => {
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p>
+                        <p class="ws-lica-content ws-lica-content-font">
                             {props.content}
                         </p>
                     </div>
@@ -58,7 +58,7 @@ const LicaItem = (props) => {
                         <p className="ws-stronger-color">
                             {props.description}
                         </p>
-                        <p>
+                        <p class="ws-lica-content ws-lica-content-font">
                             {props.content}
                         </p>
                     </div>

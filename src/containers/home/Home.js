@@ -83,14 +83,14 @@ class Home extends Component {
         const headerCarouselConfig = [{
             backgroundImg: headerCarousel1,
             bodyContent: {
-                title: '24/7 u službi vaše bezbednosti!',
+                title: <div>24/7 u službi vaše<br/>bezbednosti!</div>,
                 content: '',
                 widgets: [{
                     number: 'ispod 4 min',
-                    label: 'reagovanje interventne patrole'
+                    label: <div>reagovanje interventne<br/>patrole</div>
                 }, {
                     number: 'preko 7000',
-                    label: 'instaliranih sistema tehničke zaštite'
+                    label: <div>instaliranih sistema<br/>tehničke zaštite</div>
                 }, {
                     number: 'preko 12 000',
                     label: 'instaliranih kamera'
@@ -264,36 +264,42 @@ class Home extends Component {
             title: 'Alarm monitoring',
             star: 'Gold',
             lead: 'Alarm monitoring',
+            path: '/alarm-monitoring',
             description: 'je usluga daljinskog nadzora alarmnog sistema iz Kontrolnog centra Watchout Security-a koja korisniku pruža viši stepen tehničke zaštite kroz signaliziranje neovlašćenog pristupa štićenom prostoru.'
         }, {
             backgroundImg: akcija6,
             title: 'Video monitoring',
             star: 'Gold',
             lead: 'Video monitoring',
+            path: '/video-monitoring',
             description: 'je usluga obezbeđenja koja podrazumeva potpunu vizuelnu kontrolu nad objektom i kada dođe do incidenta mogu se preduzeti odgovarajuće mere da bi se minimizirala šteta.'
         }, {
             backgroundImg: akcija4,
             title: 'Održavanje sistema',
             star: 'Gold',
             lead: 'Održavanje sistema',
+            path: '/odrzavanje',
             description: ' tehničke zaštite podrazumeva predviđanje potencijalnih kvarova i pravovremeno reagovanje u cilju smanjivanja verovatnoće kvara na sistemu.'
         }, {
             backgroundImg: akcija5,
             title: 'Sistemi za evidenciju radnog vremena',
             star: 'Silver',
             lead: 'ZKTime',
+            path: '/radno-vreme',
             description: ' je sistem za evidenciju radnog vremena zaposlenih i/ili kontrolu pristupa (kontrola prolaza), a on obuhvata beleženje i memorisanje prolazaka, dozvolu pristupa, obradu podataka i, na osnovu rečenog, kreiranje izveštaja.'
         }, {
             backgroundImg: akcija1,
             title: 'Procena rizika',
             star: 'Silver',
             lead: 'Cilj izrade Akta o proceni rizika',
+            path: '/procena-rizika',
             description: ' jeste identifikacija i vrednovanje rizika, predlaganje mera za smanjenje rizika i planiranje realizacije mera i ocena efektivnosti sprovedenih mera.'
         }, {
             backgroundImg: akcija3,
             title: 'Medicinski panik tester',
             star: 'Bronze',
             lead: 'Medicinski panik tester',
+            path: '/medicinska-pomoc',
             description: ' pruža niz benefita korisnicima usluge i to kroz: najbržu moguću reakciju u slučaju iznenadnih zdravstvenih problema, mogućnost reagovanja 24 časa dnevno, 7 dana u nedelji, 365 dana godišnje.'
         }];
 
@@ -332,11 +338,13 @@ class Home extends Component {
                 <div className="col-12 col-sm-6 col-lg-3 ws-attached-cont" key={index}>
                     <div className="ws-attached ws-on-hover">
                         <div className="ws-body">
-                            <div className="ws-icon-cont">
-                                <img src={attachIconImg} alt="icon"/>
-                            </div>
-                            <h6>{item.title}</h6>
-                            <p>{item.description}</p>
+                            <a href={item.nav.pathname}>
+                                <div className="ws-icon-cont">
+                                    <img src={attachIconImg} alt="icon"/>
+                                </div>
+                                <h6>{item.title}</h6>
+                                <p>{item.description}</p>
+                            </a>
                         </div>
                         <div className="ws-footer">
                             <Link to={item.nav}>Saznaj više - </Link>
@@ -360,14 +368,16 @@ class Home extends Component {
             return (
                 <div className="col-12 col-md-4" key={index}>
                     <div className={[classes.Akcije, 'ws-card  ws-on-hover'].join(' ')}>
-                        <div className="ws-card-header"
-                             style={{backgroundImage: 'url(' + item.backgroundImg + ')'}}>
-                            {star}
-                        </div>
-                        <div className="ws-body">
-                            <h6>{item.title}</h6>
-                            <p><span className={[classes.Assertive]}>{item.lead}</span> {item.description}</p>
-                        </div>
+                        <Link to={item.path}>
+                            <div className="ws-card-header"
+                                 style={{backgroundImage: 'url(' + item.backgroundImg + ')'}}>
+                                {star}
+                            </div>
+                            <div className="ws-body">
+                                <h6>{item.title}</h6>
+                                <p><span>{item.lead}</span> {item.description}</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             )
@@ -393,7 +403,7 @@ class Home extends Component {
                         <div className="container">
 
                             <div className="ws-centered-info-block">
-                                <h6>Bezbednosna rešenja</h6>
+                                <h5>Bezbednosna rešenja</h5>
                                 <p>Watchout security svojim bezbednosnim rešenjima u procesu obezbeđenja lica, imovine i
                                     poslovanja sve vrste bezbednosnih rizika svodi na prihvatljiv nivo. Imamo rešenje i
                                     za najspecifičnije zahteve korisnika jer je bezbednosni koncept prilagođen
@@ -454,15 +464,16 @@ class Home extends Component {
 
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + fizickaLicaImg + ')'}}>
-                                        <div>
-                                            <h4><b>Fizička<br/>lica</b></h4>
+                                        <div class="ws-darken-background">
+                                            <h4><b>Fizička lica</b></h4>
                                             <p className="ws-txt-bold ws-no-padding-left">Brinemo o bezbednosti vaše
                                                 porodice i doma
-                                                24/7!</p>
+                                                24/7!<br/><br/><br/><br/></p>
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/fizicka-lica">
-                                                <button type="button" className="btn ws-btn">Saznaj više</button>
+                                                <button type="button" className="btn ws-btn ws-btn-light">Saznaj više
+                                                </button>
                                             </Link>
                                         </div>
                                         <div className="ws-layer">
@@ -472,8 +483,8 @@ class Home extends Component {
 
                                 <div className="ws-card col-12 col-md-6">
                                     <div className="ws-cont" style={{backgroundImage: 'url(' + pravnaLicaImg + ')'}}>
-                                        <div>
-                                            <h4><b>Pravna <br/> lica</b></h4>
+                                        <div class="ws-darken-background">
+                                            <h4><b>Pravna lica</b></h4>
                                             <p className="ws-txt-bold ws-no-padding-left">Pored toga što smanjuju
                                                 bezbednosne rizike,
                                                 bezbednosni sistemi povećavaju stepen kontrole poslovnih procesa.
@@ -482,7 +493,8 @@ class Home extends Component {
                                         </div>
                                         <div className="ws-footer">
                                             <Link to="/pravna-lica">
-                                                <button type="button" className="btn ws-btn">Saznaj više</button>
+                                                <button type="button" className="btn ws-btn ws-btn-light">Saznaj više
+                                                </button>
                                             </Link>
                                         </div>
                                         <div className="ws-layer">
@@ -540,108 +552,125 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-triangle-holder">
+                    <div className="ws-simple-style-cont ws-triangle-holder ws-splitter-bottom">
                         <div className="container">
                             <div className="row">
                                 {najnovijeVesti}
                             </div>
                         </div>
                     </div>
-                    <div className="ws-simple-style-cont ws-alt ws-card-gradient">
+                    <div className="ws-simple-style-cont ws-alt ws-card-gradient ws-splitter-top">
                         <div className="container">
                             <div className="row ">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
                                     <div className="ws-card ws-on-hover ws-zakoni-card">
-                                        <div className="ws-card-header">
-                                            <div className="ws-title">
-                                                <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o privatnom obezbeđenju ...
+                                        <a href="http://arhiva.mup.gov.rs/cms/resursi.nsf/Zakon-o-privatnom-obezbedjenju-lat.pdf"
+                                           target="_blank">
+                                            <div className="ws-card-header">
+                                                <div className="ws-title">
+                                                    <div className="ws-notch"></div>
+                                                    <div className="ws-text-holder">Zakon o privatnom obezbeđenju ...
+                                                    </div>
+                                                    <div className="ws-triangle"></div>
                                                 </div>
-                                                <div className="ws-triangle"></div>
                                             </div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <p>Ovim zakonom uređuju se obavezno obezbeđenje i zaštita određenih
-                                                objekata,poslovi i rad pravnih i fizičkih lica u oblasti privatnog
-                                                obezbeđenja, uslovi za njihovo licenciranje, način vršenja poslova i
-                                                ostvarivanje nadzora nad njihovim radom.</p>
-                                            <div className="ws-footer">
-                                                <a href="http://arhiva.mup.gov.rs/cms/resursi.nsf/Zakon-o-privatnom-obezbedjenju-lat.pdf"
-                                                   target="_blank">Saznaj više -</a>
+                                            <div className="ws-body">
+                                                <p>Ovim zakonom uređuju se obavezno obezbeđenje i zaštita određenih
+                                                    objekata,poslovi i rad pravnih i fizičkih lica u oblasti privatnog
+                                                    obezbeđenja, uslovi za njihovo licenciranje, način vršenja poslova i
+                                                    ostvarivanje nadzora nad njihovim radom.</p>
+                                                <div className="ws-footer">
+                                                    <a href="http://arhiva.mup.gov.rs/cms/resursi.nsf/Zakon-o-privatnom-obezbedjenju-lat.pdf"
+                                                       target="_blank">Saznaj više -</a>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
                                     <div className="ws-card ws-on-hover ws-zakoni-card">
-                                        <div className="ws-card-header">
-                                            <div className="ws-title">
-                                                <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Pravilnik o načinu vršenja tehničke zašt
-                                                    …
+                                        <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
+                                           target="_blank">
+
+                                            <div className="ws-card-header">
+                                                <div className="ws-title">
+                                                    <div className="ws-notch"></div>
+                                                    <div className="ws-text-holder">Pravilnik o načinu vršenja tehničke
+                                                        zašt
+                                                        …
+                                                    </div>
+                                                    <div className="ws-triangle"></div>
                                                 </div>
-                                                <div className="ws-triangle"></div>
                                             </div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <p>Na osnovu člana 33. stav 2. Zakona o privatnom obezbeđenju („Službeni
-                                                glasnik RS”, br. 104/13 i 42/15), Ministar unutrašnjih poslova donosi
-                                                PRAVILNIK o izmenama i dopunama Pravilnika o načinu vršenja poslova
-                                                tehničke zaštite i korišćenja tehničkih sredstava...
-                                            </p>
-                                            <div className="ws-footer">
-                                                <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
-                                                   target="_blank">Saznaj više -</a>
+                                            <div className="ws-body">
+                                                <p>Na osnovu člana 33. stav 2. Zakona o privatnom obezbeđenju („Službeni
+                                                    glasnik RS”, br. 104/13 i 42/15), Ministar unutrašnjih poslova
+                                                    donosi
+                                                    PRAVILNIK o izmenama i dopunama Pravilnika o načinu vršenja poslova
+                                                    tehničke zaštite i korišćenja tehničkih sredstava...
+                                                </p>
+                                                <div className="ws-footer">
+                                                    <a href="http://www.mup.gov.rs/wps/wcm/connect/5f426587-88a3-4cc6-b2c1-a8a404c1784a/Pravilnik+-+poslovi+tehn.zastite_LAT.pdf?MOD=AJPERES&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr&CVID=m6PHkZr"
+                                                       target="_blank">Saznaj više -</a>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-12 col-md-6 ws-no-side-padding-left">
                                     <div className="ws-card ws-on-hover ws-zakoni-card">
-                                        <div className="ws-card-header">
-                                            <div className="ws-title">
-                                                <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Standard SRPS A.L2.003 Procena rizika
-                                                    ...
+                                        <a href="/procena-rizika">
+
+                                            <div className="ws-card-header">
+                                                <div className="ws-title">
+                                                    <div className="ws-notch"></div>
+                                                    <div className="ws-text-holder">Standard SRPS A.L2.003 Procena
+                                                        rizika
+                                                        ...
+                                                    </div>
+                                                    <div className="ws-triangle"></div>
                                                 </div>
-                                                <div className="ws-triangle"></div>
                                             </div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <p>Korišćenjem ovog standarda se obezbeđuje izvršenje sveobuhvatne procene
-                                                rizika za organe javne vlasti, organizacije koje pružaju ili koriste
-                                                usluge obezbeđivanja lica, imovine i kontinuiteta poslovanja...</p>
-                                            <div className="ws-footer">
-                                                <Link to="/procena-rizika">
-                                                    Saznaj više -
-                                                </Link>
+                                            <div className="ws-body">
+                                                <p>Korišćenjem ovog standarda se obezbeđuje izvršenje sveobuhvatne
+                                                    procene
+                                                    rizika za organe javne vlasti, organizacije koje pružaju ili koriste
+                                                    usluge obezbeđivanja lica, imovine i kontinuiteta poslovanja...</p>
+                                                <div className="ws-footer">
+                                                    <Link to="/procena-rizika">
+                                                        Saznaj više -
+                                                    </Link>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="col-12 col-md-6 ws-no-side-padding-right">
                                     <div className="ws-card ws-on-hover ws-zakoni-card">
-                                        <div className="ws-card-header">
-                                            <div className="ws-title">
-                                                <div className="ws-notch"></div>
-                                                <div className="ws-text-holder">Zakon o zaštiti od požara ...</div>
-                                                <div className="ws-triangle"></div>
+                                        <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
+                                           target="_blank">
+                                            <div className="ws-card-header">
+                                                <div className="ws-title">
+                                                    <div className="ws-notch"></div>
+                                                    <div className="ws-text-holder">Zakon o zaštiti od požara ...</div>
+                                                    <div className="ws-triangle"></div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div className="ws-body">
-                                            <p>Ovim zakonom uređuju se sistemi zaštite od požara, prava i obaveze
-                                                državnih organa, organa autonomne pokrajine i organa jedinica lokalne
-                                                samouprave, privrednih društava, drugih pravnih i fizičkih lica,
-                                                organizacija vatrogasne službe, nadzor nad sprovođenjem ovog zakona i
-                                                druga pitanja od značaja za sistem zaštite od požara.
-                                            </p>
-                                            <div className="ws-footer">
-                                                <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
-                                                   target="_blank">Saznaj više -</a>
+                                            <div className="ws-body">
+                                                <p>Ovim zakonom uređuju se sistemi zaštite od požara, prava i obaveze
+                                                    državnih organa, organa autonomne pokrajine i organa jedinica
+                                                    lokalne
+                                                    samouprave, privrednih društava, drugih pravnih i fizičkih lica,
+                                                    organizacija vatrogasne službe...
+                                                </p>
+                                                <div className="ws-footer">
+                                                    <a href="https://www.paragraf.rs/propisi/zakon_o_zastiti_od_pozara.html"
+                                                       target="_blank">Saznaj više -</a>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

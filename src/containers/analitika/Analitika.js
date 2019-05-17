@@ -83,12 +83,12 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
         return (
             <Aux>
 
-                <div className="ws-header">
+                <div className="ws-header ws-page-analitika">
                     <h4 className="ws-header-title ws-o-nama">VIDEO ANALITIKA</h4>
 
                     <div
                         className={[classes.Buducnost, 'ws-simple-style-cont ws-politika-sistema container'].join(' ')}>
-                        <div className=" ws-box">
+                        <div className=" ws-box ws-simple-style-cont ws-alt">
                             <p>Video analitika je sve zastupljeniji poslovni alat koji ima širok sprektar primene – od
                                 bezbednosnih,
                                 sigurnosnih, kontrolnih, ali i poslovnih video analitičkih softvera za evaluaciju i
@@ -114,7 +114,7 @@ Kao jedan od tehnoloških derivata inicijalno razvijene tehnologije za detekciju
                     </div>
                 </div>
 
-                <div className={[classes.Analitika, 'ws-body'].join(' ')}>
+                <div className={[classes.Analitika, 'ws-body ws-page-analitika'].join(' ')}>
                     <div className="ws-border-holder"></div>
                     <div className="ws-simple-style-cont ws-overflow-img-container ws-triangle-holder">
                         <div className="container">

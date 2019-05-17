@@ -4,8 +4,9 @@ class SmtpService extends Component {
 
     send = (a) => {
         return new Promise((n, e) => {
-            a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send";
-            var t = JSON.stringify(a);
+            a.nocache = Math.floor(1e6 * Math.random() + 1);
+            a.Action = "Send";
+            let t = JSON.stringify(a);
             this.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, (e) => {
                 n(e)
             })
@@ -16,15 +17,17 @@ class SmtpService extends Component {
         a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = () => {
             var e = a.responseText;
             null != t && t(e)
-        }, a.send(n)
-    }
+        };
+        a.send(n);
+    };
     ajax = (e, n) => {
         let t = this.createCORSRequest("GET", e);
         t.onload = () => {
-            var e = t.responseText;
+            let e = t.responseText;
             null != n && n(e)
-        }, t.send()
-    }
+        };
+        t.send();
+    };
     createCORSRequest = (e, n) => {
         let t = new XMLHttpRequest;
         return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t

@@ -88,21 +88,37 @@ const footer = (props) => {
 
     return (
         <footer className={classes.footer}>
-            <div className="container">
+            <div className="container ws-footer-container">
                 <div className="row">
 
-                    <div className="col-md-12 col-lg-3">
+                    <div className="col-md-12 col-lg-4"></div>
+                    <div className="col-md-12 col-lg-4">
                         <div className={'row ' + classes.logo}>
                             <Logo companyLogo={companyLogo}/>
                         </div>
                         <div className={'row ' + classes.wsInfoBlock}>
+                            <div className="col-md-12 col-lg-6 ws-footer-navigateto">
+                                <a href="https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=44.006840,20.892489"
+                                   target="_system" title="Navigate to Spasenije Cane Babović 5">
+                                    Spasenije Cane Babović 5<br/>
+                                    11000 Beograd<br/>
+                                </a>
+                            </div>
 
-                            Spasenije Cane Babović 5<br/>
-                            34000 Kragujevac<br/>
+                            <div className="col-md-12 col-lg-6 ws-footer-navigateto">
+                                <a href="https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=44.006840,20.892489"
+                                   target="_system"  title="Navigate to Spasenije Cane Babović 5">
+                                    Spasenije Cane Babović 5<br/>
+                                    11000 Beograd<br/>
+                                </a>
+                            </div>
                         </div>
                         <div className={'row ' + classes.wsInfoBlock}>
-                            Call Centar: 0800 011 013<br/>
-                            email: info@ws.co.rs
+                            <div className="col-md-12 col-lg-12">
+                                <div>Call Centar: 0800 011 013</div>
+                                <div class="ws-footer-mailto">email: <a href="mailto:info@ws.co.rs"
+                                                                        target="_blank">info@ws.co.rs</a></div>
+                            </div>
                         </div>
                         <div className={'row ' + classes.wsSoc}>
                             <a href="https://www.facebook.com/bezbednost.srbija/" target="_blank"> <span
@@ -113,21 +129,37 @@ const footer = (props) => {
                                target="_blank"><span className={classes.Instagram}></span></a>
                         </div>
                     </div>
+                    <div className="col-md-12 col-lg-4"></div>
+                </div>
 
-
-                    <div className="col-md-12 col-lg-9">
-                        <div className="row">
-                            <MapWithAMarker
-                                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtWhoHsIGxcXeUIEZ25-14M8ohWkjJS2Y"
-                                loadingElement={<div style={{height: `270px`, width: '100%'}}/>}
-                                containerElement={<div style={{height: `270px`, width: '100%'}}/>}
-                                mapElement={<div style={{height: `270px`}}/>}
-                            />
-                        </div>
+                <div className="row">
+                    <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
+                        Pronadjite nas ovde
+                    </div>
+                    <div className="col-md-12 col-lg-6">
+                        <MapWithAMarker
+                            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtWhoHsIGxcXeUIEZ25-14M8ohWkjJS2Y"
+                            loadingElement={<div style={{height: `270px`, width: '100%'}}/>}
+                            containerElement={<div style={{height: `270px`, width: '100%'}}/>}
+                            mapElement={<div style={{height: `270px`}}/>}
+                        />
+                    </div>
+                    <div className="col-md-12 col-lg-6">
+                        <MapWithAMarker
+                            googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtWhoHsIGxcXeUIEZ25-14M8ohWkjJS2Y"
+                            loadingElement={<div style={{height: `270px`, width: '100%'}}/>}
+                            containerElement={<div style={{height: `270px`, width: '100%'}}/>}
+                            mapElement={<div style={{height: `270px`}}/>}
+                        />
                     </div>
                 </div>
-                <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
-                    2018 (c) Watchout Security <a href={OpstiUslovi} target='_blank'>Opšti uslovi poslovanja</a>
+            </div>
+
+            <div className="row">
+                <div className="col-md-12 col-lg-12">
+                    <div className={'container ' + classes.wsCopyrights + ' ' + classes.logo}>
+                        2018 (c) Watchout Security - <a href={OpstiUslovi} target='_blank'>Opšti uslovi poslovanja</a>
+                    </div>
                 </div>
             </div>
         </footer>)

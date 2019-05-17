@@ -21,13 +21,13 @@ class BezbednosnoIzvestavanje extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Sistemski pristup i transparentnost u pogledu realizovanih bezbednosnih mera pružaju
+                                <p class="ws-txt-bold">Sistemski pristup i transparentnost u pogledu realizovanih bezbednosnih mera pružaju
                                     osnovu za kontinuirano poboljšanje nivoa bezbednosti štićenog objekta i usklađivanje
                                     sitema tehničke zaštite sa konkretnim potrebama klijenta.
                                 </p>

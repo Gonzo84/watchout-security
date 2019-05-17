@@ -21,13 +21,13 @@ class InterventniTim extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Da li znate da 8 od 10 pokušaja krađe i akata vandalizma bude uspešno sprečeno
+                                <p class="ws-txt-bold">Da li znate da 8 od 10 pokušaja krađe i akata vandalizma bude uspešno sprečeno
                                     zahvaljujući pravovremenoj intervenciji službenika obezbeđenja? U slučaju nastanka
                                     neželjenog događaja u štićenom objektu, u Kontrolni centar Watchout Security-a stiže
                                     dojava i na lice mesta se šalje interventna patrola.
@@ -73,7 +73,7 @@ class InterventniTim extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Pored mnogobrojnih primenjenih inovacija, Watchout Security je prva organizacija za
                                 pružanje usluga privatnog obezbeđenja u zemlji i regionu koja je primenila snimanje i

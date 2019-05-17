@@ -88,7 +88,7 @@ class SistemiVideoObezbedjenja extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Kamere se postavljaju na mestima koja treba osmatrati, u spoljnim i unutrašnjim
                                 prostorima, a kučišta su im prilagođena uslovima primene, kako klimatskim, tako i

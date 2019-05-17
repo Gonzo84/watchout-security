@@ -308,6 +308,8 @@ class CustomPaketi extends Component {
         } else {
             this.setState({formValid: false})
         }
+
+        this.setState({formValid: true})
     };
 
     onContactFormChange = (event) => {
@@ -326,7 +328,7 @@ class CustomPaketi extends Component {
         let body = this.getMailBody(this.state);
         sender.send({
             SecureToken: "32809f42-d78e-451d-aa15-beaa90f7c5aa",
-            To: 'testmailwatchout@gmail.com',
+            To: 'jovanca.cvetkovic@gmail.com',
             From: this.state.contactForm.mail,
             Subject: "Upit za custom pakete",
             Body: body
@@ -353,6 +355,7 @@ class CustomPaketi extends Component {
     };
 
     onSendMessageSuccess = (message) => {
+        debugger;
         this.setState(initialState);
         this.setState({successMsg: true});
         setTimeout(() => {

@@ -21,13 +21,13 @@ class AlkoTestiranje extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Sigurno želite ovu statističku pošalicu da okrenete u korist svoje organizacije, zar
+                                <p class="ws-txt-bold">Sigurno želite ovu statističku pošalicu da okrenete u korist svoje organizacije, zar
                                     ne?
                                 </p>
                             </div>

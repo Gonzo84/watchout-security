@@ -102,7 +102,7 @@ class IntegrisaniSistemiObezbedjenja extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont ws-alt">
                         <div className="container">
                             <p>Na izuzetnu aktuelnost I.S.O. sistema utiču:
                             </p>

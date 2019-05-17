@@ -21,13 +21,13 @@ class VideoMonitoring extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Efikasnija usluga obezbeđenja lica, imovine i poslovanja u odnosu na alarm
+                                <p class="ws-txt-bold">Efikasnija usluga obezbeđenja lica, imovine i poslovanja u odnosu na alarm
                                     monitoring, predstavlja <span
                                         className="ws-stronger-color">usluga video monitoringa</span>. Prilikom
                                     aktiviranja alarmnog

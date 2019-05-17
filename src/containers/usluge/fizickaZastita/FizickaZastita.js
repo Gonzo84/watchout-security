@@ -21,13 +21,13 @@ class FizickaZastita extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Sistemski pristup u osiguravanju bezbednosti najvrednijih resursa u poslovanju, pored
+                                <p class="ws-txt-bold">Sistemski pristup u osiguravanju bezbednosti najvrednijih resursa u poslovanju, pored
                                     tehničke podrazumeva i fizičku zaštitu.
                                 </p>
                             </div>

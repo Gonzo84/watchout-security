@@ -21,13 +21,13 @@ class AlarmMonitoring extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Vaši najvredniji resursi zahtevaju apsolutnu posvećenost u kontekstu bezbednosti i
+                                <p class="ws-txt-bold">Vaši najvredniji resursi zahtevaju apsolutnu posvećenost u kontekstu bezbednosti i
                                     kontinuitet u pogledu aktivnosti koje se sa ciljem rasta stepena bezbednosti
                                     preduzimaju. <br></br> Da bi alarmni sistemi smanjili rizik od izvršenja krivičnog
                                     dela,
@@ -89,7 +89,7 @@ class AlarmMonitoring extends Component {
                         </div>
                     </div>
 
-                    <div className="ws-simple-style-cont">
+                    <div className="ws-simple-style-cont  ws-alt">
                         <div className="container">
                             <p>Na kvalitet usluge alarm monitoringa u značajnoj meri utiče Kontrolni centar - njegova
                                 opremljenost, resursi i menadžment. Kontrolni centar je najvažniji sektor u kontekstu

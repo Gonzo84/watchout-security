@@ -88,7 +88,7 @@ class PravnaLica extends Component {
                                     <div className="ws-package-header">
                                         OBJEKTI MALOG RIZIKA
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Montaža, programiranje i obuka za stz</li>
                                             <li>Održavanje sistema</li>
@@ -119,7 +119,7 @@ class PravnaLica extends Component {
                                     <div className="ws-package-header">
                                         OBJEKTI UMERENO VELIKOG RIZIKA
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Procena rizika</li>
                                             <li>Planiranje i projektovanje sistema tehničke zaštite</li>
@@ -155,7 +155,7 @@ class PravnaLica extends Component {
                                     <div className="ws-package-header">
                                         OBJEKTI VELIKOG RIZIKA
                                     </div>
-                                    <div className="ws-package-body">
+                                    <div className="ws-package-body ws-body-list-font">
                                         <ul>
                                             <li>Procena rizika</li>
                                             <li>Planiranje i projektovanje sistema tehničke zaštite</li>

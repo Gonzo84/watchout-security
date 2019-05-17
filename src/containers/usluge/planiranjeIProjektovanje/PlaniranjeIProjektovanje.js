@@ -21,13 +21,13 @@ class PlaniranjeIProjektovanje extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Osnovni preduslov za uspeh u poslovanju jeste bezbednost lica i imovine. Bilo da je
+                                <p class="ws-txt-bold">Osnovni preduslov za uspeh u poslovanju jeste bezbednost lica i imovine. Bilo da je
                                     reč o uslužnoj delatnosti ili o proizvodnim pogonima, neophodno je preduzeti mere u
                                     zaštiti ljudskih resursa i celokupne imovine.
                                 </p>

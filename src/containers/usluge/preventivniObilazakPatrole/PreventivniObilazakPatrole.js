@@ -21,13 +21,13 @@ class PreventivniObilazakPatrole extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Kontinuirano povećanje nivoa bezbednosti i sigurnosti štićenih objekata u fokusu je
+                                <p class="ws-txt-bold">Kontinuirano povećanje nivoa bezbednosti i sigurnosti štićenih objekata u fokusu je
                                     naših razvojnih ciljeva. Kao jednu od usluga koja u značajnoj meri doprinosi
                                     povećanju bezbednosti izdvajamo preventivne obilaske patrolnog tima.
                                 </p>

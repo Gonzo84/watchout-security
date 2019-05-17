@@ -21,13 +21,13 @@ class Odrzavanje extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Koliko god da su proizvođači kvalitetni, koliko god da je sistem dobro isplaniran,
+                                <p class="ws-txt-bold">Koliko god da su proizvođači kvalitetni, koliko god da je sistem dobro isplaniran,
                                     neophodno je obezbediti mu kontinuitet u radu, a to jedino moguće uz uslugu
                                     prevetnivnog održavanja sistema koje je danas i zakonska obaveza.
                                 </p>

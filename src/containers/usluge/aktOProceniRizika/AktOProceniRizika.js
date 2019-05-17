@@ -21,13 +21,13 @@ class AktOProceniRizika extends Component {
                 <Header {...headerConfig}/>
 
                 <div className="ws-body">
-                    <div className="ws-border-holder"></div>
+                    <div className="ws-border-holder ws-border-holder-min"></div>
 
                     <div className="ws-triangle-holder">
 
                         <div className="container">
                             <div className="ws-centered-info-block">
-                                <p>Da li znate da ste prema Zakonu o privatnom obezbeđenju (“Sl. glasnik RS”, br.
+                                <p class="ws-txt-bold">Da li znate da ste prema Zakonu o privatnom obezbeđenju (“Sl. glasnik RS”, br.
                                     104/2013 i 42/2015) u obavezi da posedujete Akt o proceni rizika?
                                 </p>
                             </div>
